@@ -77,9 +77,12 @@ public class PlayerControllerTest : MonoBehaviour
 
     void OnCollisionEnter2D(UnityEngine.Collision2D collision)
     {
-        GameObject atkEfx = Instantiate(atkHitEffect, transform.position, Quaternion.identity);
-        atkEffect.SetActive(true);
-        atkEffect.transform.position = transform.position;
+        if (!collision.gameObject.CompareTag("Monter"))
+        {
+            GameObject atkEfx = Instantiate(atkHitEffect, transform.position, Quaternion.identity);
+            atkEffect.SetActive(true);
+            atkEffect.transform.position = transform.position;
+        }
     }
 
     IEnumerator WaitAttack()
