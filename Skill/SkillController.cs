@@ -10,7 +10,6 @@ public class SkillController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) return;
         this.gameObject.SetActive(false);
-        Debug.Log("triiger");
     }
 
     GameObject GetFlame()

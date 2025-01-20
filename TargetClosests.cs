@@ -4,8 +4,20 @@ public class TargetClosit : MonoBehaviour
 {
     Transform player;
     LayerMask _targetPlayer;
-    Transform _currentTarget;
+    [SerializeField] Transform _currentTarget;
+    private static TargetClosit _instance;
+    public static TargetClosit Instance => _instance;
 
+    private void Awake()
+    {
+        if (Instance != null && Instance.gameObject.GetInstanceID() != gameObject.GetInstanceID())
+        {
+            Destroy(gameObject);
+            return;
+        }
+        if (Instance == null)
+            _instance = this;
+    }
     private void Start()
     {
         player = GetComponent<Transform>();
@@ -49,4 +61,6 @@ public class TargetClosit : MonoBehaviour
     //    Gizmos.color = Color.red;
     //    Gizmos.DrawWireSphere(player.position, 5f);
     //}
+
+    public Transform GetTarget() => _currentTarget;
 }
