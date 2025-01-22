@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gunner : MonoBehaviour
+public class Sorcerer : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,7 +10,7 @@ public class Gunner : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Exit is called once per frame
     void Update()
     {
         

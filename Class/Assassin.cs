@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticalController : MonoBehaviour
+public class Assassin : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,7 +10,7 @@ public class ParticalController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Exit is called once per frame
     void Update()
     {
         
