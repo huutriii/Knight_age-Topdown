@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ public class SkillControlller : MonoBehaviour
     [SerializeField] GameObject skill1;
     List<GameObject> pools = new();
     GameObject initSkill;
-    bool isSkillUsable = true;
+    bool countdownSkill = true;
     private void Awake()
     {
         Transform P_init = transform.Find("P_effect");
@@ -15,10 +16,18 @@ public class SkillControlller : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T) && TargetClosit.Instance.GetTarget() != null)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && TargetClosit.Instance.GetTarget() != null && countdownSkill)
         {
+            countdownSkill = false;
             UsingSkill();
+            StartCoroutine(CountDown());
         }
+    }
+
+    IEnumerator CountDown()
+    {
+        yield return new WaitForSeconds(3);
+        countdownSkill = true;
     }
 
     GameObject GetSkill()

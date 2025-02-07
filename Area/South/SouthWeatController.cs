@@ -5,7 +5,7 @@ public class SouthWeatController : MonoBehaviour
     [SerializeField] AreaSO area;
     [SerializeField] Vector2 pos;
     [SerializeField] float radius;
-    GameObject[] pools;
+    [SerializeField] GameObject[] pools;
     [SerializeField] int count;
 
     private static SouthWeatController _instance;
@@ -22,16 +22,15 @@ public class SouthWeatController : MonoBehaviour
     }
     private void Awake()
     {
-        if (_instance == null)
-        {
-            _instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-        pools = new GameObject[count];
+        //if (_instance == null)
+        //{
+        //    _instance = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
         pos = area.pivot;
         radius = area.radius;
     }

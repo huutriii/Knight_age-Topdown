@@ -1,3 +1,5 @@
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class TargetClosit : MonoBehaviour
@@ -5,6 +7,9 @@ public class TargetClosit : MonoBehaviour
     Transform player;
     LayerMask _targetPlayer;
     [SerializeField] Transform _currentTarget;
+    private List<Transform> _targetsInRange = new List<Transform>();
+    private int _targetIndex = 0; // Chỉ mục của mục tiêu hiện tại
+
     private static TargetClosit _instance;
     public static TargetClosit Instance => _instance;
 
@@ -18,49 +23,56 @@ public class TargetClosit : MonoBehaviour
         if (Instance == null)
             _instance = this;
     }
+
     private void Start()
     {
         player = GetComponent<Transform>();
-        _targetPlayer = ~LayerMask.GetMask("Player");
+        _targetPlayer = ~LayerMask.GetMask(TagManager.Player);
     }
 
     void Update()
     {
+        UpdateTargetList(); // Cập nhật danh sách mục tiêu
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _currentTarget = FindClosestTarget();
-            if (_currentTarget != null)
-            {
-                Debug.Log("target : " + _currentTarget.name);
-            }
+            SelectNextTarget(); // Chọn mục tiêu tiếp theo
         }
     }
 
-    Transform FindClosestTarget()
+    void UpdateTargetList()
     {
-        float closestDistance = Mathf.Infinity;
-        Transform closestTarget = null;
+        Collider2D[] targetColliders = Physics2D.OverlapCircleAll(player.position, 5f, _targetPlayer);
+        _targetsInRange = targetColliders
+            .Select(t => t.transform)
+            .OrderBy(t => Vector2.Distance(player.position, t.position))
+            .ToList();
 
-        Collider2D[] targets = Physics2D.OverlapCircleAll(player.position, 5f, _targetPlayer);
-        foreach (var target in targets)
+        // Nếu danh sách trống, reset target
+        if (_targetsInRange.Count == 0)
         {
-            float distance = Vector2.Distance(player.position, target.transform.position);
-
-            if (distance < closestDistance)
-            {
-                closestDistance = distance;
-                closestTarget = target.transform;
-            }
+            _currentTarget = null;
+            _targetIndex = 0;
         }
-
-        return closestTarget;
     }
 
-    //private void OnDrawGizmosSelected()
-    //{
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawWireSphere(player.position, 5f);
-    //}
+    void SelectNextTarget()
+    {
+        if (_targetsInRange.Count == 0) return;
+
+        _currentTarget = _targetsInRange[_targetIndex];
+        Debug.Log("Target: " + _currentTarget.name);
+
+        // Tăng chỉ mục, nếu vượt quá danh sách thì quay lại đầu
+        _targetIndex = (_targetIndex + 1) % _targetsInRange.Count;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(player.position, 5f);
+    }
 
     public Transform GetTarget() => _currentTarget;
+    public void ClearTarget() => _currentTarget = null;
 }

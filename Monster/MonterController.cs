@@ -12,14 +12,16 @@ public class MonterController : MonoBehaviour
     [SerializeField] Vector2 currentPositionTarget;
     [SerializeField]
     bool isMove = true, isPatrol = true;
-    [SerializeField] bool isHurtProcess = false;
     IMonsterState currentState;
-    IMonsterState previousState;
     IdleState idleState;
     WalkState walkState;
     RunState runState;
     AttackState attackState;
     HurtState hurtState;
+    DiedState diedState;
+    [SerializeField] bool isCorotineRunning = false;
+    bool isHurt = false;
+    bool isAttack = false;
     private void Awake()
     {
         currentPositionTarget = SounthWeast.pivot;
@@ -37,7 +39,7 @@ public class MonterController : MonoBehaviour
         runState = new RunState(animator);
         attackState = new AttackState(animator);
         hurtState = new HurtState(animator);
-
+        diedState = new DiedState(animator);
         currentState = idleState;
         idleState.Enter();
     }
@@ -46,44 +48,47 @@ public class MonterController : MonoBehaviour
     {
         MoveArroundArea();
         Target();
-        if (isPatrol && !isHurtProcess)
-        {
-            UpdateState(runState);
-        }
-
-        if (Vector2.Distance(transform.position, currentPositionTarget) < 0.2f && currentPlayerTarget == null && !isHurtProcess)
-        {
-            UpdateState(idleState);
-        }
-
-        if (isHurtProcess)
-        {
-            currentState = hurtState;
-        }
-
-        FollowStatus(currentState);
     }
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    isMove = false;
-    //    if (collision.gameObject.CompareTag("Player"))
-    //    {
-    //        UpdateState(attackState);
-    //    }
-    //    else
-    //    {
-    //        UpdateState(hurtState);
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!isHurt && !isAttack)
+        {
+            UpdateState(attackState);
+
+            isMove = false;
+            isAttack = true;
+
+            if (!isCorotineRunning)
+            {
+                StartCoroutine(WaitAttack());
+            }
+        }
+    }
+
+    IEnumerator WaitAttack()
+    {
+        isCorotineRunning = true;
+
+        yield return new WaitForSeconds(2);
+        if (isAttack)
+        {
+            UpdateState(attackState);
+        }
+        else
+        {
+            isAttack = false;
+        }
+        isCorotineRunning = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isHurtProcess = true;
         if (currentState != hurtState)
         {
             StartCoroutine(WaitHurt());
-            Debug.Log("hit");
         }
+        Debug.Log("hit");
+        currentState = hurtState;
     }
     void Target()
     {
@@ -148,14 +153,21 @@ public class MonterController : MonoBehaviour
     IEnumerator WaitMonsterRest()
     {
         isPatrol = false;
-        if (!isHurtProcess)
-            UpdateState(idleState);
         yield return new WaitForSeconds(8);
         float x = Random.Range(pivot.x, pivot.x + radius);
         float y = Random.Range(pivot.y, pivot.y + radius);
 
         currentPositionTarget = new Vector2(x, y);
         isPatrol = true;
+    }
+
+    IEnumerator Died()
+    {
+        isCorotineRunning = true;
+        UpdateState(diedState);
+
+        yield return new WaitForSeconds(2f);
+        gameObject.SetActive(false);
     }
 
     void MoveToTarget()
@@ -177,27 +189,18 @@ public class MonterController : MonoBehaviour
     public void UpdateState(IMonsterState transitionState)
     {
         currentState.Exit();
-        if (isHurtProcess && transitionState != hurtState)
-            return;
         currentState = transitionState;
         currentState.Enter();
     }
 
     IEnumerator WaitHurt()
     {
-        AnimatorStateInfo stateInfor = animator.GetCurrentAnimatorStateInfo(0);
-        UpdateState(hurtState);
-        while (stateInfor.normalizedTime < 1f)
-        {
-            yield return null;
-            stateInfor = animator.GetCurrentAnimatorStateInfo(0);
-        }
-        isHurtProcess = false;
-        Debug.Log("isHurt false");
-    }
+        isCorotineRunning = true;
+        yield return new WaitForSeconds(2);
+        isHurt = false;
 
-    void FollowStatus(IMonsterState state)
-    {
-        state.Enter();
+        if (isAttack)
+            UpdateState(attackState);
+        isCorotineRunning = false;
     }
 }
