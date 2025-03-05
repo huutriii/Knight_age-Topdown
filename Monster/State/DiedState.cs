@@ -1,21 +1,42 @@
 ﻿using UnityEngine;
 
-public class DiedState : IMonsterState
+public class DiedState : MonsterStateBase, IMonsterState
 {
-    public Animator animator;
-    public DiedState(Animator animator) => (this.animator) = (animator);
-    public void Enter()
+    private float deathTimer;
+    private const float DEATH_DURATION = 2f;
+
+    public DiedState(MonsterController monster, Animator animator) : base(monster, animator)
     {
-        animator.SetBool("died", true);
+        deathTimer = 0f;
     }
 
-    public void Execute()
+    public void Enter()
     {
-        throw new System.NotImplementedException();
+        ResetAllAnimations();
+        animator.SetBool(StateContaint.died, true);
+        monster.SetMovementLocked(true);
     }
 
     public void Exit()
     {
-        animator.SetBool("died", false);
+        // Không cần exit vì đây là state cuối cùng
+    }
+
+    public void Update()
+    {
+        deathTimer += Time.deltaTime;
+
+        if (deathTimer >= DEATH_DURATION)
+        {
+            // Disable gameObject và respawn
+            monster.gameObject.SetActive(false);
+            SouthestController.Instance.ReSpawnMonster(monster.gameObject, monster.Pivot);
+        }
+    }
+
+    public IMonsterState HandleTransition()
+    {
+        // Không có transition nào từ death state
+        return null;
     }
 }

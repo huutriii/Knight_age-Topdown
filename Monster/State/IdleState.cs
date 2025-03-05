@@ -1,22 +1,37 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class IdleState : IMonsterState
+public class IdleState : MonsterStateBase, IMonsterState
 {
-    public Animator animator;
-
-    public IdleState(Animator animator) => (this.animator) = (animator);
+    public IdleState(MonsterController monster, Animator animator) : base(monster, animator) { }
     public void Enter()
     {
-        animator.SetBool("idle", true);
-    }
-
-    public void Execute()
-    {
-        throw new System.NotImplementedException();
+        ResetAllAnimations();
+        animator.SetBool(StateContaint.idle, true);
     }
 
     public void Exit()
     {
-        animator.SetBool("idle", false);
+        animator.SetBool(StateContaint.idle, false);
+    }
+
+    public IMonsterState HandleTransition()
+    {
+        if (monster.IsDead)
+            return new DiedState(monster, animator);
+
+        if (monster.IsHurt)
+            return new HurtState(monster, animator);
+
+        if (monster.IsAttacking)
+            return new AttackState(monster, animator);
+
+        if (monster.ShouldRun)
+            return new RunState(monster, animator);
+
+        return null;
+    }
+
+    public void Update()
+    {
     }
 }

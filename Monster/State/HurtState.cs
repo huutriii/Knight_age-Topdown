@@ -1,21 +1,47 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class HurtState : IMonsterState
+public class HurtState : MonsterStateBase, IMonsterState
 {
-    public Animator animator;
-    public HurtState(Animator animator) => (this.animator) = (animator);
-    public void Enter()
+    private float hurtTimer;
+    private const float HURT_DURATION = 2f;
+
+    public HurtState(MonsterController monster, Animator animator) : base(monster, animator)
     {
-        animator.SetBool("hurt", true);
+        hurtTimer = 0f;
     }
 
-    public void Execute()
+    public void Enter()
     {
-        throw new System.NotImplementedException();
+        ResetAllAnimations();
+        animator.SetBool(StateContaint.hurt, true);
+        monster.SetMovementLocked(true);
     }
 
     public void Exit()
     {
-        animator.SetBool("hurt", false);
+        animator.SetBool(StateContaint.hurt, false);
+        monster.SetMovementLocked(false);
+        monster.SetHurt(false);
+    }
+
+    public void Update()
+    {
+        hurtTimer += Time.deltaTime;
+    }
+
+    public IMonsterState HandleTransition()
+    {
+        if (monster.IsDead)
+            return new DiedState(monster, animator);
+
+        if (hurtTimer >= HURT_DURATION)
+        {
+            // Nếu vẫn đang tấn công sau khi hết hurt, quay lại attack state
+            if (monster.IsAttacking)
+                return new AttackState(monster, animator);
+            return new IdleState(monster, animator);
+        }
+
+        return null;
     }
 }

@@ -32,11 +32,11 @@ public class TargetClosit : MonoBehaviour
 
     void Update()
     {
-        UpdateTargetList(); // Cập nhật danh sách mục tiêu
+        UpdateTargetList();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SelectNextTarget(); // Chọn mục tiêu tiếp theo
+            SelectNextTarget();
         }
     }
 
@@ -61,17 +61,16 @@ public class TargetClosit : MonoBehaviour
         if (_targetsInRange.Count == 0) return;
 
         _currentTarget = _targetsInRange[_targetIndex];
-        Debug.Log("Target: " + _currentTarget.name);
 
         // Tăng chỉ mục, nếu vượt quá danh sách thì quay lại đầu
         _targetIndex = (_targetIndex + 1) % _targetsInRange.Count;
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(player.position, 5f);
-    }
+    //private void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(player.position, 5f);
+    //}
 
     public Transform GetTarget() => _currentTarget;
     public void ClearTarget() => _currentTarget = null;

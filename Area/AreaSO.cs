@@ -16,8 +16,13 @@ public enum Area
     South,
     East,
     West,
-    Northeast,
+    NorthEast,
+    NorthCenter,
+    NorhtWeast,
     Southeast,
     Northwest,
-    Southwest
+    Southwest,
+    Center,
+    InnerCity,
+    OutSkirt
 }

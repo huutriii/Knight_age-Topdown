@@ -1,21 +1,40 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class RunState : IMonsterState
+public class RunState : MonsterStateBase, IMonsterState
 {
-    public Animator animator;
-    public RunState(Animator animator) => (this.animator) = (animator);
+    public RunState(MonsterController monster, Animator animator) : base(monster, animator) { }
+
     public void Enter()
     {
-        animator.SetBool("run", true);
-    }
-
-    public void Execute()
-    {
-        throw new System.NotImplementedException();
+        ResetAllAnimations();
+        animator.SetBool(StateContaint.run, true);
     }
 
     public void Exit()
     {
-        animator.SetBool("run", false);
+        animator.SetBool(StateContaint.run, false);
+    }
+
+    public void Update()
+    {
+        // Không cần gọi MoveToTarget ở đây nữa vì MonsterController đã xử lý trong UpdateMovement
+        // Chỉ cần đảm bảo animation run được set đúng
+    }
+
+    public IMonsterState HandleTransition()
+    {
+        if (monster.IsDead)
+            return new DiedState(monster, animator);
+
+        if (monster.IsHurt)
+            return new HurtState(monster, animator);
+
+        if (monster.IsAttacking)
+            return new AttackState(monster, animator);
+
+        if (!monster.ShouldRun)
+            return new IdleState(monster, animator);
+
+        return null;
     }
 }

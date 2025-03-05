@@ -16,4 +16,4 @@ MonoBehaviour:
   radius: 2
   monsterName: witch
   itemsName: equipment
-  pivot: {x: 31.5, y: -53.7}
+  pivot: {x: 31, y: -53}

@@ -4,9 +4,11 @@ public class AnimatorController : MonoBehaviour
 {
     Animator animator;
     float inputX, inputY;
+    Rigidbody2D rb;
     private void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()

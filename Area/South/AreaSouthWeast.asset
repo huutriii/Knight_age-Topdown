@@ -16,4 +16,4 @@ MonoBehaviour:
   radius: 2
   monsterName: scorpion
   itemsName: equipment
-  pivot: {x: -48.2, y: -51.6}
+  pivot: {x: -48, y: -51}

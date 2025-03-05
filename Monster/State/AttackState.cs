@@ -1,21 +1,47 @@
 using UnityEngine;
 
-public class AttackState : IMonsterState
+public class AttackState : MonsterStateBase, IMonsterState
 {
-    public Animator animator;
-    public AttackState(Animator animator) => (this.animator) = (animator);
-    public void Enter()
+    private float attackTimer;
+    private const float ATTACK_DURATION = 2f;
+
+    public AttackState(MonsterController monster, Animator animator) : base(monster, animator)
     {
-        animator.SetBool("attack", true);
+        attackTimer = 0f;
     }
 
-    public void Execute()
+    public void Enter()
     {
-        throw new System.NotImplementedException();
+        ResetAllAnimations();
+        animator.SetBool(StateContaint.attack, true);
+        monster.SetMovementLocked(true);
     }
 
     public void Exit()
     {
-        animator.SetBool("attack", false);
+        animator.SetBool(StateContaint.attack, false);
+        monster.SetMovementLocked(false);
+        monster.SetAttacking(false);
+    }
+
+    public void Update()
+    {
+        attackTimer += Time.deltaTime;
+    }
+
+    public IMonsterState HandleTransition()
+    {
+        if (monster.IsDead)
+            return new DiedState(monster, animator);
+
+        if (attackTimer >= ATTACK_DURATION)
+        {
+            if (monster.IsTargetInRange)
+                attackTimer = 0f; // Reset timer and continue attacking
+            else
+                return new IdleState(monster, animator);
+        }
+
+        return null;
     }
 }

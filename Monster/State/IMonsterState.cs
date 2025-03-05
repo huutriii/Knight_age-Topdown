@@ -2,5 +2,7 @@ public interface IMonsterState
 {
     void Enter();
     void Exit();
-    void Execute();
+    void Update();
+
+    IMonsterState HandleTransition();
 }
