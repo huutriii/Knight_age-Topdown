@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: 4308a99e5e70312489cabf101cc4deb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4398114947971818701
+    second: 8_animation_leaf_000_0
+  - first:
+      213: -3351056901538034782
+    second: 8_animation_leaf_000_1
+  - first:
+      213: 3956680776685444580
+    second: 8_animation_leaf_000_2
+  - first:
+      213: 1836685907122782476
+    second: 8_animation_leaf_000_3
+  - first:
+      213: 208649905890643685
+    second: 8_animation_leaf_000_4
+  - first:
+      213: -6110309476816209133
+    second: 8_animation_leaf_000_5
+  - first:
+      213: -7876698497820528710
+    second: 8_animation_leaf_000_6
+  - first:
+      213: -2646588830890607432
+    second: 8_animation_leaf_000_7
+  - first:
+      213: -9150585010543742151
+    second: 8_animation_leaf_000_8
+  - first:
+      213: -5310599361719653643
+    second: 8_animation_leaf_000_9
+  - first:
+      213: 8320499524467763871
+    second: 8_animation_leaf_000_10
+  - first:
+      213: 8537448555275893963
+    second: 8_animation_leaf_000_11
+  - first:
+      213: -1683430079434187261
+    second: 8_animation_leaf_000_12
+  - first:
+      213: 8877918405033425654
+    second: 8_animation_leaf_000_13
+  - first:
+      213: 790870093888468105
+    second: 8_animation_leaf_000_14
+  - first:
+      213: 6433787832816287408
+    second: 8_animation_leaf_000_15
+  - first:
+      213: 4266164197238850969
+    second: 8_animation_leaf_000_16
+  - first:
+      213: 812622830533823705
+    second: 8_animation_leaf_000_17
+  - first:
+      213: -5437495346587336362
+    second: 8_animation_leaf_000_18
+  - first:
+      213: 827631775054754934
+    second: 8_animation_leaf_000_19
+  - first:
+      213: 1581981086744395178
+    second: 8_animation_leaf_000_20
+  - first:
+      213: 8366034594336728489
+    second: 8_animation_leaf_000_21
+  - first:
+      213: -3017764128804575497
+    second: 8_animation_leaf_000_22
+  - first:
+      213: 2011553495572452489
+    second: 8_animation_leaf_000_23
+  - first:
+      213: -1468894369305169658
+    second: 8_animation_leaf_000_24
+  - first:
+      213: 1933577292898512259
+    second: 8_animation_leaf_000_25
+  - first:
+      213: -7805090996938846956
+    second: 8_animation_leaf_000_26
+  - first:
+      213: -2826793551116434943
+    second: 8_animation_leaf_000_27
+  - first:
+      213: 9097714958732876909
+    second: 8_animation_leaf_000_28
+  - first:
+      213: -8091366939274055875
+    second: 8_animation_leaf_000_29
+  - first:
+      213: -6279761527876109225
+    second: 8_animation_leaf_000_30
+  - first:
+      213: -5320403788224660970
+    second: 8_animation_leaf_000_31
+  - first:
+      213: 4742902725002596541
+    second: 8_animation_leaf_000_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_0
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 590
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bddccc1c1c6f2c0800000000000000
+      internalID: -4398114947971818701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 606
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab44b1b087ae71d0800000000000000
+      internalID: -3351056901538034782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_2
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 636
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edd3f7f334f8e630800000000000000
+      internalID: 3956680776685444580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_3
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 596
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c010502f9183d7910800000000000000
+      internalID: 1836685907122782476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 538
+        width: 79
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eec703ebf545e200800000000000000
+      internalID: 208649905890643685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 522
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bbaa697e1d33ba0800000000000000
+      internalID: -6110309476816209133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_6
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 420
+        width: 85
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfed82e27850b290800000000000000
+      internalID: -7876698497820528710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 476
+        width: 88
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcbf340b7d654bd0800000000000000
+      internalID: -2646588830890607432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 412
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933b68f2a67920180800000000000000
+      internalID: -9150585010543742151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 430
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faa84c6406fc46b0800000000000000
+      internalID: -5310599361719653643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 446
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a25bdcb3a587370800000000000000
+      internalID: 8320499524467763871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_11
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 402
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc34694a3c1b7670800000000000000
+      internalID: 8537448555275893963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_12
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 425
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e1e1f034143a8e0800000000000000
+      internalID: -1683430079434187261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_13
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 372
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa7bec80c3b43b70800000000000000
+      internalID: 8877918405033425654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 360
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984b3b1092cb9fa00800000000000000
+      internalID: 790870093888468105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_15
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 323
+        width: 100
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bebe3f32f7694950800000000000000
+      internalID: 6433787832816287408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_16
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 271
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99549e9fbb5743b30800000000000000
+      internalID: 4266164197238850969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 264
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc475ea824074b00800000000000000
+      internalID: 812622830533823705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_18
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 302
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65182d69ac22a84b0800000000000000
+      internalID: -5437495346587336362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_19
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 259
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674f6f4e6b65c7b00800000000000000
+      internalID: 827631775054754934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_20
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 238
+        width: 97
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad39ccaa6354f510800000000000000
+      internalID: 1581981086744395178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_21
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 235
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5e11e63202a1470800000000000000
+      internalID: 8366034594336728489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 224
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6efae738fbe16d0800000000000000
+      internalID: -3017764128804575497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 252
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9849a4e1f397aeb10800000000000000
+      internalID: 2011553495572452489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 175
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6017ef88a507d9be0800000000000000
+      internalID: -1468894369305169658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_25
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 198
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d2af8ad4275da10800000000000000
+      internalID: 1933577292898512259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_26
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 167
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d4cd7671fbea390800000000000000
+      internalID: -7805090996938846956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 55
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10207540e3635c8d0800000000000000
+      internalID: -2826793551116434943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_28
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 111
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cd70f9d83914e70800000000000000
+      internalID: 9097714958732876909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_29
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 101
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fea3d73a0b5bf80800000000000000
+      internalID: -8091366939274055875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_30
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 36
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cb7c8792ec9d8a0800000000000000
+      internalID: -6279761527876109225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_31
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 85
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af93d71f02a26b0800000000000000
+      internalID: -5320403788224660970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8_animation_leaf_000_32
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 80
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0130046ec22d140800000000000000
+      internalID: 4742902725002596541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
