@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: cdd006da2530a8141b4cbf1adc14f3c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6150356076100607272
+    second: Vampires3_Death_body_0
+  - first:
+      213: 573681652524058355
+    second: Vampires3_Death_body_1
+  - first:
+      213: 2005996920119892821
+    second: Vampires3_Death_body_2
+  - first:
+      213: -3243810031321323055
+    second: Vampires3_Death_body_3
+  - first:
+      213: 3250852263497138982
+    second: Vampires3_Death_body_4
+  - first:
+      213: -2896052619005420498
+    second: Vampires3_Death_body_5
+  - first:
+      213: -6819564674438187453
+    second: Vampires3_Death_body_6
+  - first:
+      213: 2153236753978516424
+    second: Vampires3_Death_body_7
+  - first:
+      213: -5148178502387891431
+    second: Vampires3_Death_body_8
+  - first:
+      213: 3394357767033784483
+    second: Vampires3_Death_body_9
+  - first:
+      213: -1835202070416460243
+    second: Vampires3_Death_body_10
+  - first:
+      213: 5197546663732874666
+    second: Vampires3_Death_body_11
+  - first:
+      213: -5430308846505008442
+    second: Vampires3_Death_body_12
+  - first:
+      213: 397614014322996377
+    second: Vampires3_Death_body_13
+  - first:
+      213: 8214992201799471257
+    second: Vampires3_Death_body_14
+  - first:
+      213: -173030903821985523
+    second: Vampires3_Death_body_15
+  - first:
+      213: 6262255027961000558
+    second: Vampires3_Death_body_16
+  - first:
+      213: 7854032574318839817
+    second: Vampires3_Death_body_17
+  - first:
+      213: 4932485622678473089
+    second: Vampires3_Death_body_18
+  - first:
+      213: 6720937734118556443
+    second: Vampires3_Death_body_19
+  - first:
+      213: -2157649162791878713
+    second: Vampires3_Death_body_20
+  - first:
+      213: -529812559978184801
+    second: Vampires3_Death_body_21
+  - first:
+      213: -8091129328750290553
+    second: Vampires3_Death_body_22
+  - first:
+      213: 7536304501455622646
+    second: Vampires3_Death_body_23
+  - first:
+      213: 964395023154110862
+    second: Vampires3_Death_body_24
+  - first:
+      213: -7643174816398354534
+    second: Vampires3_Death_body_25
+  - first:
+      213: -8594457907744348768
+    second: Vampires3_Death_body_26
+  - first:
+      213: 812430771160880639
+    second: Vampires3_Death_body_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Death_body_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 211
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2abd91cbb85aaa0800000000000000
+      internalID: -6150356076100607272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 211
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f60bd86c6026f700800000000000000
+      internalID: 573681652524058355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 211
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b1644129bb6db10800000000000000
+      internalID: 2005996920119892821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 211
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d96e3486fbabf2d0800000000000000
+      internalID: -3243810031321323055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 209
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623850fe8e85d1d20800000000000000
+      internalID: 3250852263497138982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 209
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c9759ac772fc7d0800000000000000
+      internalID: -2896052619005420498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 209
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3463f496f0a0c51a0800000000000000
+      internalID: -6819564674438187453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3643e5b65d1ed10800000000000000
+      internalID: 2153236753978516424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 147
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9130ed4adeefd88b0800000000000000
+      internalID: -5148178502387891431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 147
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a803a0b76e2b1f20800000000000000
+      internalID: 3394357767033784483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 145
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26f3c5b07d0886e0800000000000000
+      internalID: -1835202070416460243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 145
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad80532725612840800000000000000
+      internalID: 5197546663732874666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 145
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2686700eaa3a4b0800000000000000
+      internalID: -5430308846505008442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 145
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9947071e6db948500800000000000000
+      internalID: 397614014322996377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 83
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9909cd4f1e3810270800000000000000
+      internalID: 8214992201799471257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 83
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09968a4f45499df0800000000000000
+      internalID: -173030903821985523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 83
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62f482e4cff7e650800000000000000
+      internalID: 6262255027961000558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 81
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080f9e83012ffc60800000000000000
+      internalID: 7854032574318839817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189c8775a85b37440800000000000000
+      internalID: 4932485622678473089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 81
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13c7a79241954d50800000000000000
+      internalID: 6720937734118556443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 81
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cffed5a48d7e02e0800000000000000
+      internalID: -2157649162791878713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 19
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fb5f4a84ab5a8f0800000000000000
+      internalID: -529812559978184801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 19
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78918108eb886bf80800000000000000
+      internalID: -8091129328750290553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 19
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f19078d305569860800000000000000
+      internalID: 7536304501455622646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 17
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81614af928326d00800000000000000
+      internalID: 964395023154110862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 17
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a975d50fffcfde590800000000000000
+      internalID: -7643174816398354534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 17
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e9db711a5ab880800000000000000
+      internalID: -8594457907744348768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_body_27
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 17
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff514af5b75564b00800000000000000
+      internalID: 812430771160880639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

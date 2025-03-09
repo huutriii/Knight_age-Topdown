@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: da53caddbd19a104baa0f6b87d5e00b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8836479372798373230
+    second: Vampires3_Hurt_head_0
+  - first:
+      213: 1368840933246664303
+    second: Vampires3_Hurt_head_1
+  - first:
+      213: 7550411065162949071
+    second: Vampires3_Hurt_head_2
+  - first:
+      213: -4559278186309330114
+    second: Vampires3_Hurt_head_3
+  - first:
+      213: 7150180405392174698
+    second: Vampires3_Hurt_head_4
+  - first:
+      213: 5845470371621805115
+    second: Vampires3_Hurt_head_5
+  - first:
+      213: -6913702163233086952
+    second: Vampires3_Hurt_head_6
+  - first:
+      213: -3084570424321054564
+    second: Vampires3_Hurt_head_7
+  - first:
+      213: 2022280381542634103
+    second: Vampires3_Hurt_head_8
+  - first:
+      213: 5300061361981503466
+    second: Vampires3_Hurt_head_9
+  - first:
+      213: 5830904614127666243
+    second: Vampires3_Hurt_head_10
+  - first:
+      213: -6158569554531971024
+    second: Vampires3_Hurt_head_11
+  - first:
+      213: -8096111044371787192
+    second: Vampires3_Hurt_head_12
+  - first:
+      213: -5032535206417535053
+    second: Vampires3_Hurt_head_13
+  - first:
+      213: -9062407010145262455
+    second: Vampires3_Hurt_head_14
+  - first:
+      213: 8977844352705816772
+    second: Vampires3_Hurt_head_15
+  - first:
+      213: 279706477179567566
+    second: Vampires3_Hurt_head_16
+  - first:
+      213: -2824291528211278635
+    second: Vampires3_Hurt_head_17
+  - first:
+      213: 26327543982644570
+    second: Vampires3_Hurt_head_18
+  - first:
+      213: 2634848042590239621
+    second: Vampires3_Hurt_head_19
+  - first:
+      213: -3850115310841018796
+    second: Vampires3_Hurt_head_20
+  - first:
+      213: -9109569337324538378
+    second: Vampires3_Hurt_head_21
+  - first:
+      213: -4002875091747853216
+    second: Vampires3_Hurt_head_22
+  - first:
+      213: 9005409321145186111
+    second: Vampires3_Hurt_head_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 221
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292594ff3d48e5580800000000000000
+      internalID: -8836479372798373230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 219
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e7e2c83991ff210800000000000000
+      internalID: 1368840933246664303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 218
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc167372cd278c860800000000000000
+      internalID: 7550411065162949071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 219
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b58d845a03ab0c0800000000000000
+      internalID: -4559278186309330114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6eeb57023b8a3360800000000000000
+      internalID: 7150180405392174698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 165
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c969515584f1150800000000000000
+      internalID: 5845470371621805115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81264ad43889d00a0800000000000000
+      internalID: -6913702163233086952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98eaa5ba876135d0800000000000000
+      internalID: -3084570424321054564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 166
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7721712ea45901c10800000000000000
+      internalID: 2022280381542634103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae73ea05ab99d8940800000000000000
+      internalID: 5300061361981503466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34404446ad88be050800000000000000
+      internalID: 5830904614127666243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 165
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0301691ae9d588aa0800000000000000
+      internalID: -6158569554531971024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8425a1276e5d4af80800000000000000
+      internalID: -8096111044371787192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfe5dda4e7d82ab0800000000000000
+      internalID: -5032535206417535053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 166
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9842846c6dcdb3280800000000000000
+      internalID: -9062407010145262455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8e6c34fd5b79c70800000000000000
+      internalID: 8977844352705816772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 94
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdf9ad1f87b1e300800000000000000
+      internalID: 279706477179567566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 90
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d452de91d91ec8d0800000000000000
+      internalID: -2824291528211278635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 89
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dd4e203c88d5000800000000000000
+      internalID: 26327543982644570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 90
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b79bfa55cd09420800000000000000
+      internalID: 2634848042590239621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 30
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45647090684a19ac0800000000000000
+      internalID: -3850115310841018796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 26
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5faf7c3fe449180800000000000000
+      internalID: -9109569337324538378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 25
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2c1cef4ee278c0800000000000000
+      internalID: -4002875091747853216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Hurt_head_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 26
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37b9db9014a9fc70800000000000000
+      internalID: 9005409321145186111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

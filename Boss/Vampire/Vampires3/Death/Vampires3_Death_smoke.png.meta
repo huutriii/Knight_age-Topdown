@@ -1,0 +1,4050 @@
+fileFormatVersion: 2
+guid: 435d725e4e16d0446a60c977a7bc6f1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7696174992628313446
+    second: Vampires3_Death_smoke_0
+  - first:
+      213: -834232513991726580
+    second: Vampires3_Death_smoke_1
+  - first:
+      213: 7214878516273646597
+    second: Vampires3_Death_smoke_2
+  - first:
+      213: -6398935442424314488
+    second: Vampires3_Death_smoke_3
+  - first:
+      213: 1181859375782403349
+    second: Vampires3_Death_smoke_4
+  - first:
+      213: -4137263073558847899
+    second: Vampires3_Death_smoke_5
+  - first:
+      213: -4013032141083073902
+    second: Vampires3_Death_smoke_6
+  - first:
+      213: -7781425693285162409
+    second: Vampires3_Death_smoke_7
+  - first:
+      213: -8055633603828994482
+    second: Vampires3_Death_smoke_8
+  - first:
+      213: 8136901064302716408
+    second: Vampires3_Death_smoke_9
+  - first:
+      213: -1031159326985661809
+    second: Vampires3_Death_smoke_10
+  - first:
+      213: -7957445084138382785
+    second: Vampires3_Death_smoke_11
+  - first:
+      213: -8500915514563426442
+    second: Vampires3_Death_smoke_12
+  - first:
+      213: -8701288166944236004
+    second: Vampires3_Death_smoke_13
+  - first:
+      213: 44067754910280916
+    second: Vampires3_Death_smoke_14
+  - first:
+      213: -2759822998724359876
+    second: Vampires3_Death_smoke_15
+  - first:
+      213: -9002008192610072832
+    second: Vampires3_Death_smoke_16
+  - first:
+      213: 7108477390099783545
+    second: Vampires3_Death_smoke_17
+  - first:
+      213: -3813704484495431259
+    second: Vampires3_Death_smoke_18
+  - first:
+      213: -2942429411128526345
+    second: Vampires3_Death_smoke_19
+  - first:
+      213: -4658587477202355365
+    second: Vampires3_Death_smoke_20
+  - first:
+      213: -1243481198071662245
+    second: Vampires3_Death_smoke_21
+  - first:
+      213: -5969105975984020143
+    second: Vampires3_Death_smoke_22
+  - first:
+      213: 728760538719023913
+    second: Vampires3_Death_smoke_23
+  - first:
+      213: 8292884773747149189
+    second: Vampires3_Death_smoke_24
+  - first:
+      213: -1829338647007409356
+    second: Vampires3_Death_smoke_25
+  - first:
+      213: 4401799293992978621
+    second: Vampires3_Death_smoke_26
+  - first:
+      213: 3217115930716009277
+    second: Vampires3_Death_smoke_27
+  - first:
+      213: 7084992409863063070
+    second: Vampires3_Death_smoke_28
+  - first:
+      213: -1427287617328657836
+    second: Vampires3_Death_smoke_29
+  - first:
+      213: -1716744290674882812
+    second: Vampires3_Death_smoke_30
+  - first:
+      213: 2379594771952271352
+    second: Vampires3_Death_smoke_31
+  - first:
+      213: 733234701435705271
+    second: Vampires3_Death_smoke_32
+  - first:
+      213: 8755436512226223691
+    second: Vampires3_Death_smoke_33
+  - first:
+      213: 6307055752613228525
+    second: Vampires3_Death_smoke_34
+  - first:
+      213: -3781224107155220609
+    second: Vampires3_Death_smoke_35
+  - first:
+      213: -4057332770013183574
+    second: Vampires3_Death_smoke_36
+  - first:
+      213: 3253870854986361344
+    second: Vampires3_Death_smoke_37
+  - first:
+      213: 8440077987454690568
+    second: Vampires3_Death_smoke_38
+  - first:
+      213: 3489168881199118356
+    second: Vampires3_Death_smoke_39
+  - first:
+      213: -6808843722290679460
+    second: Vampires3_Death_smoke_40
+  - first:
+      213: -5396207637012476453
+    second: Vampires3_Death_smoke_41
+  - first:
+      213: 467212116676401215
+    second: Vampires3_Death_smoke_42
+  - first:
+      213: 512344702557654476
+    second: Vampires3_Death_smoke_43
+  - first:
+      213: 102788409791953721
+    second: Vampires3_Death_smoke_44
+  - first:
+      213: 8193519933082970755
+    second: Vampires3_Death_smoke_45
+  - first:
+      213: -8935933651579980258
+    second: Vampires3_Death_smoke_46
+  - first:
+      213: 4658737027345667858
+    second: Vampires3_Death_smoke_47
+  - first:
+      213: 6402776007758682109
+    second: Vampires3_Death_smoke_48
+  - first:
+      213: 6816195043499631937
+    second: Vampires3_Death_smoke_49
+  - first:
+      213: 1819520655530828804
+    second: Vampires3_Death_smoke_50
+  - first:
+      213: -689461649482691891
+    second: Vampires3_Death_smoke_51
+  - first:
+      213: -5726757068855497170
+    second: Vampires3_Death_smoke_52
+  - first:
+      213: 7456508045177136978
+    second: Vampires3_Death_smoke_53
+  - first:
+      213: -8008618419079094717
+    second: Vampires3_Death_smoke_54
+  - first:
+      213: 3604965748178268509
+    second: Vampires3_Death_smoke_55
+  - first:
+      213: -8004621684346792753
+    second: Vampires3_Death_smoke_56
+  - first:
+      213: 7185894638817935766
+    second: Vampires3_Death_smoke_57
+  - first:
+      213: -355974304408512885
+    second: Vampires3_Death_smoke_58
+  - first:
+      213: 5202295662310828175
+    second: Vampires3_Death_smoke_59
+  - first:
+      213: -7614832954261922891
+    second: Vampires3_Death_smoke_60
+  - first:
+      213: -6508355969923952411
+    second: Vampires3_Death_smoke_61
+  - first:
+      213: -9011964321216778092
+    second: Vampires3_Death_smoke_62
+  - first:
+      213: -1704684910039207702
+    second: Vampires3_Death_smoke_63
+  - first:
+      213: -7826519791186679744
+    second: Vampires3_Death_smoke_64
+  - first:
+      213: -289528065595364813
+    second: Vampires3_Death_smoke_65
+  - first:
+      213: 7265986128382840487
+    second: Vampires3_Death_smoke_66
+  - first:
+      213: -2443396367526544168
+    second: Vampires3_Death_smoke_67
+  - first:
+      213: 8386185585431897096
+    second: Vampires3_Death_smoke_68
+  - first:
+      213: -6912999614084791420
+    second: Vampires3_Death_smoke_69
+  - first:
+      213: 1139479309380329006
+    second: Vampires3_Death_smoke_70
+  - first:
+      213: -6616022145563988869
+    second: Vampires3_Death_smoke_71
+  - first:
+      213: 2822184861097274977
+    second: Vampires3_Death_smoke_72
+  - first:
+      213: 9154083525640676130
+    second: Vampires3_Death_smoke_73
+  - first:
+      213: 8039410159412303085
+    second: Vampires3_Death_smoke_74
+  - first:
+      213: -3910378511112612812
+    second: Vampires3_Death_smoke_75
+  - first:
+      213: 6697410533204659292
+    second: Vampires3_Death_smoke_76
+  - first:
+      213: -4980435463505951793
+    second: Vampires3_Death_smoke_77
+  - first:
+      213: 6639950839573383707
+    second: Vampires3_Death_smoke_78
+  - first:
+      213: -6083950778950568512
+    second: Vampires3_Death_smoke_79
+  - first:
+      213: -7330381424834034151
+    second: Vampires3_Death_smoke_80
+  - first:
+      213: 3592486765155903354
+    second: Vampires3_Death_smoke_81
+  - first:
+      213: 7683147919150028251
+    second: Vampires3_Death_smoke_82
+  - first:
+      213: -5143237508649332749
+    second: Vampires3_Death_smoke_83
+  - first:
+      213: -6359387355867440130
+    second: Vampires3_Death_smoke_84
+  - first:
+      213: 3163332142734611865
+    second: Vampires3_Death_smoke_85
+  - first:
+      213: -2335062369528991938
+    second: Vampires3_Death_smoke_86
+  - first:
+      213: 9186953885183531503
+    second: Vampires3_Death_smoke_87
+  - first:
+      213: 7826429338679254824
+    second: Vampires3_Death_smoke_88
+  - first:
+      213: -7564466452340364760
+    second: Vampires3_Death_smoke_89
+  - first:
+      213: 7393773969289934533
+    second: Vampires3_Death_smoke_90
+  - first:
+      213: 1806785308570455590
+    second: Vampires3_Death_smoke_91
+  - first:
+      213: 2834709294535964884
+    second: Vampires3_Death_smoke_92
+  - first:
+      213: 2014390856540524978
+    second: Vampires3_Death_smoke_93
+  - first:
+      213: 5479355376694184373
+    second: Vampires3_Death_smoke_94
+  - first:
+      213: -702648181790124960
+    second: Vampires3_Death_smoke_95
+  - first:
+      213: 2552256906986955486
+    second: Vampires3_Death_smoke_96
+  - first:
+      213: 65965205035743120
+    second: Vampires3_Death_smoke_97
+  - first:
+      213: -3014213303813589507
+    second: Vampires3_Death_smoke_98
+  - first:
+      213: 1203568321934554598
+    second: Vampires3_Death_smoke_99
+  - first:
+      213: -3648854369506952045
+    second: Vampires3_Death_smoke_100
+  - first:
+      213: 8617141656820316349
+    second: Vampires3_Death_smoke_101
+  - first:
+      213: -453019359620212346
+    second: Vampires3_Death_smoke_102
+  - first:
+      213: -6670974540707427047
+    second: Vampires3_Death_smoke_103
+  - first:
+      213: -3789114798700224205
+    second: Vampires3_Death_smoke_104
+  - first:
+      213: 981050982794363429
+    second: Vampires3_Death_smoke_105
+  - first:
+      213: 301092202582553819
+    second: Vampires3_Death_smoke_106
+  - first:
+      213: 6819670908810347786
+    second: Vampires3_Death_smoke_107
+  - first:
+      213: 3130001243851304764
+    second: Vampires3_Death_smoke_108
+  - first:
+      213: 3539664873207390470
+    second: Vampires3_Death_smoke_109
+  - first:
+      213: 5866886695730215306
+    second: Vampires3_Death_smoke_110
+  - first:
+      213: 1994489563295801663
+    second: Vampires3_Death_smoke_111
+  - first:
+      213: 6094539715966690198
+    second: Vampires3_Death_smoke_112
+  - first:
+      213: 2720523269141798283
+    second: Vampires3_Death_smoke_113
+  - first:
+      213: -8787438559674316093
+    second: Vampires3_Death_smoke_114
+  - first:
+      213: 3088247763091841507
+    second: Vampires3_Death_smoke_115
+  - first:
+      213: -8929695498819600487
+    second: Vampires3_Death_smoke_116
+  - first:
+      213: -4408362678464338347
+    second: Vampires3_Death_smoke_117
+  - first:
+      213: -4221232309633975658
+    second: Vampires3_Death_smoke_118
+  - first:
+      213: 319631189949343064
+    second: Vampires3_Death_smoke_119
+  - first:
+      213: -5212967915421026043
+    second: Vampires3_Death_smoke_120
+  - first:
+      213: 8903820829459962332
+    second: Vampires3_Death_smoke_121
+  - first:
+      213: -3876194347665910334
+    second: Vampires3_Death_smoke_122
+  - first:
+      213: -3930014525448328667
+    second: Vampires3_Death_smoke_123
+  - first:
+      213: 6066087327087573244
+    second: Vampires3_Death_smoke_124
+  - first:
+      213: 5096242327127322131
+    second: Vampires3_Death_smoke_125
+  - first:
+      213: 7824147298891672789
+    second: Vampires3_Death_smoke_126
+  - first:
+      213: -2636622295950161412
+    second: Vampires3_Death_smoke_127
+  - first:
+      213: 1983660161197869227
+    second: Vampires3_Death_smoke_128
+  - first:
+      213: 7902284773524145088
+    second: Vampires3_Death_smoke_129
+  - first:
+      213: 906477662235607410
+    second: Vampires3_Death_smoke_130
+  - first:
+      213: -1122356694661173299
+    second: Vampires3_Death_smoke_131
+  - first:
+      213: -5298041392451473792
+    second: Vampires3_Death_smoke_132
+  - first:
+      213: 2090193556596128520
+    second: Vampires3_Death_smoke_133
+  - first:
+      213: -4263026696374209993
+    second: Vampires3_Death_smoke_134
+  - first:
+      213: -5467256487803467994
+    second: Vampires3_Death_smoke_135
+  - first:
+      213: -7326695754379090986
+    second: Vampires3_Death_smoke_136
+  - first:
+      213: 3867017870090333874
+    second: Vampires3_Death_smoke_137
+  - first:
+      213: -2093942884232917379
+    second: Vampires3_Death_smoke_138
+  - first:
+      213: -8405204643301210157
+    second: Vampires3_Death_smoke_139
+  - first:
+      213: -5822392301300494557
+    second: Vampires3_Death_smoke_140
+  - first:
+      213: 7168792812566580345
+    second: Vampires3_Death_smoke_141
+  - first:
+      213: 2016834870303887910
+    second: Vampires3_Death_smoke_142
+  - first:
+      213: -8192391107882168572
+    second: Vampires3_Death_smoke_143
+  - first:
+      213: -2993264612166266336
+    second: Vampires3_Death_smoke_144
+  - first:
+      213: -481367817995833567
+    second: Vampires3_Death_smoke_145
+  - first:
+      213: 8064793394610498287
+    second: Vampires3_Death_smoke_146
+  - first:
+      213: 3845727912889072559
+    second: Vampires3_Death_smoke_147
+  - first:
+      213: 4048499316045635003
+    second: Vampires3_Death_smoke_148
+  - first:
+      213: 6542002685964687158
+    second: Vampires3_Death_smoke_149
+  - first:
+      213: -5329697199381573844
+    second: Vampires3_Death_smoke_150
+  - first:
+      213: -103872941316318029
+    second: Vampires3_Death_smoke_151
+  - first:
+      213: -3999037838576365359
+    second: Vampires3_Death_smoke_152
+  - first:
+      213: -3031053596122415082
+    second: Vampires3_Death_smoke_153
+  - first:
+      213: 9080695785909861067
+    second: Vampires3_Death_smoke_154
+  - first:
+      213: -2373388344106222739
+    second: Vampires3_Death_smoke_155
+  - first:
+      213: 1791905343210263437
+    second: Vampires3_Death_smoke_156
+  - first:
+      213: -8890031642985936883
+    second: Vampires3_Death_smoke_157
+  - first:
+      213: -7862509330527446642
+    second: Vampires3_Death_smoke_158
+  - first:
+      213: 1185130461729188548
+    second: Vampires3_Death_smoke_159
+  - first:
+      213: -6718699505359324945
+    second: Vampires3_Death_smoke_160
+  - first:
+      213: -6645359790796664432
+    second: Vampires3_Death_smoke_161
+  - first:
+      213: -4461674676044062348
+    second: Vampires3_Death_smoke_162
+  - first:
+      213: 6764985305058645010
+    second: Vampires3_Death_smoke_163
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 223
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92152bce91b13590800000000000000
+      internalID: -7696174992628313446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 229
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a217fc2f53c64f0800000000000000
+      internalID: -834232513991726580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 237
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c8614d8c5602460800000000000000
+      internalID: 7214878516273646597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 241
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88544ad3e1a6237a0800000000000000
+      internalID: -6398935442424314488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 233
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d99fb27dec66010800000000000000
+      internalID: 1181859375782403349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 236
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e1f2e972d7596c0800000000000000
+      internalID: -4137263073558847899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 243
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a4869788de48c0800000000000000
+      internalID: -4013032141083073902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 3
+        width: 84
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752e3a94f82d20490800000000000000
+      internalID: -7781425693285162409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_8
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 235
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ea21bfae3a43090800000000000000
+      internalID: -8055633603828994482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_9
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 212
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5e24628641ce070800000000000000
+      internalID: 8136901064302716408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8250303e0690b1f0800000000000000
+      internalID: -1031159326985661809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 231
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ad0483bd9719190800000000000000
+      internalID: -7957445084138382785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_12
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 229
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67707d8116ea60a80800000000000000
+      internalID: -8500915514563426442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 228
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9af87380de3780800000000000000
+      internalID: -8701288166944236004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_14
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 235
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dce97db36f8c9000800000000000000
+      internalID: 44067754910280916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_15
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c416da9323b9d0800000000000000
+      internalID: -2759822998724359876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 213
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00702565e31721380800000000000000
+      internalID: -9002008192610072832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 211
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f1bc2268266a260800000000000000
+      internalID: 7108477390099783545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 212
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9e55b2afff21bc0800000000000000
+      internalID: -3813704484495431259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 212
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9b50d4a046a27d0800000000000000
+      internalID: -2942429411128526345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 218
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b354a2f5f595fb0800000000000000
+      internalID: -4658587477202355365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 214
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59bf0840744ebee0800000000000000
+      internalID: -1243481198071662245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 223
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155afc29db9792da0800000000000000
+      internalID: -5969105975984020143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 217
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9237bac49d31d1a00800000000000000
+      internalID: 728760538719023913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 210
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589c17e93ce361370800000000000000
+      internalID: 8292884773747149189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_25
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 223
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bca3b5132ec96e0800000000000000
+      internalID: -1829338647007409356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_26
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8440bd225561d30800000000000000
+      internalID: 4401799293992978621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_27
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 216
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33f39bd4ed75ac20800000000000000
+      internalID: 3217115930716009277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 222
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e160a321f03f25260800000000000000
+      internalID: 7084992409863063070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 209
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45acfc06971413ce0800000000000000
+      internalID: -1427287617328657836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_30
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 211
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407c420d926ec28e0800000000000000
+      internalID: -1716744290674882812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 205
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff779366d4060120800000000000000
+      internalID: 2379594771952271352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_32
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 209
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7901c7319fc2a00800000000000000
+      internalID: 733234701435705271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_33
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 213
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46aabc9e1f818970800000000000000
+      internalID: 8755436512226223691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_34
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def68117ac9278750800000000000000
+      internalID: 6307055752613228525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_35
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 211
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f779ed455b4668bc0800000000000000
+      internalID: -3781224107155220609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_36
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa100d3a75571b7c0800000000000000
+      internalID: -4057332770013183574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_37
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 201
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a65788d42182d20800000000000000
+      internalID: 3253870854986361344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_38
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 205
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805a4de463e212570800000000000000
+      internalID: 8440077987454690568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_39
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 198
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418783d6c940c6030800000000000000
+      internalID: 3489168881199118356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_40
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 203
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5137b995b02281a0800000000000000
+      internalID: -6808843722290679460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 148
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd0f959eb1dc15b0800000000000000
+      internalID: -5396207637012476453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_42
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 165
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f385149d1fedb7600800000000000000
+      internalID: 467212116676401215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_43
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 162
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd808edac63c1700800000000000000
+      internalID: 512344702557654476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 159
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b3dac938d2d6100800000000000000
+      internalID: 102788409791953721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_45
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 169
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a2e7fc7fa35b170800000000000000
+      internalID: 8193519933082970755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_46
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16bd1140bf2df380800000000000000
+      internalID: -8935933651579980258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_47
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 177
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217d5e0b4a827a040800000000000000
+      internalID: 4658737027345667858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_48
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 165
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df799de0bda3bd850800000000000000
+      internalID: 6402776007758682109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_49
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145e29f374df79e50800000000000000
+      internalID: 6816195043499631937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_50
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 167
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404a66e556c304910800000000000000
+      internalID: 1819520655530828804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_51
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 159
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca4450684a8e66f0800000000000000
+      internalID: -689461649482691891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_52
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 172
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e29eb99c87680b0800000000000000
+      internalID: -5726757068855497170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_53
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25720a19f86da7760800000000000000
+      internalID: 7456508045177136978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_54
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ed325bafbabd090800000000000000
+      internalID: -8008618419079094717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_55
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51bd9f7f39670230800000000000000
+      internalID: 3604965748178268509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_56
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 147
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4de170dfed9e090800000000000000
+      internalID: -8004621684346792753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 147
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691802cf91d69b360800000000000000
+      internalID: 7185894638817935766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_58
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86509491435f0bf0800000000000000
+      internalID: -355974304408512885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_59
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 159
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88a7988754423840800000000000000
+      internalID: 5202295662310828175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_60
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 158
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb9741f5cda25690800000000000000
+      internalID: -7614832954261922891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_61
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 159
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0d3e46abcada5a0800000000000000
+      internalID: -6508355969923952411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_62
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 159
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490316182321fe280800000000000000
+      internalID: -9011964321216778092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_63
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0f42b2b1eb758e0800000000000000
+      internalID: -1704684910039207702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 149
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048e0c277bd926390800000000000000
+      internalID: -7826519791186679744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_65
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 145
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aaea122c36bfbf0800000000000000
+      internalID: -289528065595364813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_66
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 150
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aecc2d03e7f5d460800000000000000
+      internalID: 7265986128382840487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_67
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 141
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcb91c03ff471ed0800000000000000
+      internalID: -2443396367526544168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_68
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 154
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8046b28ab57b16470800000000000000
+      internalID: 8386185585431897096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_69
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 148
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48340164a771010a0800000000000000
+      internalID: -6912999614084791420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_70
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 152
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e9588056e30df00800000000000000
+      internalID: 1139479309380329006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_71
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 149
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c6a8b69ea2f24a0800000000000000
+      internalID: -6616022145563988869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_72
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 146
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e2038bd2a6a2720800000000000000
+      internalID: 2822184861097274977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_73
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 146
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22361165776d90f70800000000000000
+      internalID: 9154083525640676130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_74
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4df6302f8b19f60800000000000000
+      internalID: 8039410159412303085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434dfc3567b8bb9c0800000000000000
+      internalID: -3910378511112612812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_76
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c8f92456bf1fc50800000000000000
+      internalID: 6697410533204659292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_77
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 141
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc348fa5550f1eab0800000000000000
+      internalID: -4980435463505951793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_78
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 137
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a04decb18d52c50800000000000000
+      internalID: 6639950839573383707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_79
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b0bd2007719ba0800000000000000
+      internalID: -6083950778950568512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_80
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 139
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91645a0aee0454a90800000000000000
+      internalID: -7330381424834034151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 134
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77e869dda31bd130800000000000000
+      internalID: 3592486765155903354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_82
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 84
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd518bd435600aa60800000000000000
+      internalID: 7683147919150028251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_83
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 101
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffcd756cbc8f98b0800000000000000
+      internalID: -5143237508649332749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_84
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 98
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb1960b4eaeeb7a0800000000000000
+      internalID: -6359387355867440130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9959542e2d966eb20800000000000000
+      internalID: 3163332142734611865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_86
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 105
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fa7d78521389fd0800000000000000
+      internalID: -2335062369528991938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_87
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9524e42ed9e7f70800000000000000
+      internalID: 9186953885183531503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_88
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 113
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f1caf64001d9c60800000000000000
+      internalID: 7826429338679254824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_89
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 101
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82aa4e007dd950790800000000000000
+      internalID: -7564466452340364760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_90
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 109
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c67e0d4046fb9660800000000000000
+      internalID: 7393773969289934533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_91
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 103
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e8cb65aadf21910800000000000000
+      internalID: 1806785308570455590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_92
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 95
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8705e9519e65720800000000000000
+      internalID: 2834709294535964884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_93
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 108
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b194e2bfcd84fb10800000000000000
+      internalID: 2014390856540524978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_94
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9cbf92fa49a0c40800000000000000
+      internalID: 5479355376694184373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_95
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06453529331bf36f0800000000000000
+      internalID: -702648181790124960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_96
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 92
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2ae7c62207b6320800000000000000
+      internalID: 2552256906986955486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_97
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 84
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097f0b5210b5ae000800000000000000
+      internalID: 65965205035743120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_98
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 86
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df53fec58fc5b26d0800000000000000
+      internalID: -3014213303813589507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_99
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 89
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e572d3130fe3b010800000000000000
+      internalID: 1203568321934554598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_100
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 95
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cf76c884aac5dc0800000000000000
+      internalID: -3648854369506952045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_101
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 94
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8fef96eac369770800000000000000
+      internalID: 8617141656820316349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_102
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6895679ea4d86b9f0800000000000000
+      internalID: -453019359620212346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_103
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 95
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d8573efffeb63a0800000000000000
+      internalID: -6670974540707427047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_104
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3312c4a8a2c5a6bc0800000000000000
+      internalID: -3789114798700224205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_105
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5228108cba46d9d00800000000000000
+      internalID: 981050982794363429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_106
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 84
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4b29353c1bd2400800000000000000
+      internalID: 301092202582553819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_107
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 81
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05c4b43f8654ae50800000000000000
+      internalID: 6819670908810347786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_108
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 86
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fa94e3c8fff6b20800000000000000
+      internalID: 3130001243851304764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_109
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 77
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601647fb27a6f1130800000000000000
+      internalID: 3539664873207390470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_110
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 90
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89f67c9d5e5b6150800000000000000
+      internalID: 5866886695730215306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_111
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 84
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316878c0b9ddab10800000000000000
+      internalID: 1994489563295801663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_112
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 88
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69364b7d497249450800000000000000
+      internalID: 6094539715966690198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_113
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 85
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d9164df7d31c520800000000000000
+      internalID: 2720523269141798283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_114
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 82
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caca05103fbc0680800000000000000
+      internalID: -8787438559674316093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_115
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 82
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1eb717af8abda20800000000000000
+      internalID: 3088247763091841507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_116
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 81
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ff3706149531480800000000000000
+      internalID: -8929695498819600487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_117
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5562b0d108952d2c0800000000000000
+      internalID: -4408362678464338347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_118
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 77
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a7dd5549b2b65c0800000000000000
+      internalID: -4221232309633975658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_119
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 73
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855e010bfde8f6400800000000000000
+      internalID: 319631189949343064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_120
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 83
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50932d7ec41d7a7b0800000000000000
+      internalID: -5212967915421026043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_121
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd95fa3bed9b09b70800000000000000
+      internalID: 8903820829459962332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_122
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 70
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c51ffa17cdf43ac0800000000000000
+      internalID: -3876194347665910334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_123
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 31
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ae6887c98c579c0800000000000000
+      internalID: -3930014525448328667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_124
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 37
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8bd83d8421f2450800000000000000
+      internalID: 6066087327087573244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_125
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 45
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eebbd356d79b640800000000000000
+      internalID: 5096242327127322131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_126
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 49
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc25c4a384f49c60800000000000000
+      internalID: 7824147298891672789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_127
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 41
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf90403cdf5d86bd0800000000000000
+      internalID: -2636622295950161412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_128
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 44
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba80b4f1860678b10800000000000000
+      internalID: 1983660161197869227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_129
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 51
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c382e7222e8aad60800000000000000
+      internalID: 7902284773524145088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_130
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271416e81a4749c00800000000000000
+      internalID: 906477662235607410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_131
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 20
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf607f58869c60f0800000000000000
+      internalID: -1122356694661173299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_132
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e2d9d7c639976b0800000000000000
+      internalID: -5298041392451473792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_133
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 39
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bf8b427fbd10d10800000000000000
+      internalID: 2090193556596128520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_134
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 37
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732bb9e5ecfa6d4c0800000000000000
+      internalID: -4263026696374209993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_135
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627468ce0376024b0800000000000000
+      internalID: -5467256487803467994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_136
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32fd6a709525a90800000000000000
+      internalID: -7326695754379090986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_137
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be62d6b3486aa530800000000000000
+      internalID: 3867017870090333874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_138
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 22
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e075d7a02d0f2e0800000000000000
+      internalID: -2093942884232917379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_139
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 20
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7419bd8e6ba5b80800000000000000
+      internalID: -8405204643301210157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_140
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 31
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fc302ec05b23fa0800000000000000
+      internalID: -5822392301300494557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_141
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c8765c41bac7360800000000000000
+      internalID: 7168792812566580345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_142
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 31
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622951ff0ac3dfb10800000000000000
+      internalID: 2016834870303887910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_143
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f4d9941b7ce4e80800000000000000
+      internalID: -8192391107882168572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_144
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 30
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0221519b1b9c576d0800000000000000
+      internalID: -2993264612166266336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_145
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 17
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fad0a1586d159f0800000000000000
+      internalID: -481367817995833567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_146
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaeca00dd6ebef60800000000000000
+      internalID: 8064793394610498287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_147
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabbe864925ce5530800000000000000
+      internalID: 3845727912889072559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_148
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 23
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbddf469da82f2830800000000000000
+      internalID: 4048499316045635003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_149
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 20
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637939828ccd9ca50800000000000000
+      internalID: 6542002685964687158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_150
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 13
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f877692ac1906b0800000000000000
+      internalID: -5329697199381573844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_151
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcd0173c18fe8ef0800000000000000
+      internalID: -103872941316318029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_152
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 22
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d05f4c06409088c0800000000000000
+      internalID: -3999037838576365359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_153
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 17
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61004f340d88fe5d0800000000000000
+      internalID: -3031053596122415082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_154
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 18
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca3b88a4bc150e70800000000000000
+      internalID: 9080695785909861067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_155
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bfe7330e7001fd0800000000000000
+      internalID: -2373388344106222739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_156
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 24
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d831c2d6a602ed810800000000000000
+      internalID: 1791905343210263437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_157
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0847d5725340a480800000000000000
+      internalID: -8890031642985936883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_158
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 9
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8997b6db61c2e290800000000000000
+      internalID: -7862509330527446642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_159
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 13
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caecd730ed627010800000000000000
+      internalID: 1185130461729188548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_160
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f676a56262c2a0800000000000000
+      internalID: -6718699505359324945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_161
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09196e89a70f6c3a0800000000000000
+      internalID: -6645359790796664432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_162
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 6
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471a9076582f412c0800000000000000
+      internalID: -4461674676044062348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Death_smoke_163
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21412c2ea4e02ed50800000000000000
+      internalID: 6764985305058645010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

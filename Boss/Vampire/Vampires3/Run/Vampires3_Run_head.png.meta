@@ -1,0 +1,1266 @@
+fileFormatVersion: 2
+guid: f3f76d79722fa674482e2218e56d0009
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4602410345261633832
+    second: Vampires3_Run_head_0
+  - first:
+      213: 3279455287562784551
+    second: Vampires3_Run_head_1
+  - first:
+      213: -5733288860699160618
+    second: Vampires3_Run_head_2
+  - first:
+      213: 6374507057467950514
+    second: Vampires3_Run_head_3
+  - first:
+      213: -1765136247751644488
+    second: Vampires3_Run_head_4
+  - first:
+      213: 1140847381811112704
+    second: Vampires3_Run_head_5
+  - first:
+      213: 5930858248425991974
+    second: Vampires3_Run_head_6
+  - first:
+      213: -7897017478571041369
+    second: Vampires3_Run_head_7
+  - first:
+      213: -8480896177018199194
+    second: Vampires3_Run_head_8
+  - first:
+      213: -7695218053373069131
+    second: Vampires3_Run_head_9
+  - first:
+      213: 8418769204466382532
+    second: Vampires3_Run_head_10
+  - first:
+      213: 4253432584737208119
+    second: Vampires3_Run_head_11
+  - first:
+      213: 6967838716916420745
+    second: Vampires3_Run_head_12
+  - first:
+      213: 2605891896576873159
+    second: Vampires3_Run_head_13
+  - first:
+      213: -3538883338966628560
+    second: Vampires3_Run_head_14
+  - first:
+      213: 6036977333016672692
+    second: Vampires3_Run_head_15
+  - first:
+      213: 1878009901225574157
+    second: Vampires3_Run_head_16
+  - first:
+      213: -3880259504156282297
+    second: Vampires3_Run_head_17
+  - first:
+      213: 8494970022142781444
+    second: Vampires3_Run_head_18
+  - first:
+      213: -3064776511432547792
+    second: Vampires3_Run_head_19
+  - first:
+      213: 9106859694638099213
+    second: Vampires3_Run_head_20
+  - first:
+      213: -5081537657146272550
+    second: Vampires3_Run_head_21
+  - first:
+      213: -4366607696504921079
+    second: Vampires3_Run_head_22
+  - first:
+      213: -7128531234276170180
+    second: Vampires3_Run_head_23
+  - first:
+      213: -3067355594514519607
+    second: Vampires3_Run_head_24
+  - first:
+      213: -8567643376614527954
+    second: Vampires3_Run_head_25
+  - first:
+      213: 379490612063257355
+    second: Vampires3_Run_head_26
+  - first:
+      213: -4342330319758273939
+    second: Vampires3_Run_head_27
+  - first:
+      213: -1481392379637562146
+    second: Vampires3_Run_head_28
+  - first:
+      213: 2991223475983606362
+    second: Vampires3_Run_head_29
+  - first:
+      213: 8117759751319651583
+    second: Vampires3_Run_head_30
+  - first:
+      213: -6009378051461482710
+    second: Vampires3_Run_head_31
+  - first:
+      213: -2208029626794373716
+    second: Vampires3_Run_head_32
+  - first:
+      213: -3533129159802156925
+    second: Vampires3_Run_head_33
+  - first:
+      213: 8376409053751800789
+    second: Vampires3_Run_head_34
+  - first:
+      213: 5627238112124936936
+    second: Vampires3_Run_head_35
+  - first:
+      213: 6741874150432917219
+    second: Vampires3_Run_head_36
+  - first:
+      213: 3442678623364361340
+    second: Vampires3_Run_head_37
+  - first:
+      213: -1209871640523587285
+    second: Vampires3_Run_head_38
+  - first:
+      213: -4791741191851719926
+    second: Vampires3_Run_head_39
+  - first:
+      213: -5564946592073921745
+    second: Vampires3_Run_head_40
+  - first:
+      213: 3986800265585100015
+    second: Vampires3_Run_head_41
+  - first:
+      213: 4617494512956787850
+    second: Vampires3_Run_head_42
+  - first:
+      213: -258266157796352657
+    second: Vampires3_Run_head_43
+  - first:
+      213: 7852745692813834747
+    second: Vampires3_Run_head_44
+  - first:
+      213: 4855987043656890946
+    second: Vampires3_Run_head_45
+  - first:
+      213: 7893951474410593307
+    second: Vampires3_Run_head_46
+  - first:
+      213: -2405193415113157898
+    second: Vampires3_Run_head_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires3_Run_head_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dee814fc24f020c0800000000000000
+      internalID: -4602410345261633832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 230
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fc4ff6537f28d20800000000000000
+      internalID: 3279455287562784551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 232
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df825f48244f60b0800000000000000
+      internalID: -5733288860699160618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 230
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5099a256cc67850800000000000000
+      internalID: 6374507057467950514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 226
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bae89c4fe9f087e0800000000000000
+      internalID: -1765136247751644488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 224
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b29c736aa15df00800000000000000
+      internalID: 1140847381811112704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 220
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f60a66724ae4250800000000000000
+      internalID: 5930858248425991974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 224
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7add8b48178286290800000000000000
+      internalID: -7897017478571041369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663acd75cddcd4a80800000000000000
+      internalID: -8480896177018199194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 170
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8768393f7153590800000000000000
+      internalID: -7695218053373069131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c67736acf975d470800000000000000
+      internalID: 8418769204466382532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 172
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7373551766a370b30800000000000000
+      internalID: 4253432584737208119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 174
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9805406556cb2b060800000000000000
+      internalID: 6967838716916420745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 172
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c298829fdcf92420800000000000000
+      internalID: 2605891896576873159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037885f5a5c53eec0800000000000000
+      internalID: -3538883338966628560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 176
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b93b8b26e6a7c350800000000000000
+      internalID: 6036977333016672692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f77371e08001a10800000000000000
+      internalID: 1878009901225574157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 172
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7427e6a1a8c862ac0800000000000000
+      internalID: -3880259504156282297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 174
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408a9631a3234e570800000000000000
+      internalID: 8494970022142781444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 172
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0322a10300ab775d0800000000000000
+      internalID: -3064776511432547792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0be93e54a0126e70800000000000000
+      internalID: 9106859694638099213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 170
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad496098c60ca79b0800000000000000
+      internalID: -5081537657146272550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90466507f61b663c0800000000000000
+      internalID: -4366607696504921079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_23
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 169
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3621ba6c9e521d90800000000000000
+      internalID: -7128531234276170180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_24
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 167
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a72d96509e65d0800000000000000
+      internalID: -3067355594514519607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ca9a60ebd991980800000000000000
+      internalID: -8567643376614527954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0340a773b8344500800000000000000
+      internalID: 379490612063257355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 164
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d625661b491fcb3c0800000000000000
+      internalID: -4342330319758273939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 163
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed48bbeba79017be0800000000000000
+      internalID: -1481392379637562146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_29
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 164
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52efc937e5f28920800000000000000
+      internalID: 2991223475983606362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_30
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 165
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff40f5deb7318a070800000000000000
+      internalID: 8117759751319651583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_31
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 165
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27fb9150866a9ca0800000000000000
+      internalID: -6009378051461482710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 99
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad0269c0c08b51e0800000000000000
+      internalID: -2208029626794373716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_33
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3880b6c9fbdc7fec0800000000000000
+      internalID: -3533129159802156925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 104
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3fd3e77abfe3470800000000000000
+      internalID: 8376409053751800789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_35
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e22fb3af37f71e40800000000000000
+      internalID: 5627238112124936936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e641f0e1d2ff8d50800000000000000
+      internalID: 6741874150432917219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 98
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ca675c7f9d6cf20800000000000000
+      internalID: 3442678623364361340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 93
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21c5c2372ca53fe0800000000000000
+      internalID: -1209871640523587285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_39
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 97
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03421416c0508db0800000000000000
+      internalID: -4791741191851719926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 35
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bc9611f8655c2b0800000000000000
+      internalID: -5564946592073921745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 38
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe402a4f7b5f35730800000000000000
+      internalID: 3986800265585100015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 40
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cca158bc2a41040800000000000000
+      internalID: 4617494512956787850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 38
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d1b0f3c447a6cf0800000000000000
+      internalID: -258266157796352657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_44
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 35
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9b5ab1a9e8afc60800000000000000
+      internalID: 7852745692813834747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 34
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a7113fc7ee36340800000000000000
+      internalID: 4855987043656890946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_46
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 29
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c1a62ca03fc8d60800000000000000
+      internalID: 7893951474410593307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires3_Run_head_47
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2521c05590f9ed0800000000000000
+      internalID: -2405193415113157898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: 3bb7f47355e4ced4d90164a41f58700e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1724407826680585744
+    second: Vampires2_Run_full_0
+  - first:
+      213: 755991483197535108
+    second: Vampires2_Run_full_1
+  - first:
+      213: -4079551350668098984
+    second: Vampires2_Run_full_2
+  - first:
+      213: -9139554757711564288
+    second: Vampires2_Run_full_3
+  - first:
+      213: -3818697302575278307
+    second: Vampires2_Run_full_4
+  - first:
+      213: -1861642109679098891
+    second: Vampires2_Run_full_5
+  - first:
+      213: 3849916065439894215
+    second: Vampires2_Run_full_6
+  - first:
+      213: -1233193207573214758
+    second: Vampires2_Run_full_7
+  - first:
+      213: -41332062062890294
+    second: Vampires2_Run_full_8
+  - first:
+      213: -5338839456498958725
+    second: Vampires2_Run_full_9
+  - first:
+      213: 7584380088708387809
+    second: Vampires2_Run_full_10
+  - first:
+      213: -6110055540878637304
+    second: Vampires2_Run_full_11
+  - first:
+      213: -5557888609996884177
+    second: Vampires2_Run_full_12
+  - first:
+      213: -6854234599768501170
+    second: Vampires2_Run_full_13
+  - first:
+      213: -6546878338487622718
+    second: Vampires2_Run_full_14
+  - first:
+      213: -825040561894062591
+    second: Vampires2_Run_full_15
+  - first:
+      213: 6965066308258238186
+    second: Vampires2_Run_full_16
+  - first:
+      213: -7916807470560147118
+    second: Vampires2_Run_full_17
+  - first:
+      213: -4257115647771595751
+    second: Vampires2_Run_full_18
+  - first:
+      213: 3207774236256326416
+    second: Vampires2_Run_full_19
+  - first:
+      213: -2777609139667392626
+    second: Vampires2_Run_full_20
+  - first:
+      213: -1460391280198487733
+    second: Vampires2_Run_full_21
+  - first:
+      213: -2938566840520348638
+    second: Vampires2_Run_full_22
+  - first:
+      213: -3282556530877876083
+    second: Vampires2_Run_full_23
+  - first:
+      213: 1770354900804072408
+    second: Vampires2_Run_full_24
+  - first:
+      213: 3209133700506657168
+    second: Vampires2_Run_full_25
+  - first:
+      213: 2656643747110124459
+    second: Vampires2_Run_full_26
+  - first:
+      213: -8838811029816358955
+    second: Vampires2_Run_full_27
+  - first:
+      213: 7666905545392596677
+    second: Vampires2_Run_full_28
+  - first:
+      213: -505533383618680835
+    second: Vampires2_Run_full_29
+  - first:
+      213: -5648459373513658033
+    second: Vampires2_Run_full_30
+  - first:
+      213: -3482639839496190973
+    second: Vampires2_Run_full_31
+  - first:
+      213: 681594426080486014
+    second: Vampires2_Run_full_32
+  - first:
+      213: 3897272992305541981
+    second: Vampires2_Run_full_33
+  - first:
+      213: 7130321603733250907
+    second: Vampires2_Run_full_34
+  - first:
+      213: -6613945307281049609
+    second: Vampires2_Run_full_35
+  - first:
+      213: -4808167634542805543
+    second: Vampires2_Run_full_36
+  - first:
+      213: 296702731028765888
+    second: Vampires2_Run_full_37
+  - first:
+      213: -1006232317473423518
+    second: Vampires2_Run_full_38
+  - first:
+      213: 7715870832020451692
+    second: Vampires2_Run_full_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires2_Run_full_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 208
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1eccac73ca118e0800000000000000
+      internalID: -1724407826680585744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 216
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483b531af32dd7a00800000000000000
+      internalID: 755991483197535108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 208
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852867439a58267c0800000000000000
+      internalID: -4079551350668098984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 208
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002fe5d0f57c92180800000000000000
+      internalID: -9139554757711564288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 218
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17124f1903410bc0800000000000000
+      internalID: -3818697302575278307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 208
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32ba95d5e1a26e0800000000000000
+      internalID: -1861642109679098891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 208
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca4d978346ad6530800000000000000
+      internalID: 3849916065439894215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 208
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad98c2bbf41d2eee0800000000000000
+      internalID: -1233193207573214758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 208
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac238e265b82d6ff0800000000000000
+      internalID: -41332062062890294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 208
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e3a8afcc1a8e5b0800000000000000
+      internalID: -5338839456498958725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e35205c181214960800000000000000
+      internalID: 7584380088708387809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 152
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8078508abd8b43ba0800000000000000
+      internalID: -6110055540878637304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 144
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2732f391c96ed2b0800000000000000
+      internalID: -5557888609996884177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e445b9162fdd0e0a0800000000000000
+      internalID: -6854234599768501170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 154
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3eeb686d0d425a0800000000000000
+      internalID: -6546878338487622718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 144
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106040feafddc84f0800000000000000
+      internalID: -825040561894062591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee06c4a7e2e8a060800000000000000
+      internalID: 6965066308258238186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 144
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598a12fc89d12290800000000000000
+      internalID: -7916807470560147118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 144
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c21de9fdfabe4c0800000000000000
+      internalID: -4257115647771595751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 144
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01355bf1cad448c20800000000000000
+      internalID: 3207774236256326416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e872f313433f379d0800000000000000
+      internalID: -2777609139667392626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41f0be3ed5abbbe0800000000000000
+      internalID: -1460391280198487733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 80
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cea0a170d1837d0800000000000000
+      internalID: -2938566840520348638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 80
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88b2e51a340272d0800000000000000
+      internalID: -3282556530877876083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_24
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 90
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d37ccc0760919810800000000000000
+      internalID: 1770354900804072408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_25
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 80
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0912f6f0912298c20800000000000000
+      internalID: 3209133700506657168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 80
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babf249996b4ed420800000000000000
+      internalID: 2656643747110124459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7cdfac23c365580800000000000000
+      internalID: -8838811029816358955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_28
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 80
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c62997f8f1566a60800000000000000
+      internalID: 7666905545392596677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7ae47e01cfbf8f0800000000000000
+      internalID: -505533383618680835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f413e796024ac91b0800000000000000
+      internalID: -5648459373513658033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304c43e848d2bafc0800000000000000
+      internalID: -3482639839496190973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_32
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 16
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72e96fe482857900800000000000000
+      internalID: 681594426080486014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 16
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53781b4325e51630800000000000000
+      internalID: 3897272992305541981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 26
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5360d478bdf3f260800000000000000
+      internalID: 7130321603733250907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 16
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7b6a309cb8634a0800000000000000
+      internalID: -6613945307281049609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_36
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 16
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddbb8ad205f54db0800000000000000
+      internalID: -4808167634542805543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 16
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc9bd6df891e1400800000000000000
+      internalID: 296702731028765888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 16
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f7a7bd9052902f0800000000000000
+      internalID: -1006232317473423518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Run_full_39
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 16
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61706b24a7441b60800000000000000
+      internalID: 7715870832020451692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

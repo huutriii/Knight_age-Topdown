@@ -1,0 +1,4146 @@
+fileFormatVersion: 2
+guid: 3cf2f1288e2fc52449883c32877acb28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7835870280564357741
+    second: Vampires2_Death_full_0
+  - first:
+      213: 4272569452578286891
+    second: Vampires2_Death_full_1
+  - first:
+      213: 2480956035507027821
+    second: Vampires2_Death_full_2
+  - first:
+      213: -4906838977493129709
+    second: Vampires2_Death_full_3
+  - first:
+      213: -7262698747789576562
+    second: Vampires2_Death_full_4
+  - first:
+      213: 1635816741267213887
+    second: Vampires2_Death_full_5
+  - first:
+      213: 6820291984346300199
+    second: Vampires2_Death_full_6
+  - first:
+      213: 2829270800092215043
+    second: Vampires2_Death_full_7
+  - first:
+      213: 7617207923638501845
+    second: Vampires2_Death_full_8
+  - first:
+      213: -4374197501609573282
+    second: Vampires2_Death_full_9
+  - first:
+      213: -3565915739407111195
+    second: Vampires2_Death_full_10
+  - first:
+      213: 1505949223240867522
+    second: Vampires2_Death_full_11
+  - first:
+      213: -8403340649369662964
+    second: Vampires2_Death_full_12
+  - first:
+      213: 8215392746705671422
+    second: Vampires2_Death_full_13
+  - first:
+      213: -452902769574633093
+    second: Vampires2_Death_full_14
+  - first:
+      213: -8043916805236204540
+    second: Vampires2_Death_full_15
+  - first:
+      213: -7952861103251900167
+    second: Vampires2_Death_full_16
+  - first:
+      213: 4842180216207216454
+    second: Vampires2_Death_full_17
+  - first:
+      213: 2795972656271884491
+    second: Vampires2_Death_full_18
+  - first:
+      213: 5150472603662093833
+    second: Vampires2_Death_full_19
+  - first:
+      213: -8347246445926424502
+    second: Vampires2_Death_full_20
+  - first:
+      213: 1766128591425744156
+    second: Vampires2_Death_full_21
+  - first:
+      213: 7607628141435829329
+    second: Vampires2_Death_full_22
+  - first:
+      213: 1331056265702756659
+    second: Vampires2_Death_full_23
+  - first:
+      213: -9160894703057036219
+    second: Vampires2_Death_full_24
+  - first:
+      213: 7318268894283388430
+    second: Vampires2_Death_full_25
+  - first:
+      213: -8936489459473634662
+    second: Vampires2_Death_full_26
+  - first:
+      213: -1614651486120308328
+    second: Vampires2_Death_full_27
+  - first:
+      213: -4653166678489203933
+    second: Vampires2_Death_full_28
+  - first:
+      213: 62226053360657904
+    second: Vampires2_Death_full_29
+  - first:
+      213: -6386179987290433940
+    second: Vampires2_Death_full_30
+  - first:
+      213: 1870924072602156182
+    second: Vampires2_Death_full_31
+  - first:
+      213: 8898534327775332693
+    second: Vampires2_Death_full_32
+  - first:
+      213: -4659428712486929821
+    second: Vampires2_Death_full_33
+  - first:
+      213: 559628590112022675
+    second: Vampires2_Death_full_34
+  - first:
+      213: -5343547228431394127
+    second: Vampires2_Death_full_35
+  - first:
+      213: -7570199618696872718
+    second: Vampires2_Death_full_36
+  - first:
+      213: -7913670902619929152
+    second: Vampires2_Death_full_37
+  - first:
+      213: 5439607065453910232
+    second: Vampires2_Death_full_38
+  - first:
+      213: 4324566286703466363
+    second: Vampires2_Death_full_39
+  - first:
+      213: -5641766739052404721
+    second: Vampires2_Death_full_40
+  - first:
+      213: -6544999529442594071
+    second: Vampires2_Death_full_41
+  - first:
+      213: 6941349669452595030
+    second: Vampires2_Death_full_42
+  - first:
+      213: 1930277641631651610
+    second: Vampires2_Death_full_43
+  - first:
+      213: -5311011472495147677
+    second: Vampires2_Death_full_44
+  - first:
+      213: -4534105115332163223
+    second: Vampires2_Death_full_45
+  - first:
+      213: -3533252696848274340
+    second: Vampires2_Death_full_46
+  - first:
+      213: 5055379119412209863
+    second: Vampires2_Death_full_47
+  - first:
+      213: -1046528465995508718
+    second: Vampires2_Death_full_48
+  - first:
+      213: 155604297375033753
+    second: Vampires2_Death_full_49
+  - first:
+      213: -1584041915318020574
+    second: Vampires2_Death_full_50
+  - first:
+      213: -5559327629040032240
+    second: Vampires2_Death_full_51
+  - first:
+      213: -5526623890151307192
+    second: Vampires2_Death_full_52
+  - first:
+      213: 7555834619754075714
+    second: Vampires2_Death_full_53
+  - first:
+      213: -5889360922775861542
+    second: Vampires2_Death_full_54
+  - first:
+      213: 9106396315283298735
+    second: Vampires2_Death_full_55
+  - first:
+      213: -1239584000982815439
+    second: Vampires2_Death_full_56
+  - first:
+      213: -6860673459559796507
+    second: Vampires2_Death_full_57
+  - first:
+      213: 9009808165746066137
+    second: Vampires2_Death_full_58
+  - first:
+      213: -5835518704176856780
+    second: Vampires2_Death_full_59
+  - first:
+      213: -9004891370125377842
+    second: Vampires2_Death_full_60
+  - first:
+      213: -6879917521203953364
+    second: Vampires2_Death_full_61
+  - first:
+      213: -8257693846535911732
+    second: Vampires2_Death_full_62
+  - first:
+      213: -838056873532484995
+    second: Vampires2_Death_full_63
+  - first:
+      213: 9137155512431009025
+    second: Vampires2_Death_full_64
+  - first:
+      213: -8722220718991166683
+    second: Vampires2_Death_full_65
+  - first:
+      213: 6505676163541254235
+    second: Vampires2_Death_full_66
+  - first:
+      213: -5302492557903854530
+    second: Vampires2_Death_full_67
+  - first:
+      213: -202411743581513051
+    second: Vampires2_Death_full_68
+  - first:
+      213: 7831180713309000521
+    second: Vampires2_Death_full_69
+  - first:
+      213: 1958617661627401697
+    second: Vampires2_Death_full_70
+  - first:
+      213: -1452286048868982644
+    second: Vampires2_Death_full_71
+  - first:
+      213: -741082093319211222
+    second: Vampires2_Death_full_72
+  - first:
+      213: -5457751151889911420
+    second: Vampires2_Death_full_73
+  - first:
+      213: -3677587185351474627
+    second: Vampires2_Death_full_74
+  - first:
+      213: 1067377532221298716
+    second: Vampires2_Death_full_75
+  - first:
+      213: -1607036788669333424
+    second: Vampires2_Death_full_76
+  - first:
+      213: -6588992170744714268
+    second: Vampires2_Death_full_77
+  - first:
+      213: 3438526162402449336
+    second: Vampires2_Death_full_78
+  - first:
+      213: -5733495987359653814
+    second: Vampires2_Death_full_79
+  - first:
+      213: 1276104364024938218
+    second: Vampires2_Death_full_80
+  - first:
+      213: 6670778399435550223
+    second: Vampires2_Death_full_81
+  - first:
+      213: -7670773602809226447
+    second: Vampires2_Death_full_82
+  - first:
+      213: 3867438054535650052
+    second: Vampires2_Death_full_83
+  - first:
+      213: 1745064910185378011
+    second: Vampires2_Death_full_84
+  - first:
+      213: 4574457805695003411
+    second: Vampires2_Death_full_85
+  - first:
+      213: 842680045145854683
+    second: Vampires2_Death_full_86
+  - first:
+      213: 6303935257247697897
+    second: Vampires2_Death_full_87
+  - first:
+      213: -7554269986486358211
+    second: Vampires2_Death_full_88
+  - first:
+      213: 4785268524371291772
+    second: Vampires2_Death_full_89
+  - first:
+      213: 6737568395913642099
+    second: Vampires2_Death_full_90
+  - first:
+      213: 4767585599044286714
+    second: Vampires2_Death_full_91
+  - first:
+      213: 1121093813152872389
+    second: Vampires2_Death_full_92
+  - first:
+      213: 3344384068947053097
+    second: Vampires2_Death_full_93
+  - first:
+      213: 8128308228780890335
+    second: Vampires2_Death_full_94
+  - first:
+      213: 5854687690771267832
+    second: Vampires2_Death_full_95
+  - first:
+      213: 8581855677180312049
+    second: Vampires2_Death_full_96
+  - first:
+      213: 960095133357982263
+    second: Vampires2_Death_full_97
+  - first:
+      213: -2594110368286224206
+    second: Vampires2_Death_full_98
+  - first:
+      213: -1593588938070992035
+    second: Vampires2_Death_full_99
+  - first:
+      213: 1351792417811161480
+    second: Vampires2_Death_full_100
+  - first:
+      213: -619650697218214627
+    second: Vampires2_Death_full_101
+  - first:
+      213: -249340732891336868
+    second: Vampires2_Death_full_102
+  - first:
+      213: 7588929727440758892
+    second: Vampires2_Death_full_103
+  - first:
+      213: 4261623278785742512
+    second: Vampires2_Death_full_104
+  - first:
+      213: -1819571130923325745
+    second: Vampires2_Death_full_105
+  - first:
+      213: -4971254834958140593
+    second: Vampires2_Death_full_106
+  - first:
+      213: -2614889562438096607
+    second: Vampires2_Death_full_107
+  - first:
+      213: -172905412584846592
+    second: Vampires2_Death_full_108
+  - first:
+      213: -849726271382885647
+    second: Vampires2_Death_full_109
+  - first:
+      213: -2196075061644135204
+    second: Vampires2_Death_full_110
+  - first:
+      213: 5632821959186110340
+    second: Vampires2_Death_full_111
+  - first:
+      213: 7515776571536130707
+    second: Vampires2_Death_full_112
+  - first:
+      213: 4547873305904361086
+    second: Vampires2_Death_full_113
+  - first:
+      213: -2815354075565703435
+    second: Vampires2_Death_full_114
+  - first:
+      213: 3614465832668875956
+    second: Vampires2_Death_full_115
+  - first:
+      213: -4176349567346489674
+    second: Vampires2_Death_full_116
+  - first:
+      213: -1583866430922885650
+    second: Vampires2_Death_full_117
+  - first:
+      213: 357008364967355950
+    second: Vampires2_Death_full_118
+  - first:
+      213: 7212320329352101009
+    second: Vampires2_Death_full_119
+  - first:
+      213: 6326650959634829701
+    second: Vampires2_Death_full_120
+  - first:
+      213: -4260992355156237972
+    second: Vampires2_Death_full_121
+  - first:
+      213: -1978621544659879292
+    second: Vampires2_Death_full_122
+  - first:
+      213: -6553377681502882548
+    second: Vampires2_Death_full_123
+  - first:
+      213: 1951388865578181817
+    second: Vampires2_Death_full_124
+  - first:
+      213: -1417854925152858009
+    second: Vampires2_Death_full_125
+  - first:
+      213: -5909043395020002388
+    second: Vampires2_Death_full_126
+  - first:
+      213: 2772306151355740534
+    second: Vampires2_Death_full_127
+  - first:
+      213: -1347320920531287839
+    second: Vampires2_Death_full_128
+  - first:
+      213: -5573655833096358409
+    second: Vampires2_Death_full_129
+  - first:
+      213: -7289332163247120337
+    second: Vampires2_Death_full_130
+  - first:
+      213: -7133229714378521845
+    second: Vampires2_Death_full_131
+  - first:
+      213: -6270028192522738030
+    second: Vampires2_Death_full_132
+  - first:
+      213: -1499422474362549516
+    second: Vampires2_Death_full_133
+  - first:
+      213: -6540793108548164628
+    second: Vampires2_Death_full_134
+  - first:
+      213: 518514302318954179
+    second: Vampires2_Death_full_135
+  - first:
+      213: 7359385369678592259
+    second: Vampires2_Death_full_136
+  - first:
+      213: 7454513251408630824
+    second: Vampires2_Death_full_137
+  - first:
+      213: 6624923400291190305
+    second: Vampires2_Death_full_138
+  - first:
+      213: -3672006090589576736
+    second: Vampires2_Death_full_139
+  - first:
+      213: -7569391230180837356
+    second: Vampires2_Death_full_140
+  - first:
+      213: 3263060607146234806
+    second: Vampires2_Death_full_141
+  - first:
+      213: 3293001594896972352
+    second: Vampires2_Death_full_142
+  - first:
+      213: 1572225065137380416
+    second: Vampires2_Death_full_143
+  - first:
+      213: -5603720094190964438
+    second: Vampires2_Death_full_144
+  - first:
+      213: 2214369864405866371
+    second: Vampires2_Death_full_145
+  - first:
+      213: -1615199884485675316
+    second: Vampires2_Death_full_146
+  - first:
+      213: 8292257451488684228
+    second: Vampires2_Death_full_147
+  - first:
+      213: -2749182060971881483
+    second: Vampires2_Death_full_148
+  - first:
+      213: -5915644589630556540
+    second: Vampires2_Death_full_149
+  - first:
+      213: -5269557608647540649
+    second: Vampires2_Death_full_150
+  - first:
+      213: 7350323416046067609
+    second: Vampires2_Death_full_151
+  - first:
+      213: -7269854937336748992
+    second: Vampires2_Death_full_152
+  - first:
+      213: -7552327344661829303
+    second: Vampires2_Death_full_153
+  - first:
+      213: 1677844086485307437
+    second: Vampires2_Death_full_154
+  - first:
+      213: 3326330053546520245
+    second: Vampires2_Death_full_155
+  - first:
+      213: -3009662793798032787
+    second: Vampires2_Death_full_156
+  - first:
+      213: -3745218194491554837
+    second: Vampires2_Death_full_157
+  - first:
+      213: -3086570408581075614
+    second: Vampires2_Death_full_158
+  - first:
+      213: 7024488629032313865
+    second: Vampires2_Death_full_159
+  - first:
+      213: 1876085070176393144
+    second: Vampires2_Death_full_160
+  - first:
+      213: 1767435708134362550
+    second: Vampires2_Death_full_161
+  - first:
+      213: -1085664113606405352
+    second: Vampires2_Death_full_162
+  - first:
+      213: 7854139134530637595
+    second: Vampires2_Death_full_163
+  - first:
+      213: -2909927675056751504
+    second: Vampires2_Death_full_164
+  - first:
+      213: 2754850110737048729
+    second: Vampires2_Death_full_165
+  - first:
+      213: 4161877939575444448
+    second: Vampires2_Death_full_166
+  - first:
+      213: 4834215225714663825
+    second: Vampires2_Death_full_167
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires2_Death_full_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 223
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a3413018a9ebc60800000000000000
+      internalID: 7835870280564357741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 229
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d2d13b7473b4b30800000000000000
+      internalID: 4272569452578286891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 237
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ff1cf9e502e6220800000000000000
+      internalID: 2480956035507027821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 241
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3162b7092f767ebb0800000000000000
+      internalID: -4906838977493129709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 233
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86f353e7f5b53b90800000000000000
+      internalID: -7262698747789576562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 236
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e8ed4c8a693b610800000000000000
+      internalID: 1635816741267213887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 243
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fb76f9c6b86ae50800000000000000
+      internalID: 6820291984346300199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 3
+        width: 84
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307b1e47dc6934720800000000000000
+      internalID: 2829270800092215043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_8
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 235
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d183c4bf32c5b960800000000000000
+      internalID: 7617207923638501845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 208
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54092b3c8abb43c0800000000000000
+      internalID: -4374197501609573282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 208
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb2aad2782538ec0800000000000000
+      internalID: -3565915739407111195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 208
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce1c05f6d436e410800000000000000
+      internalID: 1505949223240867522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 208
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a88b3c336516b80800000000000000
+      internalID: -8403340649369662964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 208
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef456b51d20f20270800000000000000
+      internalID: 8215392746705671422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_14
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 208
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71a6b5a457f6b9f0800000000000000
+      internalID: -452902769574633093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cd91db8444e5090800000000000000
+      internalID: -8043916805236204540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_16
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f836a076f2c1a190800000000000000
+      internalID: -7952861103251900167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 231
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f847d6041e23340800000000000000
+      internalID: 4842180216207216454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_18
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 229
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc08ac2315a4dc620800000000000000
+      internalID: 2795972656271884491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 228
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e09ae6b872a7740800000000000000
+      internalID: 5150472603662093833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_20
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 235
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40e9e1459f982c80800000000000000
+      internalID: -8347246445926424502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 212
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1da797b89c828810800000000000000
+      internalID: 1766128591425744156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 218
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c3c89dc79b39960800000000000000
+      internalID: 7607628141435829329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 214
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33155451f9cd87210800000000000000
+      internalID: 1331056265702756659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 223
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c1787ddc6fdd080800000000000000
+      internalID: -9160894703057036219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 217
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e065d8619c6bf8560800000000000000
+      internalID: 7318268894283388430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_26
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 210
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a2d052f263bf380800000000000000
+      internalID: -8936489459473634662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 223
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8911eb5370b9799e0800000000000000
+      internalID: -1614651486120308328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_28
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b77f73f81ac6fb0800000000000000
+      internalID: -4653166678489203933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_29
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 216
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5265e04421dd000800000000000000
+      internalID: 62226053360657904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_30
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 222
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6658d1132bbf57a0800000000000000
+      internalID: -6386179987290433940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_31
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 209
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cbd2d088bd6f910800000000000000
+      internalID: 1870924072602156182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_32
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 205
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5590bac13d1fd7b70800000000000000
+      internalID: 8898534327775332693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 209
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36af5ffc542665fb0800000000000000
+      internalID: -4659428712486929821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_34
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 213
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390a7c7dc3334c700800000000000000
+      internalID: 559628590112022675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_35
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bad2d86b18e7d5b0800000000000000
+      internalID: -5343547228431394127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_36
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 211
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc76c03e8f31f690800000000000000
+      internalID: -7570199618696872718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_37
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c58ef31e3efc2290800000000000000
+      internalID: -7913670902619929152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_38
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 201
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8d5164ecd5d7b40800000000000000
+      internalID: 5439607065453910232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_39
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 205
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77179e0022f30c30800000000000000
+      internalID: 4324566286703466363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_40
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 198
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00ea2dca0b64b1b0800000000000000
+      internalID: -5641766739052404721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_41
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 203
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2b978da9d7b25a0800000000000000
+      internalID: -6544999529442594071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_42
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f3f7d5fb0a45060800000000000000
+      internalID: 6941349669452595030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17555bb949b9ca10800000000000000
+      internalID: 1930277641631651610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_44
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 144
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36507e7643f7b46b0800000000000000
+      internalID: -5311011472495147677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_45
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969485a9b6f9311c0800000000000000
+      internalID: -4534105115332163223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_46
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ceaa6646d57fec0800000000000000
+      internalID: -3533252696848274340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_47
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 144
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8ed794680582640800000000000000
+      internalID: 5055379119412209863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_48
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214d009a7ebf971f0800000000000000
+      internalID: -1046528465995508718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_49
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 165
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9992096b841d82200800000000000000
+      internalID: 155604297375033753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_50
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 162
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226d328454a540ae0800000000000000
+      internalID: -1584041915318020574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 159
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016ed09d9fc49d2b0800000000000000
+      internalID: -5559327629040032240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_52
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 169
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848085c6adc7d43b0800000000000000
+      internalID: -5526623890151307192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_53
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2465a0cdd87bbd860800000000000000
+      internalID: 7555834619754075714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_54
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 177
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6c0e3a179c44ea0800000000000000
+      internalID: -5889360922775861542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_55
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 165
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa91364733b606e70800000000000000
+      internalID: 9106396315283298735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_56
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d69203bec1ccee0800000000000000
+      internalID: -1239584000982815439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_57
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 167
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0fcf286ddf9c0a0800000000000000
+      internalID: -6860673459559796507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_58
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 159
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d245bd6ac4490d70800000000000000
+      internalID: 9009808165746066137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_59
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 172
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431046d08a2140fa0800000000000000
+      internalID: -5835518704176856780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_60
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece32b24203380380800000000000000
+      internalID: -9004891370125377842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_61
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2107a0477f9580a0800000000000000
+      internalID: -6879917521203953364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_62
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc64c4d9237c66d80800000000000000
+      internalID: -8257693846535911732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_63
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 159
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d729587b6bf9e54f0800000000000000
+      internalID: -838056873532484995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_64
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 158
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dd3ff1782bdce70800000000000000
+      internalID: 9137155512431009025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_65
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 159
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523baf7e77274f680800000000000000
+      internalID: -8722220718991166683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_66
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 159
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b504a9f800ec84a50800000000000000
+      internalID: 6505676163541254235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_67
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e340df5cc13c966b0800000000000000
+      internalID: -5302492557903854530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_68
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 145
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aad4757793e03df0800000000000000
+      internalID: -202411743581513051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_69
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 150
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9435cac0e51fdac60800000000000000
+      internalID: 7831180713309000521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_70
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 141
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58b14d2686e2b10800000000000000
+      internalID: 1958617661627401697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_71
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 154
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80a8e8788178dbe0800000000000000
+      internalID: -1452286048868982644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_72
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 148
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a273e4633c527b5f0800000000000000
+      internalID: -741082093319211222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_73
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 152
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4817f176e3c2244b0800000000000000
+      internalID: -5457751151889911420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_74
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 149
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c89a80f596fcc0800000000000000
+      internalID: -3677587185351474627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_75
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 146
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c189849d53610de00800000000000000
+      internalID: 1067377532221298716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_76
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 146
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050416e1e88a2b9e0800000000000000
+      internalID: -1607036788669333424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_77
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6eead7823f84a0800000000000000
+      internalID: -6588992170744714268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_78
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b792ec935918bf20800000000000000
+      internalID: 3438526162402449336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 141
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40ec40e6c78e60b0800000000000000
+      internalID: -5733495987359653814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_80
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 137
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee38027822a5b110800000000000000
+      internalID: 1276104364024938218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_81
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e64b96c9d539c50800000000000000
+      internalID: 6670778399435550223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_82
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 139
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bdc1cbc00fb8590800000000000000
+      internalID: -7670773602809226447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_83
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 134
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bdc678b66eba530800000000000000
+      internalID: 3867438054535650052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd039914a47b73810800000000000000
+      internalID: 1745064910185378011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_85
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ba674432dbb7f30800000000000000
+      internalID: 4574457805695003411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_86
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 80
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd29a3e490dc1bb00800000000000000
+      internalID: 842680045145854683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_87
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 80
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb4f4f77b31c7750800000000000000
+      internalID: 6303935257247697897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_88
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 80
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fe516b877d92790800000000000000
+      internalID: -7554269986486358211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_89
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 80
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e22069e50b86240800000000000000
+      internalID: 4785268524371291772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_90
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370c45842c6a08d50800000000000000
+      internalID: 6737568395913642099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_91
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 101
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af87d43b7ddd92240800000000000000
+      internalID: 4767585599044286714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_92
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 98
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c77ddc12ecee8f00800000000000000
+      internalID: 1121093813152872389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_93
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a80166793a96e20800000000000000
+      internalID: 3344384068947053097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_94
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 105
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd89e59b44d8dc070800000000000000
+      internalID: 8128308228780890335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_95
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0064f6f67004150800000000000000
+      internalID: 5854687690771267832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_96
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 113
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f970001540e81770800000000000000
+      internalID: 8581855677180312049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_97
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 101
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732426edf61f25d00800000000000000
+      internalID: 960095133357982263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_98
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 109
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0542e3d5edffbd0800000000000000
+      internalID: -2594110368286224206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_99
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 103
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b5944dd4f62e9e0800000000000000
+      internalID: -1593588938070992035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_100
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 95
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88163b9ba0882c210800000000000000
+      internalID: 1351792417811161480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_101
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 108
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d153c7359fe8667f0800000000000000
+      internalID: -619650697218214627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_102
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fe9fbace92a8cf0800000000000000
+      internalID: -249340732891336868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_103
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c682285116b415960800000000000000
+      internalID: 7588929727440758892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_104
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 89
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b64f820bc3542b30800000000000000
+      internalID: 4261623278785742512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_105
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 95
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc662c962b59fb6e0800000000000000
+      internalID: -1819571130923325745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_106
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 94
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b7062011e820bb0800000000000000
+      internalID: -4971254834958140593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_107
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12920081ccb06bbd0800000000000000
+      internalID: -2614889562438096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_108
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 95
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b432f7177b99df0800000000000000
+      internalID: -172905412584846592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_109
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fae7ed457a2534f0800000000000000
+      internalID: -849726271382885647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_110
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 81
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd47b92ed59f581e0800000000000000
+      internalID: -2196075061644135204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_111
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 86
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487de485abdcb2e40800000000000000
+      internalID: 5632821959186110340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_112
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 77
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3924d95b8f66d4860800000000000000
+      internalID: 7515776571536130707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_113
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 90
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e29e11daa4d1f30800000000000000
+      internalID: 4547873305904361086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_114
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 84
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe35f8726adde8d0800000000000000
+      internalID: -2815354075565703435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_115
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 88
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcc3094689292230800000000000000
+      internalID: 3614465832668875956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_116
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 85
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6c47c1230aa06c0800000000000000
+      internalID: -4176349567346489674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_117
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 82
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5fc2d6fd9f40ae0800000000000000
+      internalID: -1583866430922885650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_118
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 82
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26e8b7673954f400800000000000000
+      internalID: 357008364967355950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_119
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 81
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c3c55802f471460800000000000000
+      internalID: 7212320329352101009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_120
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5811bea1787ccc750800000000000000
+      internalID: 6326650959634829701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_121
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 77
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61e148570aedd4c0800000000000000
+      internalID: -4260992355156237972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_122
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 73
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48afc9530368a84e0800000000000000
+      internalID: -1978621544659879292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_123
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 83
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c053c0f48b9bd05a0800000000000000
+      internalID: -6553377681502882548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_124
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4a07795d9b41b10800000000000000
+      internalID: 1951388865578181817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_125
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 70
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760d93b2574c25ce0800000000000000
+      internalID: -1417854925152858009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_126
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 31
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabe675f65cdefda0800000000000000
+      internalID: -5909043395020002388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_127
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 37
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6717030a1c5397620800000000000000
+      internalID: 2772306151355740534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_128
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 45
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0c74dd2ca5d4de0800000000000000
+      internalID: -1347320920531287839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_129
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 49
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5f100ec8566a2b0800000000000000
+      internalID: -5573655833096358409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_130
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 41
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2063df940717da90800000000000000
+      internalID: -7289332163247120337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_131
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 44
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0305354e5da10d90800000000000000
+      internalID: -7133229714378521845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_132
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 51
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2966ff434926cf8a0800000000000000
+      internalID: -6270028192522738030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_133
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa026f243bf03be0800000000000000
+      internalID: -1499422474362549516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_134
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3e9a7825f6a35a0800000000000000
+      internalID: -6540793108548164628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_135
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 16
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c64ea0c202223700800000000000000
+      internalID: 518514302318954179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_136
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30936e4800ac12660800000000000000
+      internalID: 7359385369678592259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_137
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 16
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82457a37e40c37760800000000000000
+      internalID: 7454513251408630824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_138
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 16
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12687827bb470fb50800000000000000
+      internalID: 6624923400291190305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_139
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 16
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1665d6ae96a0dc0800000000000000
+      internalID: -3672006090589576736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_140
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 16
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4183d1fc7ce14f690800000000000000
+      internalID: -7569391230180837356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_141
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b395817558b84d20800000000000000
+      internalID: 3263060607146234806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_142
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 39
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04af0a4e08713bd20800000000000000
+      internalID: 3293001594896972352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_143
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 37
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c9a72ed5aa1d510800000000000000
+      internalID: 1572225065137380416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_144
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21770d93469b32b0800000000000000
+      internalID: -5603720094190964438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_145
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387dd31d8a50bbe10800000000000000
+      internalID: 2214369864405866371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 31
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6baf34348a599e0800000000000000
+      internalID: -1615199884485675316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_147
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8a116c734041370800000000000000
+      internalID: 8292257451488684228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_148
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 31
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb05e83b71f8d9d0800000000000000
+      internalID: -2749182060971881483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_149
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486fb91969867eda0800000000000000
+      internalID: -5915644589630556540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_150
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 30
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7504b153645ced6b0800000000000000
+      internalID: -5269557608647540649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_151
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 17
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f59a50438910660800000000000000
+      internalID: 7350323416046067609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_152
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0446c6ba3794c1b90800000000000000
+      internalID: -7269854937336748992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_153
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 20
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94966f14b4eb03790800000000000000
+      internalID: -7552327344661829303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_154
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 13
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20527b9e46e84710800000000000000
+      internalID: 1677844086485307437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_155
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bea85f5f8f792e20800000000000000
+      internalID: 3326330053546520245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_156
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 22
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6265f982a78b36d0800000000000000
+      internalID: -3009662793798032787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_157
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 17
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3400725ef460cc0800000000000000
+      internalID: -3745218194491554837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_158
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 18
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dea46119c4a25d0800000000000000
+      internalID: -3086570408581075614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_159
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904ed36d03ffb7160800000000000000
+      internalID: 7024488629032313865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_160
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 24
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b717407e61390a10800000000000000
+      internalID: 1876085070176393144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_161
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd80ba8961378810800000000000000
+      internalID: 1767435708134362550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_162
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 9
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813d913ad32fee0f0800000000000000
+      internalID: -1085664113606405352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_163
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 13
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f413a0ee18ffc60800000000000000
+      internalID: 7854139134530637595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_164
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf92e623cdd97d0800000000000000
+      internalID: -2909927675056751504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_165
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9946de374913b3620800000000000000
+      internalID: 2754850110737048729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_166
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 6
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3ddea7fe5f1c930800000000000000
+      internalID: 4161877939575444448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires2_Death_full_167
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191e1809225961340800000000000000
+      internalID: 4834215225714663825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

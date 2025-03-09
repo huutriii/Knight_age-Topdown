@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Center
   m_EditorClassIdentifier: 
   coordinate: 10
-  radius: 5
+  radius: 4
   monsterName: 
   itemsName: 
   pivot: {x: 0, y: 0}
