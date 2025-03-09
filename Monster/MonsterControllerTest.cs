@@ -1,162 +1,90 @@
 ﻿//using System.Collections;
 //using UnityEngine;
 
-//public class MonterControllerTest : MonoBehaviour
+//public class MonsterController : MonoBehaviour
 //{
-//    [SerializeField] AreaSO Area;
-//    [SerializeField] float speedArround = 0.5f;
-//    [SerializeField] float distanceTarget = 4f;
-//    float radius;
-//    [SerializeField] float hp = 100;
-//    Vector2 pivot;
-//    [SerializeField] GameObject currentPlayerTarget;
-//    [SerializeField] Vector2 currentPositionTarget;
-//    [SerializeField]
-//    bool isMove = true, isPatrol = true;
-//    #region State
-//    Animator animator;
-//    IMonsterState currentState;
-//    IdleState idleState;
-//    WalkState walkState;
-//    RunState runState;
-//    AttackState attackState;
-//    HurtState hurtState;
-//    DiedState diedState;
-//    [SerializeField] bool isCorotineRunning = false;
-//    bool isHurt = false;
-//    bool isAttack = false;
+//    [Header("Area Settings")]
+//    [SerializeField] private AreaSO Area;
+//    [SerializeField] private float speedArround = 0.5f;
+//    [SerializeField] private float distanceTarget = 4f;
 
-//    #endregion
+//    [Header("Monster Stats")]
+//    [SerializeField] private float hp = 100;
+
+//    [Header("State Management")]
+//    private Animator animator;
+//    private IMonsterState currentState;
+
+//    [Header("Movement")]
+//    private Vector2 pivot;
+//    private float radius;
+//    private Vector2 currentPositionTarget;
+//    private GameObject currentPlayerTarget;
+//    private bool isPatrolling = true;
+
+//    // Properties for states
+//    public bool IsDead => hp <= 0;
+//    public bool IsHurt { get; private set; }
+//    public bool IsAttacking { get; private set; }
+//    public bool IsMovementLocked { get; private set; }
+//    public bool IsTargetInRange { get; private set; }
+//    public bool ShouldRun => Vector2.Distance(transform.position, currentPositionTarget) > 0.3f;
+//    public Vector2 CurrentPositionTarget => currentPositionTarget;
+//    public Vector2 Pivot => pivot;
+//    public float Speed => speedArround;
+//    public bool IsPatrolling => isPatrolling;
+
 //    private void Awake()
 //    {
-//        currentPositionTarget = Area.pivot;
-//        radius = Area.radius;
-//        pivot = Area.pivot;
-
+//        SetupInitialValues();
 //    }
+
 //    private void OnEnable()
 //    {
 //        hp = MonsterStat.hp;
 //    }
-//    void Start()
+
+//    private void Start()
+//    {
+//        SetupComponents();
+//        TransitionToState(new IdleState(this, animator));
+//    }
+
+//    private void Update()
+//    {
+//        if (currentState != null)
+//        {
+//            currentState.Update();
+
+//            var newState = currentState.HandleTransition();
+//            if (newState != null)
+//            {
+//                TransitionToState(newState);
+//            }
+//        }
+
+//        UpdateGameLogic();
+//    }
+
+//    private void SetupInitialValues()
+//    {
+//        currentPositionTarget = Area.pivot;
+//        radius = Area.radius;
+//        pivot = Area.pivot;
+//    }
+
+//    private void SetupComponents()
 //    {
 //        animator = GetComponentInChildren<Animator>();
-
-//        idleState = new IdleState(animator);
-//        walkState = new WalkState(animator);
-//        runState = new RunState(animator);
-//        attackState = new AttackState(animator);
-//        hurtState = new HurtState(animator);
-//        diedState = new DiedState(animator);
-//        currentState = idleState;
-//        idleState.Enter();
 //    }
 
-//    void Update()
+//    private void UpdateGameLogic()
 //    {
-//        MoveArroundArea();
-//        Target();
-//        UpdateState();
-//        if (hp <= 0)
-//        {
-//            StartCoroutine(Died());
-//        }
+//        UpdateTarget();
+//        UpdateMovement();
 //    }
 
-//    private void OnCollisionEnter2D(Collision2D collision)
-//    {
-//        if (!collision.gameObject.CompareTag(TagManager.Player))
-//            return;
-//        if (!isHurt && !isAttack)
-//        {
-//            animator.SetBool(StateContaint.run, false);
-//            animator.SetBool(StateContaint.idle, false);
-//            animator.SetBool(StateContaint.hurt, false);
-//            animator.SetBool(StateContaint.attack, true);
-//            isMove = false;
-//            isAttack = true;
-
-//            if (!isCorotineRunning)
-//            {
-//                StartCoroutine(WaitAttack());
-//            }
-//        }
-//    }
-
-//    private void OnCollisionExit2D(Collision2D collision)
-//    {
-//        isAttack = false;
-//        isMove = true;
-//    }
-
-//    private void OnTriggerEnter2D(Collider2D collision)
-//    {
-//        if (!isHurt && !isAttack)  // Không thể chuyển sang hurt khi đang tấn công
-//        {
-//            isHurt = true;
-//            animator.SetBool(StateContaint.run, false);
-//            animator.SetBool(StateContaint.idle, false);
-//            animator.SetBool(StateContaint.attack, false);
-//            animator.SetBool(StateContaint.hurt, true);
-
-//            if (!isCorotineRunning)
-//            {
-//                StartCoroutine(WaitHurt());
-//            }
-//        }
-//        hp -= 30;
-//    }
-
-//    IEnumerator WaitHurt()
-//    {
-//        isCorotineRunning = true;
-//        yield return new WaitForSeconds(2f); // Thời gian bị thương
-
-//        isHurt = false;
-//        animator.SetBool(StateContaint.hurt, false);
-
-//        // Kiểm tra nếu quái vật đang tấn công và bị thương, thì tiếp tục tấn công khi hết hurt
-//        if (isAttack)
-//        {
-//            animator.SetBool(StateContaint.attack, true);
-//        }
-
-//        isCorotineRunning = false;
-//    }
-
-//    IEnumerator Died()
-//    {
-//        isCorotineRunning = true;
-//        animator.SetBool(StateContaint.run, false);
-//        animator.SetBool(StateContaint.idle, false);
-//        animator.SetBool(StateContaint.hurt, false);
-//        animator.SetBool(StateContaint.attack, false);
-//        animator.SetBool(StateContaint.died, true);
-//        yield return new WaitForSeconds(2);
-//        this.gameObject.SetActive(false);
-
-//        SouthestController.Instance.ReSpawnMonster(this.gameObject, pivot);
-//    }
-
-//    IEnumerator WaitAttack()
-//    {
-//        isCorotineRunning = true;
-//        yield return new WaitForSeconds(2f); // Thời gian tấn công
-
-//        // Kiểm tra nếu quái vật còn va chạm với player, tiếp tục tấn công
-//        if (isAttack)
-//        {
-//            animator.SetBool(StateContaint.attack, true);
-//        }
-//        else
-//        {
-//            isAttack = false;
-//            animator.SetBool(StateContaint.attack, false);
-//        }
-//        isCorotineRunning = false;
-//    }
-
-//    void Target()
+//    private void UpdateTarget()
 //    {
 //        GameObject target = null;
 //        float minDistance = Mathf.Infinity;
@@ -165,6 +93,7 @@
 //        foreach (Collider2D hit in hits)
 //        {
 //            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(TagManager.Monster)) continue;
+
 //            float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
 //            if (distance < minDistance)
 //            {
@@ -173,97 +102,100 @@
 //            }
 //        }
 
-//        if (target != null)
-//        {
-//            currentPlayerTarget = target;
-//        }
-//        else
-//        {
-//            currentPlayerTarget = null;
-//        }
+//        currentPlayerTarget = target;
 //    }
 
-//    void MovingAttackTarget()
+//    private void UpdateMovement()
 //    {
-//        if (currentPlayerTarget != null && isMove && currentPlayerTarget.CompareTag(TagManager.Player))
+//        if (IsMovementLocked) return;
+
+//        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
 //        {
-//            transform.position = Vector3.MoveTowards(transform.position, currentPlayerTarget.transform.position, speedArround * Time.deltaTime);
-
-//            Vector3 scale = transform.localScale;
-//            scale.x = (transform.position.x < currentPlayerTarget.transform.position.x) ? 1 : -1;
-
-//            transform.localScale = scale;
+//            MoveToTarget(currentPlayerTarget.transform.position);
 //        }
-//    }
-
-//    public void MoveArroundArea()
-//    {
-//        if (currentPlayerTarget == null)
+//        else if (isPatrolling)
 //        {
-//            if (isPatrol)
+//            if (Vector2.Distance(transform.position, currentPositionTarget) < 0.3f)
 //            {
-//                if (Vector2.Distance(transform.position, currentPositionTarget) < 0.3f)
-//                {
-//                    StartCoroutine(WaitMonsterRest());
-//                }
-//                else
-//                {
-//                    MoveToTarget();
-//                }
-//            }
-//        }
-//        else
-//        {
-//            MovingAttackTarget();
-//        }
-//    }
-
-//    void MoveToTarget()
-//    {
-//        transform.position = Vector2.MoveTowards(transform.position, currentPositionTarget, speedArround * Time.deltaTime);
-
-//        Vector3 scale = transform.localScale;
-//        scale.x = (transform.position.x < currentPositionTarget.x) ? 1 : -1;
-//        transform.localScale = scale;
-//    }
-
-//    private void OnDrawGizmos()
-//    {
-//        Gizmos.color = Color.green;
-//        Gizmos.DrawWireSphere(pivot, radius);
-//        Gizmos.color = Color.red;
-//        Gizmos.DrawSphere(currentPositionTarget, 0.1f);
-//    }
-
-//    void UpdateState()
-//    {
-//        if (!isHurt && !isAttack)
-//        {
-//            if (Vector2.Distance(currentPositionTarget, transform.position) > 0.3f)
-//            {
-//                animator.SetBool(StateContaint.idle, false);
-//                animator.SetBool(StateContaint.hurt, false);
-//                animator.SetBool(StateContaint.attack, false);
-//                animator.SetBool(StateContaint.run, true);
+//                StartCoroutine(WaitMonsterRest());
 //            }
 //            else
 //            {
-//                animator.SetBool(StateContaint.hurt, false);
-//                animator.SetBool(StateContaint.run, false);
-//                animator.SetBool(StateContaint.attack, false);
-//                animator.SetBool(StateContaint.idle, true);
+//                MoveToTarget(currentPositionTarget);
 //            }
 //        }
 //    }
-//    IEnumerator WaitMonsterRest()
-//    {
-//        isPatrol = false;
-//        yield return new WaitForSeconds(8);
-//        float x = Random.Range(pivot.x, pivot.x + radius);
-//        float y = Random.Range(pivot.y, pivot.y + radius);
 
+//    public void MoveToTarget(Vector2 target)
+//    {
+//        transform.position = Vector2.MoveTowards(
+//            transform.position,
+//            target,
+//            speedArround * Time.deltaTime
+//        );
+
+//        UpdateFacingDirection(target);
+//    }
+
+//    private void UpdateFacingDirection(Vector2 target)
+//    {
+//        Vector3 scale = transform.localScale;
+//        scale.x = (transform.position.x < target.x) ? 1 : -1;
+//        transform.localScale = scale;
+//    }
+
+//    private IEnumerator WaitMonsterRest()
+//    {
+//        isPatrolling = false;
+//        yield return new WaitForSeconds(8);
+
+//        float x = Random.Range(pivot.x - radius, pivot.x + radius);
+//        float y = Random.Range(pivot.y - radius, pivot.y + radius);
 //        currentPositionTarget = new Vector2(x, y);
-//        isPatrol = true;
+
+//        isPatrolling = true;
+//    }
+
+//    private void TransitionToState(IMonsterState newState)
+//    {
+//        if (currentState != null)
+//            currentState.Exit();
+
+//        currentState = newState;
+//        currentState.Enter();
+//    }
+
+//    // State Management Methods
+//    public void SetAttacking(bool isAttacking) => IsAttacking = isAttacking;
+//    public void SetHurt(bool isHurt) => IsHurt = isHurt;
+//    public void SetMovementLocked(bool isLocked) => IsMovementLocked = isLocked;
+//    public void TakeDamage(float damage) => hp -= damage;
+
+//    // Collision Handling
+//    private void OnCollisionEnter2D(Collision2D collision)
+//    {
+//        if (collision.gameObject.CompareTag(TagManager.Player))
+//        {
+//            IsAttacking = true;
+//            IsTargetInRange = true;
+//        }
+//    }
+
+//    private void OnCollisionExit2D(Collision2D collision)
+//    {
+//        if (collision.gameObject.CompareTag(TagManager.Player))
+//        {
+//            IsTargetInRange = false;
+//        }
+//    }
+
+//    private void OnTriggerEnter2D(Collider2D collision)
+//    {
+//        if (!IsAttacking && !IsHurt)
+//        {
+//            IsHurt = true;
+//            TakeDamage(30);
+//        }
 //    }
 
 //    private void OnDisable()
@@ -273,4 +205,13 @@
 //            TargetClosit.Instance.ClearTarget();
 //        }
 //    }
-//}
+
+//    // Debug Visualization
+//    private void OnDrawGizmos()
+//    {
+//        Gizmos.color = Color.green;
+//        Gizmos.DrawWireSphere(pivot, radius);
+//        Gizmos.color = Color.red;
+//        Gizmos.DrawSphere(currentPositionTarget, 0.1f);
+//    }
+////}

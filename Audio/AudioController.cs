@@ -9,7 +9,8 @@ public class AudioController : MonoBehaviour
     private static AudioController _instance;
     public static AudioController Instance => _instance;
     [SerializeField]
-    bool isSound = true, isSFX = true;
+    bool isSound = true;
+    //  isSFX = true;
     private void Awake()
     {
         if (Instance == null)

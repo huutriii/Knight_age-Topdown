@@ -9,7 +9,7 @@ public class MonsterMovementController : MonoBehaviour
     [SerializeField] private float fieldOfView = 90f;
     [SerializeField] private float targetCheckInterval = 0.5f;
     [SerializeField] private float minDistanceToTarget = 0.3f;
-    [SerializeField] private float restDuration = 8f;
+    [SerializeField] private float restDuration = 5f;
 
     [Header("Area Settings")]
     [SerializeField] private AreaSO patrolArea;
@@ -21,11 +21,26 @@ public class MonsterMovementController : MonoBehaviour
     private Vector2 currentPositionTarget;
     private float lastTargetCheckTime;
 
+    [Header("Patrol Points")]
+    public Vector2 currentPatrolPoint;
+    public float currentRestTime;
+
+    [Header("Debug Info")]
+    public float distanceToTarget;
+    public Vector2 currentPosition;
+    public Vector2 targetPosition;
+    public Vector2 moveDirection;
+
     [Header("State")]
-    private bool isMove = true;
-    private bool isPatrol = true;
-    private bool isResting = false;
-    private bool isChasing = false;
+    public bool isMove = true;
+    public bool isPatrol = true;
+    public bool isResting = false;
+    public bool isChasing = false;
+
+    private string FormatLog(string message, string color = "white")
+    {
+        return $"<color={color}>{message}</color>";
+    }
 
     private void Awake()
     {
@@ -39,16 +54,18 @@ public class MonsterMovementController : MonoBehaviour
         {
             radius = patrolArea.radius;
             pivot = patrolArea.pivot;
-            Debug.Log($"Monster {gameObject.name} initialized with patrol area: radius={radius}, pivot={pivot}");
+            Debug.Log(FormatLog($"Monster {gameObject.name} initialized with patrol area: radius={radius}, pivot={pivot}", "cyan"));
         }
         else
         {
-            Debug.LogWarning($"Patrol Area not assigned to {gameObject.name}");
+            Debug.LogWarning(FormatLog($"Patrol Area not assigned to {gameObject.name}", "red"));
         }
     }
 
     private void Update()
     {
+        currentPosition = transform.position;
+
         if (Time.time >= lastTargetCheckTime + targetCheckInterval)
         {
             CheckForTarget();
@@ -66,11 +83,9 @@ public class MonsterMovementController : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRange);
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(TagManager.Monster)) continue;
-
-            if (IsInFieldOfView(hit.gameObject))
+            if (hit.CompareTag(TagManager.Player))
             {
-                float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
+                float distance = Vector2.Distance(transform.position, hit.transform.position);
                 if (distance < minDistance)
                 {
                     minDistance = distance;
@@ -79,31 +94,32 @@ public class MonsterMovementController : MonoBehaviour
             }
         }
 
-        if (target == null && currentPlayerTarget != null)
+        if (target != null)
         {
-            Debug.Log($"Monster {gameObject.name} lost target, returning to patrol");
+            currentPlayerTarget = target;
+            isChasing = true;
+            isPatrol = false;
+            Debug.Log(FormatLog($"Monster {gameObject.name} detected player, starting chase", "yellow"));
+        }
+        else if (currentPlayerTarget != null)
+        {
+            Debug.Log(FormatLog($"Monster {gameObject.name} lost target, returning to patrol", "yellow"));
+            currentPlayerTarget = null;
             isChasing = false;
-            isResting = false;
+            isPatrol = true;
             SetNewPatrolTarget();
         }
-
-        currentPlayerTarget = target;
-    }
-
-    private bool IsInFieldOfView(GameObject target)
-    {
-        Vector2 directionToTarget = (target.transform.position - transform.position).normalized;
-        float angle = Vector2.Angle(transform.right, directionToTarget);
-        return angle <= fieldOfView / 2;
     }
 
     private void HandleMovement()
     {
-        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
+        if (!isMove) return;
+
+        if (isChasing && currentPlayerTarget != null)
         {
             ChaseTarget();
         }
-        else
+        else if (isPatrol)
         {
             PatrolArea();
         }
@@ -111,9 +127,8 @@ public class MonsterMovementController : MonoBehaviour
 
     private void ChaseTarget()
     {
-        if (isMove && currentPlayerTarget != null)
+        if (currentPlayerTarget != null)
         {
-            isChasing = true;
             Vector3 targetPosition = currentPlayerTarget.transform.position;
             MoveTowardsTarget(targetPosition, chaseSpeed);
             UpdateFacingDirection(targetPosition);
@@ -123,43 +138,52 @@ public class MonsterMovementController : MonoBehaviour
 
     private void PatrolArea()
     {
-        if (isPatrol && !isChasing)
+        if (!isMove || !isPatrol || isChasing) return;
+
+        currentPosition = transform.position;
+        targetPosition = currentPatrolPoint;
+        distanceToTarget = Vector2.Distance(currentPosition, targetPosition);
+
+        if (isResting)
         {
-            float distanceToTarget = Vector2.Distance(transform.position, currentPositionTarget);
-            if (distanceToTarget < minDistanceToTarget)
+            currentRestTime -= Time.deltaTime;
+            if (currentRestTime <= 0)
             {
-                if (!isResting)
-                {
-                    Debug.Log($"Monster {gameObject.name} reached patrol point, starting rest");
-                    StartCoroutine(WaitMonsterRest());
-                }
+                isResting = false;
+                SetNewPatrolTarget();
+            }
+        }
+        else
+        {
+            Debug.Log(FormatLog($"Distance to target: {distanceToTarget}, Current: {currentPosition}, Target: {targetPosition}", "yellow"));
+
+            if (distanceToTarget <= minDistanceToTarget)
+            {
+                StartResting();
             }
             else
             {
-                Vector3 targetPos = new Vector3(currentPositionTarget.x, currentPositionTarget.y, transform.position.z);
-                MoveTowardsTarget(targetPos, patrolSpeed);
-                UpdateFacingDirection(targetPos);
-                Debug.DrawLine(transform.position, targetPos, Color.green);
+                moveDirection = (targetPosition - currentPosition).normalized;
+
+                Vector2 newPosition = currentPosition + (moveDirection * patrolSpeed * Time.deltaTime);
+                transform.position = new Vector3(newPosition.x, newPosition.y, transform.position.z);
+
+                Debug.Log(FormatLog($"Moving - Direction: {moveDirection}, Speed: {patrolSpeed}", "white"));
             }
         }
     }
 
-    private System.Collections.IEnumerator WaitMonsterRest()
+    private void StartResting()
     {
         isResting = true;
-        Debug.Log($"Monster {gameObject.name} resting for {restDuration} seconds");
-        yield return new WaitForSeconds(restDuration);
-
-        SetNewPatrolTarget();
-        isResting = false;
-        Debug.Log($"Monster {gameObject.name} finished resting, new patrol target set");
+        currentRestTime = restDuration;
+        Debug.Log(FormatLog($"Starting rest for {restDuration} seconds", "blue"));
     }
 
     private void MoveTowardsTarget(Vector3 target, float speed)
     {
         Vector3 direction = (target - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
-        Debug.Log($"Moving towards target: {target}, Current position: {transform.position}, Direction: {direction}");
     }
 
     private void UpdateFacingDirection(Vector3 target)
@@ -171,29 +195,16 @@ public class MonsterMovementController : MonoBehaviour
 
     private void SetNewPatrolTarget()
     {
+        if (patrolArea == null) return;
+
         float angle = Random.Range(0f, 360f);
         float distance = Random.Range(radius * 0.5f, radius);
+
         float x = pivot.x + Mathf.Cos(angle * Mathf.Deg2Rad) * distance;
         float y = pivot.y + Mathf.Sin(angle * Mathf.Deg2Rad) * distance;
-        currentPositionTarget = new Vector2(x, y);
-        Debug.Log($"Monster {gameObject.name} new patrol target set at {currentPositionTarget}");
-    }
 
-    public void SetMovementState(bool canMove)
-    {
-        isMove = canMove;
-        Debug.Log($"Monster {gameObject.name} movement state set to {canMove}");
-    }
-
-    public void SetPatrolState(bool isPatrolling)
-    {
-        isPatrol = isPatrolling;
-        Debug.Log($"Monster {gameObject.name} patrol state set to {isPatrolling}");
-    }
-
-    public GameObject GetCurrentTarget()
-    {
-        return currentPlayerTarget;
+        currentPatrolPoint = new Vector2(x, y);
+        Debug.Log(FormatLog($"New patrol point set at: {currentPatrolPoint}, Distance from pivot: {Vector2.Distance(pivot, currentPatrolPoint)}", "green"));
     }
 
     private void OnDrawGizmos()
@@ -219,6 +230,13 @@ public class MonsterMovementController : MonoBehaviour
 
         // Draw current target position
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere(currentPositionTarget, 0.1f);
+        Gizmos.DrawWireSphere(currentPatrolPoint, 0.3f);
+
+        // Vẽ đường từ monster đến điểm tuần tra
+        if (isPatrol && !isChasing)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(transform.position, currentPatrolPoint);
+        }
     }
 }

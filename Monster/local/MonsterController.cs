@@ -3,27 +3,29 @@ using UnityEngine;
 
 public class MonsterController : MonoBehaviour
 {
-    [Header("Area Settings")]
-    [SerializeField] private AreaSO Area;
-    [SerializeField] private float speedArround = 0.5f;
-    [SerializeField] private float distanceTarget = 4f;
-
+    [Header("Area Setting")]
+    [SerializeField] AreaSO Area;
+    [SerializeField] float speedArround = 1f;
+    [SerializeField] float distanceTarget = 4f;
     [Header("Monster Stats")]
-    [SerializeField] private float hp = 100;
+    [SerializeField] float hp;
 
     [Header("State Management")]
     private Animator animator;
     private IMonsterState currentState;
 
     [Header("Movement")]
-    private Vector2 pivot;
+    [SerializeField] Vector2 pivot;
     private float radius;
-    private Vector2 currentPositionTarget;
-    private GameObject currentPlayerTarget;
-    private bool isPatrolling = true;
+    [SerializeField] Vector2 currentPositionTarget;
+    [SerializeField] GameObject currentPlayerTarget;
+    [SerializeField] bool isPatrolling = true;
 
-    // Properties for states
+    [Header("Death setting")]
+    [SerializeField] float deathAnimationDuration = 1f;
+    private bool isDying = false;
     public bool IsDead => hp <= 0;
+
     public bool IsHurt { get; private set; }
     public bool IsAttacking { get; private set; }
     public bool IsMovementLocked { get; private set; }
@@ -33,6 +35,8 @@ public class MonsterController : MonoBehaviour
     public Vector2 Pivot => pivot;
     public float Speed => speedArround;
     public bool IsPatrolling => isPatrolling;
+
+
 
     private void Awake()
     {
@@ -49,23 +53,6 @@ public class MonsterController : MonoBehaviour
         SetupComponents();
         TransitionToState(new IdleState(this, animator));
     }
-
-    private void Update()
-    {
-        if (currentState != null)
-        {
-            currentState.Update();
-
-            var newState = currentState.HandleTransition();
-            if (newState != null)
-            {
-                TransitionToState(newState);
-            }
-        }
-
-        UpdateGameLogic();
-    }
-
     private void SetupInitialValues()
     {
         currentPositionTarget = Area.pivot;
@@ -77,6 +64,24 @@ public class MonsterController : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
     }
+
+    private void Update()
+    {
+        if (currentState != null)
+        {
+            currentState.Update();
+
+            var newState = currentState.HandleTransition();
+
+            if (newState != null)
+            {
+                TransitionToState(newState);
+            }
+        }
+
+        UpdateGameLogic();
+    }
+
 
     private void UpdateGameLogic()
     {
@@ -90,18 +95,20 @@ public class MonsterController : MonoBehaviour
         float minDistance = Mathf.Infinity;
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, distanceTarget);
+
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(TagManager.Monster)) continue;
+            if (hit.gameObject == this || hit.gameObject.CompareTag(TagManager.Monster))
+                continue;
 
-            float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
+            float distance = Vector2.Distance(transform.position, hit.transform.position);
+
             if (distance < minDistance)
             {
                 minDistance = distance;
                 target = hit.gameObject;
             }
         }
-
         currentPlayerTarget = target;
     }
 
@@ -109,24 +116,31 @@ public class MonsterController : MonoBehaviour
     {
         if (IsMovementLocked) return;
 
+        // Nếu phát hiện player -> ưu tiên đuổi theo player
         if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
         {
             MoveToTarget(currentPlayerTarget.transform.position);
+            return;
         }
-        else if (isPatrolling)
+
+        // Không có player -> xử lý patrol
+        if (isPatrolling)
         {
+            // Kiểm tra đã đến điểm đích chưa
             if (Vector2.Distance(transform.position, currentPositionTarget) < 0.3f)
             {
+                // Đã đến điểm đích -> nghỉ và chọn điểm mới
                 StartCoroutine(WaitMonsterRest());
             }
             else
             {
+                // Chưa đến điểm đích -> tiếp tục di chuyển
                 MoveToTarget(currentPositionTarget);
             }
         }
     }
 
-    public void MoveToTarget(Vector2 target)
+    private void MoveToTarget(Vector2 target)
     {
         transform.position = Vector2.MoveTowards(
             transform.position,
@@ -140,7 +154,9 @@ public class MonsterController : MonoBehaviour
     private void UpdateFacingDirection(Vector2 target)
     {
         Vector3 scale = transform.localScale;
-        scale.x = (transform.position.x < target.x) ? 1 : -1;
+
+        scale.x = (transform.position.x > target.x) ? -1 : 1;
+
         transform.localScale = scale;
     }
 
@@ -148,13 +164,13 @@ public class MonsterController : MonoBehaviour
     {
         isPatrolling = false;
         yield return new WaitForSeconds(8);
-
         float x = Random.Range(pivot.x - radius, pivot.x + radius);
         float y = Random.Range(pivot.y - radius, pivot.y + radius);
         currentPositionTarget = new Vector2(x, y);
 
         isPatrolling = true;
     }
+
 
     private void TransitionToState(IMonsterState newState)
     {
@@ -165,18 +181,12 @@ public class MonsterController : MonoBehaviour
         currentState.Enter();
     }
 
-    // State Management Methods
-    public void SetAttacking(bool isAttacking) => IsAttacking = isAttacking;
-    public void SetHurt(bool isHurt) => IsHurt = isHurt;
-    public void SetMovementLocked(bool isLocked) => IsMovementLocked = isLocked;
-    public void TakeDamage(float damage) => hp -= damage;
 
-    // Collision Handling
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag(TagManager.Player))
         {
-            IsAttacking = true;
+            SetAttacking(true);
             IsTargetInRange = true;
         }
     }
@@ -186,17 +196,52 @@ public class MonsterController : MonoBehaviour
         if (collision.gameObject.CompareTag(TagManager.Player))
         {
             IsTargetInRange = false;
+            SetAttacking(false);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!IsAttacking && !IsHurt)
+        TakeDamage(30);
+        SetHurt(true);
+    }
+
+    #region setter State flags
+    public void SetAttacking(bool isAttacking) => IsAttacking = isAttacking;
+    public void SetHurt(bool isHurt) => IsHurt = isHurt;
+    public void SetMovementLocked(bool isLocked) => IsMovementLocked = isLocked;
+    #endregion
+
+    #region Death Sequence
+    public void TakeDamage(float damage)
+    {
+        if (isDying) return;
+        hp -= damage;
+
+        if (IsDead)
         {
-            IsHurt = true;
-            TakeDamage(30);
+            isDying = true;
+            HandleDeath();
         }
     }
+
+    private void HandleDeath()
+    {
+        SetMovementLocked(true);
+        isPatrolling = false;
+
+        TransitionToState(new DiedState(this, animator));
+
+        StartCoroutine(DeathSequence());
+    }
+
+    IEnumerator DeathSequence()
+    {
+        yield return new WaitForSeconds(deathAnimationDuration);
+        gameObject.SetActive(false);
+    }
+
+    #endregion
 
     private void OnDisable()
     {
@@ -206,12 +251,33 @@ public class MonsterController : MonoBehaviour
         }
     }
 
-    // Debug Visualization
     private void OnDrawGizmos()
     {
+        if (!Application.isPlaying) return;
+
+        // Vẽ vùng patrol
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(pivot, radius);
+
+        // Vẽ target hiện tại
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(currentPositionTarget, 0.1f);
+
+        // Vẽ vùng phát hiện player
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, distanceTarget);
+
+        // Vẽ đường đến target
+        Gizmos.color = Color.white;
+        if (currentPlayerTarget != null)
+        {
+            // Đường đến player
+            Gizmos.DrawLine(transform.position, currentPlayerTarget.transform.position);
+        }
+        else if (isPatrolling)
+        {
+            // Đường đến patrol point
+            Gizmos.DrawLine(transform.position, currentPositionTarget);
+        }
     }
 }
