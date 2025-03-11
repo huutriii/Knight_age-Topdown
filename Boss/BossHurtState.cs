@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BossHurtState : BossBaseState, IBossState
 {
+    [SerializeField] float hurtDurable;
     public BossHurtState(BossController boss, Animator animator) : base(boss, animator)
     {
     }
