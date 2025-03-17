@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc17ba83d6dfc714aa66960e9f806a40, type: 3}
   m_Name: AreaNorthWeast
   m_EditorClassIdentifier: 
-  coordinate: 5
+  coordinate: 6
   radius: 3
   monsterName: 
   itemsName: 

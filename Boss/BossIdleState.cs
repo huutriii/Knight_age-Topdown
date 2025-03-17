@@ -6,13 +6,13 @@ public class BossIdleState : BossBaseState, IBossState
 
     public override void Enter()
     {
-        animator.SetBool(TagManager.ilde, true);
+        animator.SetBool(TagManager.idle, true);
         boss.isIdle = true;
     }
 
     public override void Exit()
     {
-        animator.SetBool(TagManager.ilde, false);
+        animator.SetBool(TagManager.idle, false);
         boss.isIdle = false;
     }
 

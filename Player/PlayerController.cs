@@ -9,16 +9,27 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float directionX, directionY;
     Animator animator;
     bool isAttack = false;
+    Transform ensnare;
     private void Start()
     {
         rigi = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
+        ensnare = transform.Find("ensnare");
     }
 
     public void Update()
     {
         Moving();
         UpdateAnimation();
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            ensnare.gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            ensnare.gameObject.SetActive(false);
+        }
     }
 
     void Moving()

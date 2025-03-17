@@ -3,14 +3,49 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
+    #region Singleton
+    private static BossController _instance;
+    public static BossController Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindFirstObjectByType<BossController>();
+                if (_instance == null)
+                {
+                    Debug.Log("No BossController Instance is found !");
+                    return null;
+                }
+            }
+            return _instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(_instance);
+            return;
+        }
+        _instance = this;
+    }
+
+    #endregion
+
+
     private Animator animator;
     private IBossState currentState;
 
-    public Vector2 pivot = new Vector2(0, 0);
-    public float radius = 4f;
+    [SerializeField] float x = 0, y = 0;
+
+    [SerializeField] AreaSO area;
+    public Vector2 pivot;
+    public float radius;
 
     [SerializeField] float speedArround, speedAttack;
-    [SerializeField] float radiusTarget;
+    [SerializeField] float detectRange;
     public bool isIdle;
 
     public bool isWalk;
@@ -20,17 +55,25 @@ public class BossController : MonoBehaviour
     public Vector2 currentPositionTarget;
 
     public GameObject currentPlayerTarget;
-    float detectPlayerRange = 4f;
 
     public bool isHurt;
     public bool isAttack;
     public bool isDeath;
 
+    private bool canAttack = true;
+
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
+        InitialSO();
     }
 
+    void InitialSO()
+    {
+        pivot = area.pivot;
+        radius = area.radius;
+        currentPositionTarget = pivot;
+    }
 
     private void Update()
     {
@@ -49,6 +92,8 @@ public class BossController : MonoBehaviour
         Target();
         CheckPlayerInRange();
         UpdateBosMovement();
+
+        Attack();
     }
 
     private void TransitionToState(IBossState newState)
@@ -62,11 +107,32 @@ public class BossController : MonoBehaviour
     private void UpdateBosMovement()
     {
         if (currentPlayerTarget != null)
-            MoveToTarget(currentPlayerTarget.transform.position);
+        {
+            float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+
+            if (distanceToPlayer > 3f)
+            {
+                MoveToTarget(currentPlayerTarget.transform.position);
+                animator.SetBool(TagManager.walk, false);
+                animator.SetBool(TagManager.idle, false);
+                animator.SetBool(TagManager.run, true);
+                isAttack = false;
+            }
+            else
+            {
+                animator.SetBool(TagManager.run, false);
+                if (canAttack)
+                {
+                    StartCoroutine(WaitAttack());
+                }
+            }
+        }
         else
         {
             if (Vector2.Distance(transform.position, currentPositionTarget) > 0.3f)
             {
+                animator.SetBool(TagManager.run, false);
+                animator.SetBool(TagManager.walk, true);
                 MoveToTarget(currentPositionTarget);
                 isPatrolling = true;
             }
@@ -78,10 +144,26 @@ public class BossController : MonoBehaviour
         }
     }
 
+    IEnumerator WaitAttack()
+    {
+        isAttack = true;
+        canAttack = false;
+
+        yield return new WaitForSeconds(2);
+
+        isAttack = false;
+        yield return new WaitForSeconds(1);
+        canAttack = true;
+    }
+
     IEnumerator WaitBossRest()
     {
         isPatrolling = false;
+        animator.SetBool(TagManager.run, false);
+        animator.SetBool(TagManager.walk, false);
+        animator.SetBool(TagManager.idle, true);
         yield return new WaitForSeconds(8);
+        animator.SetBool(TagManager.idle, false);
         float x = Random.Range(pivot.x - radius, pivot.x + radius);
         float y = Random.Range(pivot.y - radius, pivot.y + radius);
         currentPositionTarget = new Vector2(x, y);
@@ -91,26 +173,18 @@ public class BossController : MonoBehaviour
 
     private void Target()
     {
-        GameObject target = null;
-        float minDistance = Mathf.Infinity;
-
-
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radiusTarget);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectRange);
 
         foreach (Collider2D hit in hits)
         {
             if (hit.transform == this.transform || !hit.CompareTag(TagManager.Player))
                 continue;
 
-            float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
-
-            if (distance < minDistance)
-            {
-                minDistance = distance;
-                target = hit.gameObject;
-            }
-            currentPlayerTarget = target;
+            currentPlayerTarget = hit.gameObject;
+            return;
         }
+
+        currentPlayerTarget = null;
     }
 
 
@@ -121,7 +195,7 @@ public class BossController : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
 
-        if (distance > detectPlayerRange)
+        if (distance > detectRange)
         {
             currentPlayerTarget = null;
             isRun = false;
@@ -137,21 +211,52 @@ public class BossController : MonoBehaviour
     private void MoveToTarget(Vector2 target)
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speedAttack * Time.deltaTime);
-
-        UpdateFacingDirection(target);
+        CalculateDirection(target);
+        TransitionRunState(x, y);
     }
 
-    private void UpdateFacingDirection(Vector2 target)
+    void CalculateDirection(Vector2 target)
     {
-        Vector3 scale = transform.localScale;
-        scale.x = (transform.position.x > target.x) ? -1 : 1;
-        transform.localScale = scale;
+        if (Mathf.Abs(target.x - transform.position.x) > Mathf.Abs(target.y - transform.position.y))
+        {
+            x = transform.position.x > target.x ? -1 : 1;
+            y = 0;
+        }
+        else
+        {
+            x = 0;
+            y = transform.position.y > target.y ? -1 : 1;
+        }
+
     }
 
+    void Attack()
+    {
+        if (isAttack)
+        {
+            animator.SetBool(TagManager.idle, false);
+            animator.SetBool(TagManager.walk, false);
+            animator.SetBool(TagManager.run, false);
+            animator.SetBool(TagManager.attack, true);
+        }
+        else
+        {
+            animator.SetBool(TagManager.attack, false);
+        }
+    }
+
+    void TransitionRunState(float x, float y)
+    {
+        animator.SetFloat(TagManager.x, x);
+        animator.SetFloat(TagManager.y, y);
+    }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere(currentPositionTarget, 0.1f);
+        Gizmos.DrawSphere(currentPositionTarget, 0.5f);
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, detectRange);
     }
 }
