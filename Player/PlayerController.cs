@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rigi;
-    [SerializeField] float inputX, inputY, speedMagnitude;
+    [SerializeField] float _x, _y, _velocity;
     float lastX, lastY;
     [SerializeField] float directionX, directionY;
     Animator animator;
@@ -34,19 +34,19 @@ public class PlayerController : MonoBehaviour
 
     void Moving()
     {
-        inputX = Input.GetAxisRaw("Horizontal");
-        inputY = Input.GetAxisRaw("Vertical");
-        if (inputX != 0 || inputY != 0)
+        _x = Input.GetAxisRaw("Horizontal");
+        _y = Input.GetAxisRaw("Vertical");
+        if (_x != 0 || _y != 0)
         {
-            rigi.velocity = new Vector2(inputX * speedMagnitude, inputY * speedMagnitude);
-            lastX = inputX;
-            lastY = inputY;
+            rigi.velocity = new Vector2(_x * _velocity, _y * _velocity);
+            lastX = _x;
+            lastY = _y;
         }
         else
         {
             rigi.velocity = Vector2.zero;
-            inputX = lastX;
-            inputY = lastY;
+            _x = lastX;
+            _y = lastY;
         }
     }
 
@@ -77,8 +77,8 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Attack", true);
             isAttack = true;
         }
-        animator.SetFloat("Horizontal", inputX);
-        animator.SetFloat("Vertical", inputY);
+        animator.SetFloat("Horizontal", _x);
+        animator.SetFloat("Vertical", _y);
     }
 
     void OnCollisionEnter2D(UnityEngine.Collision2D collision)
