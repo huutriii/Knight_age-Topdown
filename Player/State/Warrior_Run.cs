@@ -1,9 +1,7 @@
 using UnityEngine;
 public class Warrior_Run : WarriorStateBase
 {
-    public Warrior_Run(Animator animator) : base(animator)
-    {
-    }
+    public Warrior_Run(Animator animator) : base(animator) { }
 
     public override void Enter()
     {
@@ -17,6 +15,5 @@ public class Warrior_Run : WarriorStateBase
 
     public override void HandleTransition()
     {
-        throw new System.NotImplementedException();
     }
 }
