@@ -34,31 +34,8 @@ public class WarriorStateController : MonoBehaviour
             TransitionState(attack);
             StartCoroutine(WaitAttack());
         }
-
-        UpdateInput();
         UpdateDirection();
         UpdateMovementState();
-    }
-
-    void UpdateInput()
-    {
-        _x = Input.GetAxisRaw(TagManager.x);
-        _y = Input.GetAxisRaw(TagManager.y);
-        if (_x != 0 && _y != 0)
-        {
-            _y = 0;
-        }
-        if (_x != 0 || _y != 0)
-        {
-            lastX = _x;
-            lastY = _y;
-
-        }
-        else
-        {
-            _x = lastX;
-            _y = lastY;
-        }
     }
 
     void TransitionState(WarriorStateBase newState)
@@ -85,13 +62,13 @@ public class WarriorStateController : MonoBehaviour
 
     private void UpdateDirection()
     {
-        animator.SetFloat(TagManager.x, _x);
-        animator.SetFloat(TagManager.y, _y);
+        animator.SetFloat(Constant.x, InputManager.Instance.x);
+        animator.SetFloat(Constant.y, InputManager.Instance.y);
     }
 
     void UpdateMovementState()
     {
-        if (Warrior_Movement.Instance.X != 0 || Warrior_Movement.Instance.Y != 0)
+        if (InputManager.Instance.CanMove())
         {
             TransitionState(run);
         }

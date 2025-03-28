@@ -83,7 +83,7 @@ public class MonsterMovementController : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRange);
         foreach (Collider2D hit in hits)
         {
-            if (hit.CompareTag(TagManager.Player))
+            if (hit.CompareTag(Constant.Player))
             {
                 float distance = Vector2.Distance(transform.position, hit.transform.position);
                 if (distance < minDistance)

@@ -2,19 +2,8 @@ using UnityEngine;
 
 public class Warrior_Movement : MonoBehaviour
 {
-    private static Warrior_Movement instance;
-    public static Warrior_Movement Instance => instance;
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            instance = this;
-        }
-    }
     [SerializeField] float velocity;
     float x, y = -1;
-    public float X => x;
-    public float Y => y;
     Rigidbody2D rigibody;
     void Start()
     {
@@ -23,8 +12,26 @@ public class Warrior_Movement : MonoBehaviour
 
     void Update()
     {
-        x = Input.GetAxisRaw("Horizontal");
-        y = Input.GetAxisRaw("Vertical");
+        UpdateMovement();
+    }
+
+    void UpdateMovement()
+    {
+        Vector2 movement = InputManager.Instance.GetOriginInput();
+        if (movement.x != 0 && movement.y != 0)
+        {
+            rigibody.velocity = new Vector2(movement.x * velocity, 0);
+        }
+        else
+        {
+            rigibody.velocity = movement * velocity;
+        }
+    }
+
+    void BackupMovement()
+    {
+        x = Input.GetAxisRaw(Constant.x);
+        y = Input.GetAxisRaw(Constant.y);
 
 
         if (x != 0 && y != 0)
@@ -43,16 +50,5 @@ public class Warrior_Movement : MonoBehaviour
             rigibody.velocity = new Vector2(0, y * velocity);
             x = 0;
         }
-
-
-        else
-        {
-            rigibody.velocity = Vector2.zero;
-        }
-    }
-
-    void UpdateDirection()
-    {
-
     }
 }

@@ -12,24 +12,24 @@ public class AnimationTest : MonoBehaviour
 
     void Update()
     {
-        inputX = Input.GetAxisRaw(TagManager.x);
-        inputY = Input.GetAxisRaw(TagManager.y);
+        inputX = Input.GetAxisRaw(Constant.x);
+        inputY = Input.GetAxisRaw(Constant.y);
 
         if (inputX != 0f || inputY != 0f)
         {
-            animator.SetBool(TagManager.run, true);
+            animator.SetBool(Constant.run, true);
             lastInputX = inputX;
             lastInputY = inputY;
         }
         else
         {
-            animator.SetBool(TagManager.run, false);
+            animator.SetBool(Constant.run, false);
             inputX = lastInputX;
             inputY = lastInputY;
         }
 
 
-        animator.SetFloat(TagManager.x, inputX);
-        animator.SetFloat(TagManager.y, inputY);
+        animator.SetFloat(Constant.x, inputX);
+        animator.SetFloat(Constant.y, inputY);
     }
 }

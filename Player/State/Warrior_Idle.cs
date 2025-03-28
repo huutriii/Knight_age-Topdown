@@ -18,6 +18,5 @@ public class Warrior_Idle : WarriorStateBase
 
     public override void HandleTransition()
     {
-        throw new System.NotImplementedException();
     }
 }

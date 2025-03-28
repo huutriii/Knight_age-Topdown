@@ -113,14 +113,14 @@ public class BossController : MonoBehaviour
             if (distanceToPlayer > 3f)
             {
                 MoveToTarget(currentPlayerTarget.transform.position);
-                animator.SetBool(TagManager.walk, false);
-                animator.SetBool(TagManager.idle, false);
-                animator.SetBool(TagManager.run, true);
+                animator.SetBool(Constant.walk, false);
+                animator.SetBool(Constant.idle, false);
+                animator.SetBool(Constant.run, true);
                 isAttack = false;
             }
             else
             {
-                animator.SetBool(TagManager.run, false);
+                animator.SetBool(Constant.run, false);
                 if (canAttack)
                 {
                     StartCoroutine(WaitAttack());
@@ -131,8 +131,8 @@ public class BossController : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, currentPositionTarget) > 0.3f)
             {
-                animator.SetBool(TagManager.run, false);
-                animator.SetBool(TagManager.walk, true);
+                animator.SetBool(Constant.run, false);
+                animator.SetBool(Constant.walk, true);
                 MoveToTarget(currentPositionTarget);
                 isPatrolling = true;
             }
@@ -159,11 +159,11 @@ public class BossController : MonoBehaviour
     IEnumerator WaitBossRest()
     {
         isPatrolling = false;
-        animator.SetBool(TagManager.run, false);
-        animator.SetBool(TagManager.walk, false);
-        animator.SetBool(TagManager.idle, true);
+        animator.SetBool(Constant.run, false);
+        animator.SetBool(Constant.walk, false);
+        animator.SetBool(Constant.idle, true);
         yield return new WaitForSeconds(8);
-        animator.SetBool(TagManager.idle, false);
+        animator.SetBool(Constant.idle, false);
         float x = Random.Range(pivot.x - radius, pivot.x + radius);
         float y = Random.Range(pivot.y - radius, pivot.y + radius);
         currentPositionTarget = new Vector2(x, y);
@@ -177,7 +177,7 @@ public class BossController : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.transform == this.transform || !hit.CompareTag(TagManager.Player))
+            if (hit.transform == this.transform || !hit.CompareTag(Constant.Player))
                 continue;
 
             currentPlayerTarget = hit.gameObject;
@@ -234,21 +234,21 @@ public class BossController : MonoBehaviour
     {
         if (isAttack)
         {
-            animator.SetBool(TagManager.idle, false);
-            animator.SetBool(TagManager.walk, false);
-            animator.SetBool(TagManager.run, false);
-            animator.SetBool(TagManager.attack, true);
+            animator.SetBool(Constant.idle, false);
+            animator.SetBool(Constant.walk, false);
+            animator.SetBool(Constant.run, false);
+            animator.SetBool(Constant.attack, true);
         }
         else
         {
-            animator.SetBool(TagManager.attack, false);
+            animator.SetBool(Constant.attack, false);
         }
     }
 
     void TransitionRunState(float x, float y)
     {
-        animator.SetFloat(TagManager.x, x);
-        animator.SetFloat(TagManager.y, y);
+        animator.SetFloat(Constant.x, x);
+        animator.SetFloat(Constant.y, y);
     }
 
     private void OnDrawGizmos()

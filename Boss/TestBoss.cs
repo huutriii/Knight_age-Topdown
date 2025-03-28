@@ -9,7 +9,7 @@ public class TestBoss : MonoBehaviour
     }
     private void Update()
     {
-        animator.SetBool(TagManager.run, true);
-        animator.SetFloat(TagManager.x, -1);
+        animator.SetBool(Constant.run, true);
+        animator.SetFloat(Constant.x, -1);
     }
 }

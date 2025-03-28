@@ -13,8 +13,8 @@ public class AnimatorController : MonoBehaviour
 
     private void Update()
     {
-        inputX = UnityEngine.Input.GetAxisRaw(TagManager.x);
-        inputY = UnityEngine.Input.GetAxisRaw(TagManager.y);
+        inputX = UnityEngine.Input.GetAxisRaw(Constant.x);
+        inputY = UnityEngine.Input.GetAxisRaw(Constant.y);
         if (inputX != 0)
         {
             if (inputX == -1)

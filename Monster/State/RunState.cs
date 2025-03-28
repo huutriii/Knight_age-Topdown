@@ -7,12 +7,12 @@ public class RunState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateContaint.run, true);
+        animator.SetBool(StateConstant.run, true);
     }
 
     public void Exit()
     {
-        animator.SetBool(StateContaint.run, false);
+        animator.SetBool(StateConstant.run, false);
     }
 
     public void Update()

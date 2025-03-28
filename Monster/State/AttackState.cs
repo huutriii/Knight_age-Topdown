@@ -13,13 +13,13 @@ public class AttackState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateContaint.attack, true);
+        animator.SetBool(StateConstant.attack, true);
         monster.SetMovementLocked(true);
     }
 
     public void Exit()
     {
-        animator.SetBool(StateContaint.attack, false);
+        animator.SetBool(StateConstant.attack, false);
         monster.SetMovementLocked(false);
         monster.SetAttacking(false);
     }

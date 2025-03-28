@@ -92,7 +92,7 @@
 //        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, distanceTarget);
 //        foreach (Collider2D hit in hits)
 //        {
-//            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(TagManager.Monster)) continue;
+//            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(Constant.Monster)) continue;
 
 //            float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
 //            if (distance < minDistance)
@@ -109,7 +109,7 @@
 //    {
 //        if (IsMovementLocked) return;
 
-//        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
+//        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(Constant.Player))
 //        {
 //            MoveToTarget(currentPlayerTarget.transform.position);
 //        }
@@ -174,7 +174,7 @@
 //    // Collision Handling
 //    private void OnCollisionEnter2D(Collision2D collision)
 //    {
-//        if (collision.gameObject.CompareTag(TagManager.Player))
+//        if (collision.gameObject.CompareTag(Constant.Player))
 //        {
 //            IsAttacking = true;
 //            IsTargetInRange = true;
@@ -183,7 +183,7 @@
 
 //    private void OnCollisionExit2D(Collision2D collision)
 //    {
-//        if (collision.gameObject.CompareTag(TagManager.Player))
+//        if (collision.gameObject.CompareTag(Constant.Player))
 //        {
 //            IsTargetInRange = false;
 //        }

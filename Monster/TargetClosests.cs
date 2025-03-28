@@ -27,7 +27,7 @@ public class TargetClosit : MonoBehaviour
     private void Start()
     {
         player = GetComponent<Transform>();
-        _targetPlayer = ~LayerMask.GetMask(TagManager.Player);
+        _targetPlayer = ~LayerMask.GetMask(Constant.Player);
     }
 
     void Update()

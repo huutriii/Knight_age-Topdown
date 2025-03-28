@@ -77,7 +77,7 @@ public class PlayerControllerTest : MonoBehaviour
 
     void OnCollisionEnter2D(UnityEngine.Collision2D collision)
     {
-        if (!collision.gameObject.CompareTag(TagManager.Monster))
+        if (!collision.gameObject.CompareTag(Constant.Monster))
         {
             GameObject atkEfx = Instantiate(atkHitEffect, transform.position, Quaternion.identity);
             atkEffect.SetActive(true);

@@ -1,4 +1,4 @@
-public static class TagManager
+public static class Constant
 {
     public static string Player = "Player";
     public static string Monster = "Monster";

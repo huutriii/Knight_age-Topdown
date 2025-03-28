@@ -6,13 +6,13 @@ public class BossWalkState : BossBaseState, IBossState
 
     public override void Enter()
     {
-        animator.SetBool(TagManager.walk, true);
+        animator.SetBool(Constant.walk, true);
         boss.isWalk = true;
     }
 
     public override void Exit()
     {
-        animator.SetBool(TagManager.walk, false);
+        animator.SetBool(Constant.walk, false);
         boss.isWalk = false;
     }
 

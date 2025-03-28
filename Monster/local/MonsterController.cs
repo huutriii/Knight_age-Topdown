@@ -98,7 +98,7 @@ public class MonsterController : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == this || hit.gameObject.CompareTag(TagManager.Monster))
+            if (hit.gameObject == this || hit.gameObject.CompareTag(Constant.Monster))
                 continue;
 
             float distance = Vector2.Distance(transform.position, hit.transform.position);
@@ -116,7 +116,7 @@ public class MonsterController : MonoBehaviour
     {
         if (IsMovementLocked) return;
 
-        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
+        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(Constant.Player))
         {
             MoveToTarget(currentPlayerTarget.transform.position);
             return;
@@ -179,7 +179,7 @@ public class MonsterController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(TagManager.Player))
+        if (collision.gameObject.CompareTag(Constant.Player))
         {
             SetAttacking(true);
             IsTargetInRange = true;
@@ -188,7 +188,7 @@ public class MonsterController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(TagManager.Player))
+        if (collision.gameObject.CompareTag(Constant.Player))
         {
             IsTargetInRange = false;
             SetAttacking(false);
