@@ -116,25 +116,20 @@ public class MonsterController : MonoBehaviour
     {
         if (IsMovementLocked) return;
 
-        // Nếu phát hiện player -> ưu tiên đuổi theo player
         if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(TagManager.Player))
         {
             MoveToTarget(currentPlayerTarget.transform.position);
             return;
         }
 
-        // Không có player -> xử lý patrol
         if (isPatrolling)
         {
-            // Kiểm tra đã đến điểm đích chưa
             if (Vector2.Distance(transform.position, currentPositionTarget) < 0.3f)
             {
-                // Đã đến điểm đích -> nghỉ và chọn điểm mới
                 StartCoroutine(WaitMonsterRest());
             }
             else
             {
-                // Chưa đến điểm đích -> tiếp tục di chuyển
                 MoveToTarget(currentPositionTarget);
             }
         }
@@ -255,28 +250,22 @@ public class MonsterController : MonoBehaviour
     {
         if (!Application.isPlaying) return;
 
-        // Vẽ vùng patrol
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(pivot, radius);
 
-        // Vẽ target hiện tại
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(currentPositionTarget, 0.1f);
 
-        // Vẽ vùng phát hiện player
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, distanceTarget);
 
-        // Vẽ đường đến target
         Gizmos.color = Color.white;
         if (currentPlayerTarget != null)
         {
-            // Đường đến player
             Gizmos.DrawLine(transform.position, currentPlayerTarget.transform.position);
         }
         else if (isPatrolling)
         {
-            // Đường đến patrol point
             Gizmos.DrawLine(transform.position, currentPositionTarget);
         }
     }

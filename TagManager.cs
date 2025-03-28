@@ -14,4 +14,7 @@ public static class TagManager
 
     public static string x = "Horizontal";
     public static string y = "Vertical";
+
+    public static string Thunder = "Thunder";
 }
+

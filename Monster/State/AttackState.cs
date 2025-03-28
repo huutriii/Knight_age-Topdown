@@ -37,7 +37,7 @@ public class AttackState : MonsterStateBase, IMonsterState
         if (attackTimer >= ATTACK_DURATION)
         {
             if (monster.IsTargetInRange)
-                attackTimer = 0f; // Reset timer and continue attacking
+                attackTimer = 0f;
             else
                 return new IdleState(monster, animator);
         }

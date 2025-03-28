@@ -36,7 +36,6 @@ public class HurtState : MonsterStateBase, IMonsterState
 
         if (hurtTimer >= HURT_DURATION)
         {
-            // Nếu vẫn đang tấn công sau khi hết hurt, quay lại attack state
             if (monster.IsAttacking)
                 return new AttackState(monster, animator);
             return new IdleState(monster, animator);

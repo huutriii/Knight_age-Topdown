@@ -19,7 +19,6 @@ public class DiedState : MonsterStateBase, IMonsterState
 
     public void Exit()
     {
-        // Không cần exit vì đây là state cuối cùng
     }
 
     public void Update()
@@ -28,7 +27,6 @@ public class DiedState : MonsterStateBase, IMonsterState
 
         if (deathTimer >= DEATH_DURATION)
         {
-            // Disable gameObject và respawn
             monster.gameObject.SetActive(false);
             SouthestController.Instance.ReSpawnMonster(monster.gameObject, monster.Pivot);
         }
@@ -36,7 +34,6 @@ public class DiedState : MonsterStateBase, IMonsterState
 
     public IMonsterState HandleTransition()
     {
-        // Không có transition nào từ death state
         return null;
     }
 }
