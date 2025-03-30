@@ -1,4 +1,3 @@
-
 using System.Collections;
 using UnityEngine;
 
@@ -11,10 +10,9 @@ public class WarriorStateController : MonoBehaviour
     Warrior_Idle idle;
     Warrior_Attack attack;
 
-    [SerializeField] float _x, _y, lastX, lastY;
-
     [Header("Flag state controller")]
     public bool isAttack;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -27,12 +25,15 @@ public class WarriorStateController : MonoBehaviour
 
     private void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.C))
         {
-            previosState = currentState;
-            TransitionState(attack);
-            StartCoroutine(WaitAttack());
+            StartAttack();
+            return;
+        }
+
+        if (isAttack)
+        {
+            return;
         }
         UpdateDirection();
         UpdateMovementState();
@@ -50,15 +51,19 @@ public class WarriorStateController : MonoBehaviour
 
     IEnumerator WaitAttack()
     {
-        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
-        while (infor.normalizedTime < 1f && infor.normalizedTime > 0)
+        yield return new WaitForSeconds(0.1f);
+
+        AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (info.normalizedTime < 1f)
         {
-            infor = animator.GetCurrentAnimatorStateInfo(0);
+            info = animator.GetCurrentAnimatorStateInfo(0);
             yield return null;
         }
+
+        isAttack = false;
         TransitionState(previosState);
     }
-
 
     private void UpdateDirection()
     {
@@ -76,5 +81,14 @@ public class WarriorStateController : MonoBehaviour
         {
             TransitionState(idle);
         }
+    }
+
+    void StartAttack()
+    {
+        Debug.Log("StartAttack called");
+        isAttack = true;
+        previosState = currentState;
+        TransitionState(attack);
+        StartCoroutine(WaitAttack());
     }
 }

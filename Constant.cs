@@ -10,11 +10,12 @@ public static class Constant
     public static string attack = "attack";
     public static string hurt = "hurt";
     public static string died = "died";
-
+    public static string attack_reverse = "Attack_reverse";
 
     public static string x = "Horizontal";
     public static string y = "Vertical";
 
     public static string Thunder = "Thunder";
+
 }
 

@@ -8,6 +8,7 @@ public class Warrior_Attack : WarriorStateBase
 
     public override void Enter()
     {
+        Debug.Log("Attack entered !");
         this._animator.SetBool("Attack", true);
     }
 
