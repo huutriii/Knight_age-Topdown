@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: e2c4d953e997a8145990c5eea6ba430f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7392329222281270546
+    second: Vampires1_Walk_full_0
+  - first:
+      213: 1041631370332279679
+    second: Vampires1_Walk_full_1
+  - first:
+      213: -1673547342824805248
+    second: Vampires1_Walk_full_2
+  - first:
+      213: -8929204444882499181
+    second: Vampires1_Walk_full_3
+  - first:
+      213: 7110520346748450967
+    second: Vampires1_Walk_full_4
+  - first:
+      213: -1713655346311657886
+    second: Vampires1_Walk_full_5
+  - first:
+      213: -2239831297051621371
+    second: Vampires1_Walk_full_6
+  - first:
+      213: 3085668063967031769
+    second: Vampires1_Walk_full_7
+  - first:
+      213: 4094369578204326053
+    second: Vampires1_Walk_full_8
+  - first:
+      213: -1704510010294109230
+    second: Vampires1_Walk_full_9
+  - first:
+      213: -118875595669259384
+    second: Vampires1_Walk_full_10
+  - first:
+      213: 4779429218817912767
+    second: Vampires1_Walk_full_11
+  - first:
+      213: 6197915629132366819
+    second: Vampires1_Walk_full_12
+  - first:
+      213: 6171885197944289142
+    second: Vampires1_Walk_full_13
+  - first:
+      213: -8961078941158741646
+    second: Vampires1_Walk_full_14
+  - first:
+      213: -506801646397282581
+    second: Vampires1_Walk_full_15
+  - first:
+      213: 2147534089352687860
+    second: Vampires1_Walk_full_16
+  - first:
+      213: -3573121747209273677
+    second: Vampires1_Walk_full_17
+  - first:
+      213: -6189495751438224098
+    second: Vampires1_Walk_full_18
+  - first:
+      213: -5633976256331653083
+    second: Vampires1_Walk_full_19
+  - first:
+      213: -1320676252629174762
+    second: Vampires1_Walk_full_20
+  - first:
+      213: -4994697009535834368
+    second: Vampires1_Walk_full_21
+  - first:
+      213: -3775797930559079152
+    second: Vampires1_Walk_full_22
+  - first:
+      213: -8416090744630275523
+    second: Vampires1_Walk_full_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 209
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea6f231dbb296990800000000000000
+      internalID: -7392329222281270546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 209
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f731f87663e947e00800000000000000
+      internalID: 1041631370332279679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 209
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce02cfe8d56c8e0800000000000000
+      internalID: -1673547342824805248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 209
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39980f7cdd7151480800000000000000
+      internalID: -8929204444882499181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 209
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798f02c0594ada260800000000000000
+      internalID: 7110520346748450967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 209
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26605a7ba8fd738e0800000000000000
+      internalID: -1713655346311657886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 145
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5088f6e6d458ae0e0800000000000000
+      internalID: -2239831297051621371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 145
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b58f61ce72da20800000000000000
+      internalID: 3085668063967031769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 145
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8e800407f12d830800000000000000
+      internalID: 4094369578204326053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 145
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db72503d2d5858e0800000000000000
+      internalID: -1704510010294109230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 145
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bbbab864ba95ef0800000000000000
+      internalID: -118875595669259384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 145
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfa3c05d81f35240800000000000000
+      internalID: 4779429218817912767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c64e3d6b630650800000000000000
+      internalID: 6197915629132366819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 81
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677f5f133e0f6a550800000000000000
+      internalID: 6171885197944289142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 81
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279effb4e2ad3a380800000000000000
+      internalID: -8961078941158741646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 81
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be628e6769a77f8f0800000000000000
+      internalID: -506801646397282581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 81
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0b8ea40e29dcd10800000000000000
+      internalID: 2147534089352687860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 81
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3e5eb3b8b96ec0800000000000000
+      internalID: -3573121747209273677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 17
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e153cbc486e7a1aa0800000000000000
+      internalID: -6189495751438224098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 17
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520ed58e17810d1b0800000000000000
+      internalID: -5633976256331653083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6167eba02f30cade0800000000000000
+      internalID: -1320676252629174762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 17
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00729e968854faab0800000000000000
+      internalID: -4994697009535834368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 17
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dfe5589cba99bc0800000000000000
+      internalID: -3775797930559079152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vampires1_Walk_full_23
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d321cd0ee0a043b80800000000000000
+      internalID: -8416090744630275523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ebb48bf5faee64f47a470da64b58ad61
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vampires1_Walk_full_0: -7392329222281270546
+      Vampires1_Walk_full_1: 1041631370332279679
+      Vampires1_Walk_full_10: -118875595669259384
+      Vampires1_Walk_full_11: 4779429218817912767
+      Vampires1_Walk_full_12: 6197915629132366819
+      Vampires1_Walk_full_13: 6171885197944289142
+      Vampires1_Walk_full_14: -8961078941158741646
+      Vampires1_Walk_full_15: -506801646397282581
+      Vampires1_Walk_full_16: 2147534089352687860
+      Vampires1_Walk_full_17: -3573121747209273677
+      Vampires1_Walk_full_18: -6189495751438224098
+      Vampires1_Walk_full_19: -5633976256331653083
+      Vampires1_Walk_full_2: -1673547342824805248
+      Vampires1_Walk_full_20: -1320676252629174762
+      Vampires1_Walk_full_21: -4994697009535834368
+      Vampires1_Walk_full_22: -3775797930559079152
+      Vampires1_Walk_full_23: -8416090744630275523
+      Vampires1_Walk_full_3: -8929204444882499181
+      Vampires1_Walk_full_4: 7110520346748450967
+      Vampires1_Walk_full_5: -1713655346311657886
+      Vampires1_Walk_full_6: -2239831297051621371
+      Vampires1_Walk_full_7: 3085668063967031769
+      Vampires1_Walk_full_8: 4094369578204326053
+      Vampires1_Walk_full_9: -1704510010294109230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 1136823777897645592}
   - component: {fileID: 7631638162281135132}
   - component: {fileID: -3568913877782813566}
-  - component: {fileID: -1359355409393548116}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +61,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &7631638162281135132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,8 +80,6 @@ MonoBehaviour:
   speedMagnitude: 4
   directionX: 0
   directionY: 0
-  atkEffect: {fileID: 0}
-  atkHitEffect: {fileID: 0}
 --- !u!70 &-3568913877782813566
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,19 +117,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
---- !u!114 &-1359355409393548116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5294048033484909169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 546b41c5d9bc6fd44acd0873e364cf82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  electric: {fileID: 0}
 --- !u!1 &5517502020677118742
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +128,7 @@ GameObject:
   - component: {fileID: 8362803111276336030}
   - component: {fileID: 8840804986861744144}
   - component: {fileID: 270808744987855963}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

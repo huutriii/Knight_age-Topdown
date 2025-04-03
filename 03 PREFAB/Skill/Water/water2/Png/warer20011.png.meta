@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: af217c03b2ec3684fa6aec80ccec8854
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4033496272273704666
+    second: warer20011_0
+  - first:
+      213: 4552950510649735725
+    second: warer20011_1
+  - first:
+      213: -4876111968813356566
+    second: warer20011_2
+  - first:
+      213: -4152850947201929278
+    second: warer20011_3
+  - first:
+      213: 5939549335883134669
+    second: warer20011_4
+  - first:
+      213: 2607478571268080590
+    second: warer20011_5
+  - first:
+      213: 8217310501261550713
+    second: warer20011_6
+  - first:
+      213: -7360275322867892150
+    second: warer20011_7
+  - first:
+      213: 4362667294208266212
+    second: warer20011_8
+  - first:
+      213: -192968484533984588
+    second: warer20011_9
+  - first:
+      213: -678394444218919386
+    second: warer20011_10
+  - first:
+      213: -7126935061183942657
+    second: warer20011_11
+  - first:
+      213: 1882829918966004982
+    second: warer20011_12
+  - first:
+      213: 56991430323670333
+    second: warer20011_13
+  - first:
+      213: -4441218546268674676
+    second: warer20011_14
+  - first:
+      213: 7526327539163266436
+    second: warer20011_15
+  - first:
+      213: 7379286578175112528
+    second: warer20011_16
+  - first:
+      213: 4037677577411560232
+    second: warer20011_17
+  - first:
+      213: -8378450890974258257
+    second: warer20011_18
+  - first:
+      213: -2974655158953134967
+    second: warer20011_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warer20011_0
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 489
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad68cbf3d7bd9f730800000000000000
+      internalID: 4033496272273704666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 521
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2af53bed545f2f30800000000000000
+      internalID: 4552950510649735725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 460
+        width: 106
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae969d5cff1945cb0800000000000000
+      internalID: -4876111968813356566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_3
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 455
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf62e6f01c1e56c0800000000000000
+      internalID: -4152850947201929278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_4
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 457
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b833e6a48d6250800000000000000
+      internalID: 5939549335883134669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 417
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec380ef02ff9f2420800000000000000
+      internalID: 2607478571268080590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 430
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97428cc1d50c90270800000000000000
+      internalID: 8217310501261550713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 445
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40c26b179c0bd990800000000000000
+      internalID: -7360275322867892150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 421
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef8f782ace4b8c30800000000000000
+      internalID: 4362667294208266212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 433
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2a18a8f20725df0800000000000000
+      internalID: -192968484533984588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 353
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6269bb6e8dbd596f0800000000000000
+      internalID: -678394444218919386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_11
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 391
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffaadc625a081d90800000000000000
+      internalID: -7126935061183942657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_12
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 388
+        width: 76
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc327ce5d7212a10800000000000000
+      internalID: 1882829918966004982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 395
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d0fa767697ac000800000000000000
+      internalID: 56991430323670333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 396
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8567c3434f9d52c0800000000000000
+      internalID: -4441218546268674676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_15
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 402
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48df01b4503e27860800000000000000
+      internalID: 7526327539163266436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_16
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 374
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0557fe3bb0e786660800000000000000
+      internalID: 7379286578175112528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 361
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8230d273d56b80830800000000000000
+      internalID: 4037677577411560232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_18
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 326
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab9c6b3e43c9bb80800000000000000
+      internalID: -8378450890974258257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warer20011_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 198
+        width: 314
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984b051b4e6e7b6d0800000000000000
+      internalID: -2974655158953134967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      warer20011_0: 4033496272273704666
+      warer20011_1: 4552950510649735725
+      warer20011_10: -678394444218919386
+      warer20011_11: -7126935061183942657
+      warer20011_12: 1882829918966004982
+      warer20011_13: 56991430323670333
+      warer20011_14: -4441218546268674676
+      warer20011_15: 7526327539163266436
+      warer20011_16: 7379286578175112528
+      warer20011_17: 4037677577411560232
+      warer20011_18: -8378450890974258257
+      warer20011_19: -2974655158953134967
+      warer20011_2: -4876111968813356566
+      warer20011_3: -4152850947201929278
+      warer20011_4: 5939549335883134669
+      warer20011_5: 2607478571268080590
+      warer20011_6: 8217310501261550713
+      warer20011_7: -7360275322867892150
+      warer20011_8: 4362667294208266212
+      warer20011_9: -192968484533984588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
