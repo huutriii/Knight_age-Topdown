@@ -30,8 +30,8 @@ public class Warrior_Movement : MonoBehaviour
 
     void BackupMovement()
     {
-        x = Input.GetAxisRaw(Constant.x);
-        y = Input.GetAxisRaw(Constant.y);
+        x = Input.GetAxisRaw(GAME.x);
+        y = Input.GetAxisRaw(GAME.y);
 
 
         if (x != 0 && y != 0)

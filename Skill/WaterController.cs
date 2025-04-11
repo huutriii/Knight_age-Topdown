@@ -12,7 +12,7 @@ public class WaterController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (InputManager.Instance.v)
         {
             skill.gameObject.SetActive(true);
         }

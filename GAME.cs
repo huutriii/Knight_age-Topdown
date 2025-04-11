@@ -1,4 +1,4 @@
-public static class Constant
+public static class GAME
 {
     public static string Player = "Player";
     public static string Monster = "Monster";

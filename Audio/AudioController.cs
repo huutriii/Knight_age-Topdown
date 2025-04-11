@@ -25,7 +25,7 @@ public class AudioController : MonoBehaviour
 
     private void Start()
     {
-        isSound = PlayerPrefs.GetInt("Sound", 1) == 1 ? true : false;
+        isSound = PlayerPrefs.GetInt("SOUND", 1) == 1 ? true : false;
     }
     private void Update()
     {
@@ -57,7 +57,7 @@ public class AudioController : MonoBehaviour
 
         if (clip == null)
         {
-            Debug.LogError("Sound is not exist !");
+            Debug.LogError("SOUND is not exist !");
             return;
         }
         AudioSource source = GetSource();
@@ -83,7 +83,7 @@ public class AudioController : MonoBehaviour
     public void SetSound(bool isSound)
     {
         this.isSound = isSound;
-        PlayerPrefs.SetInt("Sound", isSound ? 1 : 0);
+        PlayerPrefs.SetInt("SOUND", isSound ? 1 : 0);
         if (!this.isSound)
         {
             foreach (AudioSource c in pools)

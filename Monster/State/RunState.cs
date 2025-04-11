@@ -7,18 +7,12 @@ public class RunState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateConstant.run, true);
+        animator.SetBool(STATE.run, true);
     }
 
     public void Exit()
     {
-        animator.SetBool(StateConstant.run, false);
-    }
-
-    public void Update()
-    {
-        // Không cần gọi MoveToTarget ở đây nữa vì MonsterController đã xử lý trong UpdateMovement
-        // Chỉ cần đảm bảo animation run được set đúng
+        animator.SetBool(STATE.run, false);
     }
 
     public IMonsterState HandleTransition()

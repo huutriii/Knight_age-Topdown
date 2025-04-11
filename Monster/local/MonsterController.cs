@@ -10,10 +10,9 @@ public class MonsterController : MonoBehaviour
     [Header("Monster Stats")]
     [SerializeField] float hp;
 
-    [Header("State Management")]
+    [Header("STATE Management")]
     private Animator animator;
     private IMonsterState currentState;
-
     [Header("Movement")]
     [SerializeField] Vector2 pivot;
     private float radius;
@@ -69,7 +68,6 @@ public class MonsterController : MonoBehaviour
     {
         if (currentState != null)
         {
-            currentState.Update();
 
             var newState = currentState.HandleTransition();
 
@@ -98,7 +96,7 @@ public class MonsterController : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == this || hit.gameObject.CompareTag(Constant.Monster))
+            if (hit.gameObject == this || hit.gameObject.CompareTag(GAME.Monster))
                 continue;
 
             float distance = Vector2.Distance(transform.position, hit.transform.position);
@@ -116,7 +114,7 @@ public class MonsterController : MonoBehaviour
     {
         if (IsMovementLocked) return;
 
-        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(Constant.Player))
+        if (currentPlayerTarget != null && currentPlayerTarget.CompareTag(GAME.Player))
         {
             MoveToTarget(currentPlayerTarget.transform.position);
             return;
@@ -179,7 +177,7 @@ public class MonsterController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(Constant.Player))
+        if (collision.gameObject.CompareTag(GAME.Player))
         {
             SetAttacking(true);
             IsTargetInRange = true;
@@ -188,7 +186,7 @@ public class MonsterController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(Constant.Player))
+        if (collision.gameObject.CompareTag(GAME.Player))
         {
             IsTargetInRange = false;
             SetAttacking(false);

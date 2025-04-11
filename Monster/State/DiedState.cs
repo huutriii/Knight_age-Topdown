@@ -13,7 +13,7 @@ public class DiedState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateConstant.died, true);
+        animator.SetBool(STATE.died, true);
         monster.SetMovementLocked(true);
     }
 

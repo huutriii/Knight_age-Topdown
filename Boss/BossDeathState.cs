@@ -1,13 +1,18 @@
 using UnityEngine;
 
-public class BossDeathState : BossBaseState, IBossState
+public class BossDeathState : BossBaseState
 {
-    public BossDeathState(BossController boss, Animator animator) : base(boss, animator)
+    public BossDeathState(Animator animator) : base(animator)
     {
     }
 
-    public override IBossState HandleTransition()
+    public override void Enter()
     {
-        throw new System.NotImplementedException();
+        this.animator.SetBool(STATE.died, true);
+    }
+
+    public override void Exit()
+    {
+        this.animator.SetBool(STATE.died, false);
     }
 }

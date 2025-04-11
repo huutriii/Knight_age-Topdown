@@ -54,7 +54,7 @@ public class MonsterMoving : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 4f);
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(Constant.Monster)) continue;
+            if (hit.gameObject == gameObject || hit.gameObject.CompareTag(GAME.Monster)) continue;
             float distance = Vector2.Distance(transform.position, hit.gameObject.transform.position);
             if (distance < minDistance)
             {
@@ -75,7 +75,7 @@ public class MonsterMoving : MonoBehaviour
 
     void MovingAttackTarget()
     {
-        if (currentPlayerTarget != null && isMove && currentPlayerTarget.CompareTag(Constant.Player))
+        if (currentPlayerTarget != null && isMove && currentPlayerTarget.CompareTag(GAME.Player))
         {
             float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
             if (distance < 0.4f)

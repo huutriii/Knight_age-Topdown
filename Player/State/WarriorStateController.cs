@@ -9,16 +9,18 @@ public class WarriorStateController : MonoBehaviour
     Warrior_Run run;
     Warrior_Idle idle;
     Warrior_Attack attack;
+    Warrior_Attack_Reverse attackReverse;
 
     [Header("Flag state controller")]
     public bool isAttack;
-
+    public bool isAttackReverse;
     private void Start()
     {
         animator = GetComponent<Animator>();
         run = new Warrior_Run(animator);
         idle = new Warrior_Idle(animator);
         attack = new Warrior_Attack(animator);
+        attackReverse = new Warrior_Attack_Reverse(animator);
         currentState = idle;
         currentState.Enter();
     }
@@ -31,7 +33,13 @@ public class WarriorStateController : MonoBehaviour
             return;
         }
 
-        if (isAttack)
+        if (InputManager.Instance.v)
+        {
+            StartAttackReverse();
+            return;
+        }
+
+        if (isAttack || isAttackReverse)
         {
             return;
         }
@@ -67,8 +75,8 @@ public class WarriorStateController : MonoBehaviour
 
     private void UpdateDirection()
     {
-        animator.SetFloat(Constant.x, InputManager.Instance.x);
-        animator.SetFloat(Constant.y, InputManager.Instance.y);
+        animator.SetFloat(GAME.x, InputManager.Instance.x);
+        animator.SetFloat(GAME.y, InputManager.Instance.y);
     }
 
     void UpdateMovementState()
@@ -85,10 +93,31 @@ public class WarriorStateController : MonoBehaviour
 
     void StartAttack()
     {
-        Debug.Log("StartAttack called");
         isAttack = true;
         previosState = currentState;
         TransitionState(attack);
         StartCoroutine(WaitAttack());
+    }
+
+    void StartAttackReverse()
+    {
+        isAttackReverse = true;
+        previosState = currentState;
+        TransitionState(attackReverse);
+        StartCoroutine(WaitAttackReverse());
+    }
+
+    IEnumerator WaitAttackReverse()
+    {
+        yield return new WaitForSeconds(0.1f);
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (infor.normalizedTime < 1f)
+        {
+            infor = animator.GetCurrentAnimatorStateInfo(0);
+            yield return null;
+        }
+        isAttackReverse = false;
+        TransitionState(previosState);
     }
 }

@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rigi = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         ensnare = transform.Find("ensnare");
     }
 

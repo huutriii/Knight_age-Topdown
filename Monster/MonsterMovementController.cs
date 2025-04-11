@@ -31,7 +31,7 @@ public class MonsterMovementController : MonoBehaviour
     public Vector2 targetPosition;
     public Vector2 moveDirection;
 
-    [Header("State")]
+    [Header("STATE")]
     public bool isMove = true;
     public bool isPatrol = true;
     public bool isResting = false;
@@ -83,7 +83,7 @@ public class MonsterMovementController : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRange);
         foreach (Collider2D hit in hits)
         {
-            if (hit.CompareTag(Constant.Player))
+            if (hit.CompareTag(GAME.Player))
             {
                 float distance = Vector2.Distance(transform.position, hit.transform.position);
                 if (distance < minDistance)

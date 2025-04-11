@@ -1,14 +1,18 @@
 using UnityEngine;
 
-public class BossHurtState : BossBaseState, IBossState
+public class BossHurtState : BossBaseState
 {
-    [SerializeField] float hurtDurable;
-    public BossHurtState(BossController boss, Animator animator) : base(boss, animator)
+    public BossHurtState(Animator animator) : base(animator)
     {
     }
 
-    public override IBossState HandleTransition()
+    public override void Enter()
     {
-        throw new System.NotImplementedException();
+        this.animator.SetBool(STATE.hurt, true);
+    }
+
+    public override void Exit()
+    {
+        this.animator.SetBool(STATE.hurt, false);
     }
 }

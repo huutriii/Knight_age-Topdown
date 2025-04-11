@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class MovingPatrol : MonoBehaviour
 {
-    // ... existing code ...
-
     [SerializeField] Vector2 pivot;
     [SerializeField] float radius;
     [SerializeField] GameObject player;
@@ -16,19 +14,14 @@ public class MovingPatrol : MonoBehaviour
 
     private void Start()
     {
-        // Khởi tạo vị trí tuần tra đầu tiên
         SetNewPatrolTarget();
     }
 
     private void Update()
     {
         if (player != null || isResting) return;
-
-        // Di chuyển đến điểm tuần tra
         Vector2 currentPos = transform.position;
         transform.position = Vector2.MoveTowards(currentPos, currentPatrolTarget, moveSpeed * Time.deltaTime);
-
-        // Kiểm tra xem đã đến điểm tuần tra chưa
         if (Vector2.Distance(currentPos, currentPatrolTarget) < 0.1f)
         {
             StartCoroutine(RestAndSetNewTarget());
@@ -37,7 +30,6 @@ public class MovingPatrol : MonoBehaviour
 
     private void SetNewPatrolTarget()
     {
-        // Tạo một điểm ngẫu nhiên trong bán kính cho phép
         float randomAngle = Random.Range(0f, 360f);
         float randomRadius = Random.Range(0f, radius);
         float x = pivot.x + randomRadius * Mathf.Cos(randomAngle * Mathf.Deg2Rad);
@@ -55,7 +47,6 @@ public class MovingPatrol : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        // Vẽ một chấm đỏ tại vị trí tuần tra hiện tại
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(currentPatrolTarget, 0.2f);
     }

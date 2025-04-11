@@ -34,10 +34,15 @@ public class BossController : MonoBehaviour
 
     #endregion
 
-
-    private Animator animator;
-    private IBossState currentState;
-
+    Animator animator;
+    BossBaseState currentState;
+    BossBaseState previosState;
+    BossBaseState idle;
+    BossBaseState walk;
+    BossBaseState run;
+    BossBaseState hurt;
+    BossBaseState attack;
+    BossBaseState death;
     [SerializeField] float x = 0, y = 0;
 
     [SerializeField] AreaSO area;
@@ -50,6 +55,7 @@ public class BossController : MonoBehaviour
 
     public bool isWalk;
     public bool isPatrolling;
+    [SerializeField] float timeDuration = 8f;
 
     public bool isRun;
     public Vector2 currentPositionTarget;
@@ -57,46 +63,41 @@ public class BossController : MonoBehaviour
     public GameObject currentPlayerTarget;
 
     public bool isHurt;
-    public bool isAttack;
     public bool isDeath;
 
-    private bool canAttack = true;
+    private bool canAttack;
 
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
         InitialSO();
+
+        idle = new BossIdleState(animator);
+        walk = new BossWalkState(animator);
+        run = new BossRunState(animator);
+        hurt = new BossHurtState(animator);
+        attack = new BossAttackState(animator);
+        death = new BossDeathState(animator);
+
+        currentState = idle;
     }
 
     void InitialSO()
     {
-        pivot = area.pivot;
+        pivot = area.pivot + new Vector2(0.1f, 0.1f);
         radius = area.radius;
         currentPositionTarget = pivot;
     }
 
     private void Update()
     {
-        if (currentState != null)
-        {
-            currentState.Update();
-
-            var newState = currentState.HandleTransition();
-
-            if (newState != null)
-            {
-                TransitionToState(newState);
-            }
-        }
-
         Target();
-        CheckPlayerInRange();
-        UpdateBosMovement();
-
-        Attack();
+        CheckTargetInRange();
+        UpdateBossMovement();
+        UpdateBossAttack();
     }
 
-    private void TransitionToState(IBossState newState)
+    private void Transition(BossBaseState newState)
     {
         currentState?.Exit();
         currentState = newState;
@@ -104,7 +105,7 @@ public class BossController : MonoBehaviour
     }
 
 
-    private void UpdateBosMovement()
+    private void UpdateBossMovement()
     {
         if (currentPlayerTarget != null)
         {
@@ -113,26 +114,13 @@ public class BossController : MonoBehaviour
             if (distanceToPlayer > 3f)
             {
                 MoveToTarget(currentPlayerTarget.transform.position);
-                animator.SetBool(Constant.walk, false);
-                animator.SetBool(Constant.idle, false);
-                animator.SetBool(Constant.run, true);
-                isAttack = false;
-            }
-            else
-            {
-                animator.SetBool(Constant.run, false);
-                if (canAttack)
-                {
-                    StartCoroutine(WaitAttack());
-                }
+                Transition(run);
             }
         }
         else
         {
             if (Vector2.Distance(transform.position, currentPositionTarget) > 0.3f)
             {
-                animator.SetBool(Constant.run, false);
-                animator.SetBool(Constant.walk, true);
                 MoveToTarget(currentPositionTarget);
                 isPatrolling = true;
             }
@@ -146,28 +134,26 @@ public class BossController : MonoBehaviour
 
     IEnumerator WaitAttack()
     {
-        isAttack = true;
         canAttack = false;
-
-        yield return new WaitForSeconds(2);
-
-        isAttack = false;
-        yield return new WaitForSeconds(1);
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+        while (infor.normalizedTime < 1)
+        {
+            yield return null;
+        }
+        yield return new WaitForSeconds(0.5f);
         canAttack = true;
+        Transition(previosState);
     }
 
     IEnumerator WaitBossRest()
     {
         isPatrolling = false;
-        animator.SetBool(Constant.run, false);
-        animator.SetBool(Constant.walk, false);
-        animator.SetBool(Constant.idle, true);
-        yield return new WaitForSeconds(8);
-        animator.SetBool(Constant.idle, false);
+        Transition(idle);
+        yield return new WaitForSeconds(timeDuration);
         float x = Random.Range(pivot.x - radius, pivot.x + radius);
         float y = Random.Range(pivot.y - radius, pivot.y + radius);
+        Debug.Log(x + ", " + y);
         currentPositionTarget = new Vector2(x, y);
-
         isPatrolling = true;
     }
 
@@ -177,7 +163,7 @@ public class BossController : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.transform == this.transform || !hit.CompareTag(Constant.Player))
+            if (hit.transform == this.transform || !hit.CompareTag(GAME.Player))
                 continue;
 
             currentPlayerTarget = hit.gameObject;
@@ -188,9 +174,9 @@ public class BossController : MonoBehaviour
     }
 
 
-    public void CheckPlayerInRange()
+    public void CheckTargetInRange()
     {
-        if (currentPlayerTarget == null)
+        if (currentPlayerTarget == null || !currentPlayerTarget.gameObject.activeSelf)
             return;
 
         float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
@@ -198,21 +184,14 @@ public class BossController : MonoBehaviour
         if (distance > detectRange)
         {
             currentPlayerTarget = null;
-            isRun = false;
-            isWalk = true;
-        }
-        else
-        {
-            isWalk = false;
-            isRun = true;
         }
     }
 
     private void MoveToTarget(Vector2 target)
     {
-        transform.position = Vector2.MoveTowards(transform.position, target, speedAttack * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target, speedArround * Time.deltaTime);
         CalculateDirection(target);
-        TransitionRunState(x, y);
+        SetDirectionState(x, y);
     }
 
     void CalculateDirection(Vector2 target)
@@ -230,25 +209,40 @@ public class BossController : MonoBehaviour
 
     }
 
-    void Attack()
+    void SetDirectionState(float x, float y)
     {
-        if (isAttack)
+        animator.SetFloat(GAME.x, x);
+        animator.SetFloat(GAME.y, y);
+    }
+
+    void UpdateBossAttack()
+    {
+        if (currentPlayerTarget != null)
         {
-            animator.SetBool(Constant.idle, false);
-            animator.SetBool(Constant.walk, false);
-            animator.SetBool(Constant.run, false);
-            animator.SetBool(Constant.attack, true);
+            float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+
+            if (distanceToPlayer > 3f)
+            {
+                Transition(run);
+                canAttack = true;
+            }
+            else
+            {
+                if (canAttack)
+                {
+                    Transition(attack);
+                    previosState = currentState;
+                    StartCoroutine(WaitAttack());
+                }
+            }
         }
         else
         {
-            animator.SetBool(Constant.attack, false);
+            if (Vector2.Distance(transform.position, currentPositionTarget) > 0.3f)
+            {
+                Transition(walk);
+            }
         }
-    }
-
-    void TransitionRunState(float x, float y)
-    {
-        animator.SetFloat(Constant.x, x);
-        animator.SetFloat(Constant.y, y);
     }
 
     private void OnDrawGizmos()

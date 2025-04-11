@@ -6,12 +6,12 @@ public class IdleState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateConstant.idle, true);
+        animator.SetBool(STATE.idle, true);
     }
 
     public void Exit()
     {
-        animator.SetBool(StateConstant.idle, false);
+        animator.SetBool(STATE.idle, false);
     }
 
     public IMonsterState HandleTransition()
@@ -29,9 +29,5 @@ public class IdleState : MonsterStateBase, IMonsterState
             return new RunState(monster, animator);
 
         return null;
-    }
-
-    public void Update()
-    {
     }
 }

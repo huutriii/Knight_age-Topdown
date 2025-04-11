@@ -13,13 +13,13 @@ public class HurtState : MonsterStateBase, IMonsterState
     public void Enter()
     {
         ResetAllAnimations();
-        animator.SetBool(StateConstant.hurt, true);
+        animator.SetBool(STATE.hurt, true);
         monster.SetMovementLocked(true);
     }
 
     public void Exit()
     {
-        animator.SetBool(StateConstant.hurt, false);
+        animator.SetBool(STATE.hurt, false);
         monster.SetMovementLocked(false);
         monster.SetHurt(false);
     }

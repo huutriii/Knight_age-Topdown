@@ -29,8 +29,8 @@ public class MovementUI : MonoBehaviour
             return;
         }
 
-        float x = Input.GetAxisRaw(Constant.x);
-        float y = Input.GetAxisRaw(Constant.y);
+        float x = Input.GetAxisRaw(GAME.x);
+        float y = Input.GetAxisRaw(GAME.y);
 
         if (y == -1)
         {

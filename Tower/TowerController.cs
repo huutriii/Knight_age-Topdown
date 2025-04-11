@@ -14,7 +14,7 @@ public class TowerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            AudioController.Instance.PlaySound("Thunder");
+            AudioController.Instance.PlaySound(SOUND.Thunder);
             tmp = GetBullet();
             tmp.SetActive(true);
             tmp.transform.position = transform.position;

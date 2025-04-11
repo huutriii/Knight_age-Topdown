@@ -48,7 +48,7 @@ public class LightningStrike : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius);
         foreach (Collider2D hit in hits)
         {
-            if (hit.transform == this.transform || !hit.gameObject.CompareTag(Constant.Player))
+            if (hit.transform == this.transform || !hit.gameObject.CompareTag(GAME.Player))
             {
                 continue;
             }

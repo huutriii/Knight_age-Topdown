@@ -11,7 +11,7 @@
 //    [Header("Monster Stats")]
 //    [SerializeField] private float hp = 100;
 
-//    [Header("State Management")]
+//    [Header("STATE Management")]
 //    private Animator animator;
 //    private IMonsterState currentState;
 
@@ -47,7 +47,7 @@
 //    private void Start()
 //    {
 //        SetupComponents();
-//        TransitionToState(new IdleState(this, animator));
+//        Transition(new IdleState(this, animator));
 //    }
 
 //    private void Update()
@@ -59,7 +59,7 @@
 //            var newState = currentState.HandleTransition();
 //            if (newState != null)
 //            {
-//                TransitionToState(newState);
+//                Transition(newState);
 //            }
 //        }
 
@@ -156,7 +156,7 @@
 //        isPatrolling = true;
 //    }
 
-//    private void TransitionToState(IMonsterState newState)
+//    private void Transition(IMonsterState newState)
 //    {
 //        if (currentState != null)
 //            currentState.Exit();
@@ -165,7 +165,7 @@
 //        currentState.Enter();
 //    }
 
-//    // State Management Methods
+//    // STATE Management Methods
 //    public void SetAttacking(bool isAttacking) => IsAttacking = isAttacking;
 //    public void SetHurt(bool isHurt) => IsHurt = isHurt;
 //    public void SetMovementLocked(bool isLocked) => IsMovementLocked = isLocked;

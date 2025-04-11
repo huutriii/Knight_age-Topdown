@@ -1,13 +1,18 @@
 using UnityEngine;
 
-public class BossAttackState : BossBaseState, IBossState
+public class BossAttackState : BossBaseState
 {
-    public BossAttackState(BossController boss, Animator animator) : base(boss, animator)
+    public BossAttackState(Animator animator) : base(animator)
     {
     }
 
-    public override IBossState HandleTransition()
+    public override void Enter()
     {
-        throw new System.NotImplementedException();
+        this.animator.SetBool(STATE.attack, true);
+    }
+
+    public override void Exit()
+    {
+        this.animator.SetBool(STATE.attack, false);
     }
 }

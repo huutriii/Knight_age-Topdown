@@ -8,7 +8,7 @@ public class TargetClosit : MonoBehaviour
     LayerMask _targetPlayer;
     [SerializeField] Transform _currentTarget;
     private List<Transform> _targetsInRange = new List<Transform>();
-    private int _targetIndex = 0; // Chỉ mục của mục tiêu hiện tại
+    private int _targetIndex = 0;
 
     private static TargetClosit _instance;
     public static TargetClosit Instance => _instance;
@@ -27,7 +27,7 @@ public class TargetClosit : MonoBehaviour
     private void Start()
     {
         player = GetComponent<Transform>();
-        _targetPlayer = ~LayerMask.GetMask(Constant.Player);
+        _targetPlayer = ~LayerMask.GetMask(GAME.Player);
     }
 
     void Update()
@@ -47,8 +47,6 @@ public class TargetClosit : MonoBehaviour
             .Select(t => t.transform)
             .OrderBy(t => Vector2.Distance(player.position, t.position))
             .ToList();
-
-        // Nếu danh sách trống, reset target
         if (_targetsInRange.Count == 0)
         {
             _currentTarget = null;
@@ -62,7 +60,6 @@ public class TargetClosit : MonoBehaviour
 
         _currentTarget = _targetsInRange[_targetIndex];
 
-        // Tăng chỉ mục, nếu vượt quá danh sách thì quay lại đầu
         _targetIndex = (_targetIndex + 1) % _targetsInRange.Count;
     }
 

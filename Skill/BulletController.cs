@@ -66,7 +66,5 @@ public class BulletController : MonoBehaviour
     {
         gameObject.SetActive(false);
         yield return new WaitForSeconds(1);
-
-        Debug.Log("that");
     }
 }

@@ -8,11 +8,11 @@ public class MonsterStateBase : MonoBehaviour
 
     protected void ResetAllAnimations()
     {
-        animator.SetBool(StateConstant.idle, false);
-        animator.SetBool(StateConstant.run, false);
-        animator.SetBool(StateConstant.hurt, false);
-        animator.SetBool(StateConstant.attack, false);
-        animator.SetBool(StateConstant.died, false);
+        animator.SetBool(STATE.idle, false);
+        animator.SetBool(STATE.run, false);
+        animator.SetBool(STATE.hurt, false);
+        animator.SetBool(STATE.attack, false);
+        animator.SetBool(STATE.died, false);
 
     }
 }

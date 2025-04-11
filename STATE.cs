@@ -1,4 +1,4 @@
-public static class StateConstant
+public static class STATE
 {
     public static string died = "died";
     public static string hurt = "hurt";

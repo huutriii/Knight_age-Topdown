@@ -8,6 +8,8 @@ public class InputManager : MonoBehaviour
     public float x, y;
     public float lastX, lastY;
     public float originX, originY;
+
+    public bool v;
     private void Awake()
     {
         if (instance == null)
@@ -24,12 +26,16 @@ public class InputManager : MonoBehaviour
     private void Update()
     {
         ProcessInput();
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            v = true;
+        }
     }
 
     void ProcessInput()
     {
-        x = Input.GetAxisRaw(Constant.x);
-        y = Input.GetAxisRaw(Constant.y);
+        x = Input.GetAxisRaw(GAME.x);
+        y = Input.GetAxisRaw(GAME.y);
 
         originX = x;
         originY = y;

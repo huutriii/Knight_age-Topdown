@@ -1,38 +1,18 @@
 using UnityEngine;
 
-public class BossIdleState : BossBaseState, IBossState
+public class BossIdleState : BossBaseState
 {
-    public BossIdleState(BossController boss, Animator animator) : base(boss, animator) { }
+    public BossIdleState(Animator animator) : base(animator)
+    {
+    }
 
     public override void Enter()
     {
-        animator.SetBool(Constant.idle, true);
-        boss.isIdle = true;
+        animator.SetBool(STATE.idle, true);
     }
 
     public override void Exit()
     {
-        animator.SetBool(Constant.idle, false);
-        boss.isIdle = false;
+        animator.SetBool(STATE.idle, false);
     }
-
-    public override IBossState HandleTransition()
-    {
-        if (boss.isDeath)
-            return new BossDeathState(boss, animator);
-        if (boss.isAttack)
-            return new BossAttackState(boss, animator);
-        if (boss.isHurt)
-            return new BossHurtState(boss, animator);
-        if (boss.isRun)
-            return new BossRunState(boss, animator);
-        if (boss.isWalk)
-            return new BossWalkState(boss, animator);
-        if (boss.isIdle)
-            return null;
-
-
-        return null;
-    }
-
 }
