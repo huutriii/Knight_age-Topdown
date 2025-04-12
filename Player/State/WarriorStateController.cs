@@ -16,7 +16,7 @@ public class WarriorStateController : MonoBehaviour
     public bool isAttackReverse;
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         run = new Warrior_Run(animator);
         idle = new Warrior_Idle(animator);
         attack = new Warrior_Attack(animator);

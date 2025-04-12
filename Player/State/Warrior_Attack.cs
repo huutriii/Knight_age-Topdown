@@ -8,13 +8,12 @@ public class Warrior_Attack : WarriorStateBase
 
     public override void Enter()
     {
-        Debug.Log("Attack entered !");
-        this._animator.SetBool("Attack", true);
+        this._animator.SetBool(STATE.attack, true);
     }
 
     public override void Exit()
     {
-        this._animator.SetBool("Attack", false);
+        this._animator.SetBool(STATE.attack, false);
     }
 
     public override void HandleTransition()

@@ -8,12 +8,12 @@ public class Warrior_Idle : WarriorStateBase
 
     public override void Enter()
     {
-        this._animator.SetBool("Idle", true);
+        this._animator.SetBool(STATE.idle, true);
     }
 
     public override void Exit()
     {
-        this._animator.SetBool("Idle", false);
+        this._animator.SetBool(STATE.idle, false);
     }
 
     public override void HandleTransition()

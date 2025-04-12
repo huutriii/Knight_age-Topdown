@@ -4,6 +4,7 @@ public static class STATE
     public static string hurt = "hurt";
     public static string run = "run";
     public static string attack = "attack";
+    public static string attackReverse = "attackReverse";
     public static string idle = "idle";
     public static string walk = "walk";
 

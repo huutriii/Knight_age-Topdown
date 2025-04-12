@@ -94,17 +94,12 @@ public class BossController : MonoBehaviour
         Target();
         CheckTargetInRange();
         UpdateBossMovement();
-        UpdateBossAttack();
-    }
-
-    private void Transition(BossBaseState newState)
-    {
-        currentState?.Exit();
-        currentState = newState;
-        currentState?.Enter();
+        UpdateBossState();
     }
 
 
+
+    #region Movement
     private void UpdateBossMovement()
     {
         if (currentPlayerTarget != null)
@@ -114,7 +109,6 @@ public class BossController : MonoBehaviour
             if (distanceToPlayer > 3f)
             {
                 MoveToTarget(currentPlayerTarget.transform.position);
-                Transition(run);
             }
         }
         else
@@ -132,19 +126,6 @@ public class BossController : MonoBehaviour
         }
     }
 
-    IEnumerator WaitAttack()
-    {
-        canAttack = false;
-        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
-        while (infor.normalizedTime < 1)
-        {
-            yield return null;
-        }
-        yield return new WaitForSeconds(0.5f);
-        canAttack = true;
-        Transition(previosState);
-    }
-
     IEnumerator WaitBossRest()
     {
         isPatrolling = false;
@@ -155,36 +136,6 @@ public class BossController : MonoBehaviour
         Debug.Log(x + ", " + y);
         currentPositionTarget = new Vector2(x, y);
         isPatrolling = true;
-    }
-
-    private void Target()
-    {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectRange);
-
-        foreach (Collider2D hit in hits)
-        {
-            if (hit.transform == this.transform || !hit.CompareTag(GAME.Player))
-                continue;
-
-            currentPlayerTarget = hit.gameObject;
-            return;
-        }
-
-        currentPlayerTarget = null;
-    }
-
-
-    public void CheckTargetInRange()
-    {
-        if (currentPlayerTarget == null || !currentPlayerTarget.gameObject.activeSelf)
-            return;
-
-        float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
-
-        if (distance > detectRange)
-        {
-            currentPlayerTarget = null;
-        }
     }
 
     private void MoveToTarget(Vector2 target)
@@ -209,13 +160,43 @@ public class BossController : MonoBehaviour
 
     }
 
-    void SetDirectionState(float x, float y)
+    #endregion
+
+    #region target
+
+    private void Target()
     {
-        animator.SetFloat(GAME.x, x);
-        animator.SetFloat(GAME.y, y);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectRange);
+
+        foreach (Collider2D hit in hits)
+        {
+            if (hit.transform == this.transform || !hit.CompareTag(GAME.Player))
+                continue;
+
+            currentPlayerTarget = hit.gameObject;
+            return;
+        }
+
+        currentPlayerTarget = null;
     }
 
-    void UpdateBossAttack()
+    public void CheckTargetInRange()
+    {
+        if (currentPlayerTarget == null || !currentPlayerTarget.gameObject.activeSelf)
+            return;
+
+        float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+
+        if (distance > detectRange)
+        {
+            currentPlayerTarget = null;
+        }
+    }
+
+    #endregion
+
+    #region State
+    void UpdateBossState()
     {
         if (currentPlayerTarget != null)
         {
@@ -230,8 +211,8 @@ public class BossController : MonoBehaviour
             {
                 if (canAttack)
                 {
-                    Transition(attack);
                     previosState = currentState;
+                    Transition(attack);
                     StartCoroutine(WaitAttack());
                 }
             }
@@ -245,6 +226,31 @@ public class BossController : MonoBehaviour
         }
     }
 
+    IEnumerator WaitAttack()
+    {
+        canAttack = false;
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+        while (infor.normalizedTime < 1)
+        {
+            yield return null;
+            infor = animator.GetCurrentAnimatorStateInfo(0);
+        }
+        yield return new WaitForSeconds(0.5f);
+        canAttack = true;
+        Transition(previosState);
+    }
+    void SetDirectionState(float x, float y)
+    {
+        animator.SetFloat(GAME.x, x);
+        animator.SetFloat(GAME.y, y);
+    }
+    private void Transition(BossBaseState newState)
+    {
+        currentState?.Exit();
+        currentState = newState;
+        currentState?.Enter();
+    }
+    #endregion
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

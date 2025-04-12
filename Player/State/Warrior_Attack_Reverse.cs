@@ -8,12 +8,12 @@ public class Warrior_Attack_Reverse : WarriorStateBase
 
     public override void Enter()
     {
-        this._animator.SetBool(GAME.attack_reverse, true);
+        this._animator.SetBool(STATE.attackReverse, true);
     }
 
     public override void Exit()
     {
-        this._animator.SetBool(GAME.attack_reverse, false);
+        this._animator.SetBool(STATE.attackReverse, false);
     }
 
     public override void HandleTransition()

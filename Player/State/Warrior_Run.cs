@@ -5,12 +5,12 @@ public class Warrior_Run : WarriorStateBase
 
     public override void Enter()
     {
-        this._animator.SetBool("Run", true);
+        this._animator.SetBool(STATE.run, true);
     }
 
     public override void Exit()
     {
-        this._animator.SetBool("Run", false);
+        this._animator.SetBool(STATE.run, false);
     }
 
     public override void HandleTransition()
