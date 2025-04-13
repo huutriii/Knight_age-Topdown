@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public class BossController : MonoBehaviour
@@ -34,6 +34,7 @@ public class BossController : MonoBehaviour
 
     #endregion
 
+    [Header("State")]
     Animator animator;
     BossBaseState currentState;
     BossBaseState previosState;
@@ -43,16 +44,20 @@ public class BossController : MonoBehaviour
     BossBaseState hurt;
     BossBaseState attack;
     BossBaseState death;
+    [SerializeField] string current_state;
+    [SerializeField] string previos_state;
     [SerializeField] float x = 0, y = 0;
+
 
     [SerializeField] AreaSO area;
     public Vector2 pivot;
     public float radius;
 
-    [SerializeField] float speedArround, speedAttack;
+    [SerializeField] float speedArround;
     [SerializeField] float detectRange;
+    public bool canTransition = true;
     public bool isIdle;
-
+    public bool isAttack, canAttack;
     public bool isWalk;
     public bool isPatrolling;
     [SerializeField] float timeDuration = 8f;
@@ -64,8 +69,6 @@ public class BossController : MonoBehaviour
 
     public bool isHurt;
     public bool isDeath;
-
-    private bool canAttack;
 
     private void Start()
     {
@@ -94,7 +97,17 @@ public class BossController : MonoBehaviour
         Target();
         CheckTargetInRange();
         UpdateBossMovement();
-        UpdateBossState();
+        if (!isAttack)
+            UpdateBossState();
+
+        if (currentState != null)
+        {
+            current_state = currentState.ToString();
+        }
+        if (previosState != null)
+        {
+            previos_state = previosState.ToString();
+        }
     }
 
 
@@ -102,11 +115,14 @@ public class BossController : MonoBehaviour
     #region Movement
     private void UpdateBossMovement()
     {
+        if (isAttack)
+            return;
+
         if (currentPlayerTarget != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
 
-            if (distanceToPlayer > 3f)
+            if (distanceToPlayer > 2f)
             {
                 MoveToTarget(currentPlayerTarget.transform.position);
             }
@@ -198,11 +214,14 @@ public class BossController : MonoBehaviour
     #region State
     void UpdateBossState()
     {
+        if (isAttack)
+            return;
+
         if (currentPlayerTarget != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
 
-            if (distanceToPlayer > 3f)
+            if (distanceToPlayer > 2f)
             {
                 Transition(run);
                 canAttack = true;
@@ -228,17 +247,38 @@ public class BossController : MonoBehaviour
 
     IEnumerator WaitAttack()
     {
+        isAttack = true;
         canAttack = false;
+
         AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+        float attackStartTime = Time.time;
+
         while (infor.normalizedTime < 1)
         {
-            yield return null;
-            infor = animator.GetCurrentAnimatorStateInfo(0);
+            if (currentPlayerTarget != null &&
+                Vector2.Distance(transform.position, currentPlayerTarget.transform.position) > 2f)
+            {
+                yield return null;
+                infor = animator.GetCurrentAnimatorStateInfo(0);
+            }
+            else
+            {
+                yield return null;
+                infor = animator.GetCurrentAnimatorStateInfo(0);
+            }
         }
-        yield return new WaitForSeconds(0.5f);
+
+        yield return new WaitForSeconds(0.2f);
+
+        isAttack = false;
         canAttack = true;
-        Transition(previosState);
+
+        if (currentState == attack)
+        {
+            Transition(previosState);
+        }
     }
+
     void SetDirectionState(float x, float y)
     {
         animator.SetFloat(GAME.x, x);
@@ -246,6 +286,10 @@ public class BossController : MonoBehaviour
     }
     private void Transition(BossBaseState newState)
     {
+        if (isAttack && newState != attack)
+            return;
+
+        previosState = currentState;
         currentState?.Exit();
         currentState = newState;
         currentState?.Enter();
