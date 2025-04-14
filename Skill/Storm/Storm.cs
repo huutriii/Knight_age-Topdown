@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class Storm : MonoBehaviour
@@ -6,10 +5,21 @@ public class Storm : MonoBehaviour
     float speed = 5f;
     Animator animator;
     bool isDisabling = false;
+    private Vector3 initialPosition;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        initialPosition = transform.localPosition;
     }
+
+    private void OnEnable()
+    {
+        isDisabling = false;
+        transform.localPosition = initialPosition;
+        animator.Play(0); // Reset animation
+    }
+
     private void Update()
     {
         if (isDisabling)
@@ -24,7 +34,7 @@ public class Storm : MonoBehaviour
         if (info.normalizedTime >= 1)
         {
             isDisabling = true;
-            StartCoroutine(DisableStorm());
+            gameObject.SetActive(false);
         }
     }
 
@@ -34,12 +44,5 @@ public class Storm : MonoBehaviour
         {
             transform.parent.gameObject.SetActive(false);
         }
-    }
-
-    IEnumerator DisableStorm()
-    {
-        transform.localPosition = Vector3.zero;
-        gameObject.SetActive(false);
-        yield return null;
     }
 }

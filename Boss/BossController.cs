@@ -48,6 +48,7 @@ public class BossController : MonoBehaviour
     [SerializeField] string previos_state;
     [SerializeField] float x = 0, y = 0;
 
+    private bool isDying = false;
 
     [SerializeField] AreaSO area;
     public Vector2 pivot;
@@ -59,6 +60,7 @@ public class BossController : MonoBehaviour
     public bool isIdle;
     public bool isAttack, canAttack;
     public bool isWalk;
+    public bool isDeath = false;
     public bool isPatrolling;
     [SerializeField] float timeDuration = 8f;
 
@@ -68,7 +70,21 @@ public class BossController : MonoBehaviour
     public GameObject currentPlayerTarget;
 
     public bool isHurt;
-    public bool isDeath;
+    private float _hp;
+    public float Hp
+    {
+        get => _hp;
+        set
+        {
+            _hp = value;
+            if (_hp <= 0 && !isDeath)
+            {
+                isDeath = true;
+                StartCoroutine(WaitBeforeDied());
+            }
+        }
+    }
+
 
     private void Start()
     {
@@ -83,6 +99,8 @@ public class BossController : MonoBehaviour
         death = new BossDeathState(animator);
 
         currentState = idle;
+
+        Hp = 100;
     }
 
     void InitialSO()
@@ -94,6 +112,12 @@ public class BossController : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("Hp : " + Hp);
+        //if (isDeath)
+        //{
+        //    gameObject.SetActive(false);
+        //    return;
+        //}
         Target();
         CheckTargetInRange();
         UpdateBossMovement();
@@ -214,6 +238,9 @@ public class BossController : MonoBehaviour
     #region State
     void UpdateBossState()
     {
+        if (isDying)
+            return;
+
         if (isAttack)
             return;
 
@@ -228,7 +255,7 @@ public class BossController : MonoBehaviour
             }
             else
             {
-                if (canAttack)
+                if (canAttack && !isDeath)
                 {
                     previosState = currentState;
                     Transition(attack);
@@ -279,6 +306,23 @@ public class BossController : MonoBehaviour
         }
     }
 
+
+    IEnumerator WaitBeforeDied()
+    {
+        Transition(death);
+        isDying = true;
+        yield return null;
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (infor.normalizedTime < 1)
+        {
+            yield return null;
+            infor = animator.GetCurrentAnimatorStateInfo(0);
+        }
+        //yield return new WaitForSeconds(2);
+        gameObject.SetActive(false);
+    }
+
     void SetDirectionState(float x, float y)
     {
         animator.SetFloat(GAME.x, x);
@@ -295,10 +339,22 @@ public class BossController : MonoBehaviour
         currentState?.Enter();
     }
     #endregion
+
+    #region Interactive player
+
+    void TakeDamage(float amount) => Hp -= amount;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("hit !");
+        TakeDamage(30);
+    }
+
+    #endregion
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere(currentPositionTarget, 0.5f);
+        Gizmos.DrawSphere(currentPositionTarget, 0.2f);
 
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, detectRange);
