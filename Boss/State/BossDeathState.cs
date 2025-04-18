@@ -9,6 +9,7 @@ public class BossDeathState : BossBaseState
     public override void Enter()
     {
         this.animator.SetBool(STATE.died, true);
+        Debug.Log("death !");
     }
 
     public override void Exit()

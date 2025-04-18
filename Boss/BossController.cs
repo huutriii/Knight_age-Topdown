@@ -37,15 +37,15 @@ public class BossController : MonoBehaviour
     [Header("State")]
     Animator animator;
     BossBaseState currentState;
-    BossBaseState previosState;
+    BossBaseState previousState;
     BossBaseState idle;
     BossBaseState walk;
     BossBaseState run;
     BossBaseState hurt;
     BossBaseState attack;
     BossBaseState death;
-    [SerializeField] string current_state;
-    [SerializeField] string previos_state;
+    [SerializeField] string current;
+    [SerializeField] string previous;
     [SerializeField] float x = 0, y = 0;
 
     private bool isDying = false;
@@ -59,7 +59,6 @@ public class BossController : MonoBehaviour
     public bool canTransition = true;
     public bool isIdle;
     public bool isAttack, canAttack;
-    public bool isWalk;
     public bool isDeath = false;
     public bool isPatrolling;
     [SerializeField] float timeDuration = 8f;
@@ -113,11 +112,6 @@ public class BossController : MonoBehaviour
     private void Update()
     {
         Debug.Log("Hp : " + Hp);
-        //if (isDeath)
-        //{
-        //    gameObject.SetActive(false);
-        //    return;
-        //}
         Target();
         CheckTargetInRange();
         UpdateBossMovement();
@@ -126,11 +120,11 @@ public class BossController : MonoBehaviour
 
         if (currentState != null)
         {
-            current_state = currentState.ToString();
+            current = currentState.ToString();
         }
-        if (previosState != null)
+        if (previousState != null)
         {
-            previos_state = previosState.ToString();
+            previous = previousState.ToString();
         }
     }
 
@@ -139,7 +133,7 @@ public class BossController : MonoBehaviour
     #region Movement
     private void UpdateBossMovement()
     {
-        if (isAttack)
+        if (isAttack || isHurt)
             return;
 
         if (currentPlayerTarget != null)
@@ -173,7 +167,6 @@ public class BossController : MonoBehaviour
         yield return new WaitForSeconds(timeDuration);
         float x = Random.Range(pivot.x - radius, pivot.x + radius);
         float y = Random.Range(pivot.y - radius, pivot.y + radius);
-        Debug.Log(x + ", " + y);
         currentPositionTarget = new Vector2(x, y);
         isPatrolling = true;
     }
@@ -240,7 +233,8 @@ public class BossController : MonoBehaviour
     {
         if (isDying)
             return;
-
+        if (isDeath)
+            return;
         if (isAttack)
             return;
 
@@ -257,7 +251,7 @@ public class BossController : MonoBehaviour
             {
                 if (canAttack && !isDeath)
                 {
-                    previosState = currentState;
+                    previousState = currentState;
                     Transition(attack);
                     StartCoroutine(WaitAttack());
                 }
@@ -302,7 +296,7 @@ public class BossController : MonoBehaviour
 
         if (currentState == attack)
         {
-            Transition(previosState);
+            Transition(previousState);
         }
     }
 
@@ -319,7 +313,7 @@ public class BossController : MonoBehaviour
             yield return null;
             infor = animator.GetCurrentAnimatorStateInfo(0);
         }
-        //yield return new WaitForSeconds(2);
+        //yield return new WaitForSeconds(3);
         gameObject.SetActive(false);
     }
 
@@ -330,10 +324,10 @@ public class BossController : MonoBehaviour
     }
     private void Transition(BossBaseState newState)
     {
-        if (isAttack && newState != attack)
+        if ((isAttack || isDeath) && !(newState == death || (isAttack && newState == attack)))
             return;
 
-        previosState = currentState;
+        previousState = currentState;
         currentState?.Exit();
         currentState = newState;
         currentState?.Enter();
@@ -351,6 +345,8 @@ public class BossController : MonoBehaviour
     }
 
     #endregion
+
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

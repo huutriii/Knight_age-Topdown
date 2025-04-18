@@ -6,11 +6,13 @@ public class Storm : MonoBehaviour
     Animator animator;
     bool isDisabling = false;
     private Vector3 initialPosition;
+    private StormForm parentForm;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         initialPosition = transform.localPosition;
+        parentForm = transform.parent?.GetComponent<StormForm>();
     }
 
     private void OnEnable()
@@ -29,20 +31,18 @@ public class Storm : MonoBehaviour
 
         Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)).normalized;
         transform.position += (Vector3)(direction * speed * Time.deltaTime);
-
         AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
         if (info.normalizedTime >= 1)
         {
             isDisabling = true;
-            gameObject.SetActive(false);
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (transform.parent != null)
-        {
-            transform.parent.gameObject.SetActive(false);
+            if (parentForm != null)
+            {
+                parentForm.OnChildDeactivated();
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }

@@ -18,7 +18,7 @@ public class ProjectileAttackController : MonoBehaviour
 
     private void Update()
     {
-        if (isFly)
+        if (isFly && target != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, 3 * Time.deltaTime);
 
