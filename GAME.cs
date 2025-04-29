@@ -14,7 +14,7 @@ public static class GAME
 
     public static string x = "Horizontal";
     public static string y = "Vertical";
-
+    public static string Skill = "Skill";
     public static string Thunder = "Thunder";
 
 }

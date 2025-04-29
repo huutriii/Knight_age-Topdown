@@ -4,10 +4,6 @@ public class SkillTargetDirection : MonoBehaviour
 {
     [SerializeField] float speedMagnitude;
     [SerializeField] GameObject target;
-    void Start()
-    {
-
-    }
 
     void Update()
     {

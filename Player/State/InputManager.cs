@@ -62,4 +62,9 @@ public class InputManager : MonoBehaviour
     public bool CanMove() => (originX == 0 && originY == 0) ? false : true;
 
     public Vector2 GetOriginInput() => new Vector2(originX, originY);
+
+    public void GetKeySKill()
+    {
+
+    }
 }

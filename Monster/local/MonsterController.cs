@@ -21,21 +21,18 @@ public class MonsterController : MonoBehaviour
     [SerializeField] bool isPatrolling = true;
 
     [Header("Death setting")]
-    [SerializeField] float deathAnimationDuration = 1f;
     private bool isDying = false;
     public bool IsDead => hp <= 0;
 
-    public bool IsHurt { get; private set; }
-    public bool IsAttacking { get; private set; }
-    public bool IsMovementLocked { get; private set; }
-    public bool IsTargetInRange { get; private set; }
+    public bool IsHurt;
+    public bool IsAttacking;
+    public bool IsMovementLocked;
+    public bool IsTargetInRange;
     public bool ShouldRun => Vector2.Distance(transform.position, currentPositionTarget) > 0.3f;
     public Vector2 CurrentPositionTarget => currentPositionTarget;
     public Vector2 Pivot => pivot;
     public float Speed => speedArround;
     public bool IsPatrolling => isPatrolling;
-
-
 
     private void Awake()
     {
@@ -49,8 +46,8 @@ public class MonsterController : MonoBehaviour
 
     private void Start()
     {
-        SetupComponents();
-        TransitionToState(new IdleState(this, animator));
+        animator = GetComponentInChildren<Animator>();
+        TransitionToState(new IdleState(animator));
     }
     private void SetupInitialValues()
     {
@@ -59,22 +56,17 @@ public class MonsterController : MonoBehaviour
         pivot = Area.pivot;
     }
 
-    private void SetupComponents()
-    {
-        animator = GetComponentInChildren<Animator>();
-    }
-
     private void Update()
     {
         if (currentState != null)
         {
 
-            var newState = currentState.HandleTransition();
+            //var newState = currentState.HandleTransition();
 
-            if (newState != null)
-            {
-                TransitionToState(newState);
-            }
+            //if (newState != null)
+            //{
+            //    TransitionToState(newState);
+            //}
         }
 
         UpdateGameLogic();
@@ -96,7 +88,7 @@ public class MonsterController : MonoBehaviour
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.gameObject == this || hit.gameObject.CompareTag(GAME.Monster))
+            if (hit.gameObject == this || !hit.gameObject.CompareTag(GAME.Player))
                 continue;
 
             float distance = Vector2.Distance(transform.position, hit.transform.position);
@@ -136,9 +128,7 @@ public class MonsterController : MonoBehaviour
     private void MoveToTarget(Vector2 target)
     {
         transform.position = Vector2.MoveTowards(
-            transform.position,
-            target,
-            speedArround * Time.deltaTime
+            transform.position, target, speedArround * Time.deltaTime
         );
 
         UpdateFacingDirection(target);
@@ -147,9 +137,7 @@ public class MonsterController : MonoBehaviour
     private void UpdateFacingDirection(Vector2 target)
     {
         Vector3 scale = transform.localScale;
-
         scale.x = (transform.position.x > target.x) ? -1 : 1;
-
         transform.localScale = scale;
     }
 
@@ -163,8 +151,6 @@ public class MonsterController : MonoBehaviour
 
         isPatrolling = true;
     }
-
-
     private void TransitionToState(IMonsterState newState)
     {
         if (currentState != null)
@@ -179,7 +165,7 @@ public class MonsterController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(GAME.Player))
         {
-            SetAttacking(true);
+            IsAttacking = true;
             IsTargetInRange = true;
         }
     }
@@ -189,21 +175,15 @@ public class MonsterController : MonoBehaviour
         if (collision.gameObject.CompareTag(GAME.Player))
         {
             IsTargetInRange = false;
-            SetAttacking(false);
+            IsAttacking = false;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         TakeDamage(30);
-        SetHurt(true);
+        IsHurt = true;
     }
-
-    #region setter State flags
-    public void SetAttacking(bool isAttacking) => IsAttacking = isAttacking;
-    public void SetHurt(bool isHurt) => IsHurt = isHurt;
-    public void SetMovementLocked(bool isLocked) => IsMovementLocked = isLocked;
-    #endregion
 
     #region Death Sequence
     public void TakeDamage(float damage)
@@ -220,17 +200,25 @@ public class MonsterController : MonoBehaviour
 
     private void HandleDeath()
     {
-        SetMovementLocked(true);
+        IsMovementLocked = true;
         isPatrolling = false;
 
-        TransitionToState(new DiedState(this, animator));
+        TransitionToState(new DiedState(animator));
 
         StartCoroutine(DeathSequence());
     }
 
     IEnumerator DeathSequence()
     {
-        yield return new WaitForSeconds(deathAnimationDuration);
+        yield return null;
+
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (infor.normalizedTime < 1)
+        {
+            yield return null;
+            infor = animator.GetCurrentAnimatorStateInfo(0);
+        }
         gameObject.SetActive(false);
     }
 

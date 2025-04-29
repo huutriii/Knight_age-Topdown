@@ -1,0 +1,1514 @@
+fileFormatVersion: 2
+guid: 89198a9a9d819b2498efe52ce56e3db9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6718299353097967670
+    second: Enemy-Melee-Death_0
+  - first:
+      213: -6828054304390387729
+    second: Enemy-Melee-Death_1
+  - first:
+      213: -5329505324452849733
+    second: Enemy-Melee-Death_2
+  - first:
+      213: 5722473829376951877
+    second: Enemy-Melee-Death_3
+  - first:
+      213: -201101444763475295
+    second: Enemy-Melee-Death_4
+  - first:
+      213: -6812283007049988880
+    second: Enemy-Melee-Death_5
+  - first:
+      213: 7820481463151730453
+    second: Enemy-Melee-Death_6
+  - first:
+      213: 4936167342987299411
+    second: Enemy-Melee-Death_7
+  - first:
+      213: 5797096692236595549
+    second: Enemy-Melee-Death_8
+  - first:
+      213: 443483040107801126
+    second: Enemy-Melee-Death_9
+  - first:
+      213: 3210717221456541056
+    second: Enemy-Melee-Death_10
+  - first:
+      213: -7062973338977758854
+    second: Enemy-Melee-Death_11
+  - first:
+      213: 1590701607749938798
+    second: Enemy-Melee-Death_12
+  - first:
+      213: 9166178961605049298
+    second: Enemy-Melee-Death_13
+  - first:
+      213: 2140254655572036331
+    second: Enemy-Melee-Death_14
+  - first:
+      213: -2255727383069124265
+    second: Enemy-Melee-Death_15
+  - first:
+      213: 7919783781170997004
+    second: Enemy-Melee-Death_16
+  - first:
+      213: 4678358763543937603
+    second: Enemy-Melee-Death_17
+  - first:
+      213: -7916013912730436701
+    second: Enemy-Melee-Death_18
+  - first:
+      213: 383904204035201354
+    second: Enemy-Melee-Death_19
+  - first:
+      213: 5259519924244526628
+    second: Enemy-Melee-Death_20
+  - first:
+      213: 9071902807129187145
+    second: Enemy-Melee-Death_21
+  - first:
+      213: -8778611653985690249
+    second: Enemy-Melee-Death_22
+  - first:
+      213: 594173432077603194
+    second: Enemy-Melee-Death_23
+  - first:
+      213: 2008010045436876001
+    second: Enemy-Melee-Death_24
+  - first:
+      213: 2816516706009001475
+    second: Enemy-Melee-Death_25
+  - first:
+      213: -5194452234307909138
+    second: Enemy-Melee-Death_26
+  - first:
+      213: 4627112388406841002
+    second: Enemy-Melee-Death_27
+  - first:
+      213: -5370075626307152688
+    second: Enemy-Melee-Death_28
+  - first:
+      213: 7419248351367501399
+    second: Enemy-Melee-Death_29
+  - first:
+      213: 4093109190333947523
+    second: Enemy-Melee-Death_30
+  - first:
+      213: -1637898798071755878
+    second: Enemy-Melee-Death_31
+  - first:
+      213: -197396565110994003
+    second: Enemy-Melee-Death_32
+  - first:
+      213: 7355600289677295223
+    second: Enemy-Melee-Death_33
+  - first:
+      213: 1996394406594945824
+    second: Enemy-Melee-Death_34
+  - first:
+      213: -4670429161314881956
+    second: Enemy-Melee-Death_35
+  - first:
+      213: 1081921105231546697
+    second: Enemy-Melee-Death_36
+  - first:
+      213: 714070787367083084
+    second: Enemy-Melee-Death_37
+  - first:
+      213: 5615305976786299889
+    second: Enemy-Melee-Death_38
+  - first:
+      213: -7849354134262983933
+    second: Enemy-Melee-Death_39
+  - first:
+      213: 8230667935479722737
+    second: Enemy-Melee-Death_40
+  - first:
+      213: 8448602965716736769
+    second: Enemy-Melee-Death_41
+  - first:
+      213: 7142181087609096774
+    second: Enemy-Melee-Death_42
+  - first:
+      213: -2942263264296008291
+    second: Enemy-Melee-Death_43
+  - first:
+      213: -2885959321525795816
+    second: Enemy-Melee-Death_44
+  - first:
+      213: 1133659381771320166
+    second: Enemy-Melee-Death_45
+  - first:
+      213: 4490389607016390314
+    second: Enemy-Melee-Death_46
+  - first:
+      213: 1148639926225646969
+    second: Enemy-Melee-Death_47
+  - first:
+      213: -645087104004336717
+    second: Enemy-Melee-Death_48
+  - first:
+      213: -9129201752267351024
+    second: Enemy-Melee-Death_49
+  - first:
+      213: 740505925058170563
+    second: Enemy-Melee-Death_50
+  - first:
+      213: 9142559039486327716
+    second: Enemy-Melee-Death_51
+  - first:
+      213: -5952788606091645422
+    second: Enemy-Melee-Death_52
+  - first:
+      213: -4367585854490232433
+    second: Enemy-Melee-Death_53
+  - first:
+      213: -6248295222783505710
+    second: Enemy-Melee-Death_54
+  - first:
+      213: 544073855055466405
+    second: Enemy-Melee-Death_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_0
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 50
+        width: 137
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6381424aaa13c3d50800000000000000
+      internalID: 6718299353097967670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 50
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7ebb769c0ed31a0800000000000000
+      internalID: -6828054304390387729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_2
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 49
+        width: 139
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb75f63f42bc906b0800000000000000
+      internalID: -5329505324452849733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_3
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 51
+        width: 140
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5468b7cf0af4a6f40800000000000000
+      internalID: 5722473829376951877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_4
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 38
+        width: 159
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a22e0d2d4b853df0800000000000000
+      internalID: -201101444763475295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_5
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 33
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f40b57b2b8e571a0800000000000000
+      internalID: -6812283007049988880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_6
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 26
+        width: 188
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f9fafb47ee78c60800000000000000
+      internalID: 7820481463151730453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_7
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 181
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a44a6ab0ac08440800000000000000
+      internalID: 4936167342987299411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_8
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 26
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51ba5d2abc637050800000000000000
+      internalID: 5797096692236595549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_9
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a298da971972600800000000000000
+      internalID: 443483040107801126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_10
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 25
+        width: 173
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08575234d42ce8c20800000000000000
+      internalID: 3210717221456541056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_11
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 208
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a711d206b274bfd90800000000000000
+      internalID: -7062973338977758854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_12
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 16
+        width: 174
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ee3913fae431610800000000000000
+      internalID: 1590701607749938798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_13
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 208
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbb02a733fc43f70800000000000000
+      internalID: 9166178961605049298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_14
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 16
+        width: 166
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4f3a0546b3bd10800000000000000
+      internalID: 2140254655572036331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_15
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7591b0e75eb02b0e0800000000000000
+      internalID: -2255727383069124265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_16
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07e89e5369b8ed60800000000000000
+      internalID: 7919783781170997004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_17
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 0
+        width: 165
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3424fd8228edce040800000000000000
+      internalID: 4678358763543937603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_18
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf6a6894ba42290800000000000000
+      internalID: -7916013912730436701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_19
+      rect:
+        serializedVersion: 2
+        x: 4911
+        y: 12
+        width: 165
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a491c4de6d6e35500800000000000000
+      internalID: 383904204035201354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_20
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4263fa541819df840800000000000000
+      internalID: 5259519924244526628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_21
+      rect:
+        serializedVersion: 2
+        x: 5167
+        y: 10
+        width: 165
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943edcfb98fd5ed70800000000000000
+      internalID: 9071902807129187145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_22
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d1417363b1c2680800000000000000
+      internalID: -8778611653985690249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_23
+      rect:
+        serializedVersion: 2
+        x: 5441
+        y: 213
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71d5f1a69dee3800800000000000000
+      internalID: 594173432077603194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_24
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 213
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e45ea75f72eddb10800000000000000
+      internalID: 2008010045436876001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 51
+        width: 130
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eae958507461720800000000000000
+      internalID: 2816516706009001475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_26
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 52
+        width: 131
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9c75bd63999e7b0800000000000000
+      internalID: -5194452234307909138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_27
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 50
+        width: 141
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae8cc6a33ec63040800000000000000
+      internalID: 4627112388406841002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_28
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 37
+        width: 142
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49af47ba8a975b0800000000000000
+      internalID: -5370075626307152688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_29
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 46
+        width: 144
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75699a3111776f660800000000000000
+      internalID: 7419248351367501399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_30
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 46
+        width: 146
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eddb45f15adc830800000000000000
+      internalID: 4093109190333947523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_31
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 8
+        width: 166
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bc4ea98b30549e0800000000000000
+      internalID: -1637898798071755878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_32
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 9
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab4da0bed4b24df0800000000000000
+      internalID: -197396565110994003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_33
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 12
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77eb9f7ed77541660800000000000000
+      internalID: 7355600289677295223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_34
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 176
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0232baca22e94bb10800000000000000
+      internalID: 1996394406594945824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_35
+      rect:
+        serializedVersion: 2
+        x: 5772
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e633b3c6d4f2fb0800000000000000
+      internalID: -4670429161314881956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_36
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 159
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94903505381c30f00800000000000000
+      internalID: 1081921105231546697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_37
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 131
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c9f790993e8e900800000000000000
+      internalID: 714070787367083084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_38
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 131
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fba973e8039ded40800000000000000
+      internalID: 5615305976786299889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_39
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 130
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303d207a00e711390800000000000000
+      internalID: -7849354134262983933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_40
+      rect:
+        serializedVersion: 2
+        x: 4797
+        y: 129
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2777e11e4393270800000000000000
+      internalID: 8230667935479722737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_41
+      rect:
+        serializedVersion: 2
+        x: 5423
+        y: 81
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b9bdb72a77f3570800000000000000
+      internalID: 8448602965716736769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_42
+      rect:
+        serializedVersion: 2
+        x: 5570
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a0478bbdf1e1360800000000000000
+      internalID: 7142181087609096774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_43
+      rect:
+        serializedVersion: 2
+        x: 5695
+        y: 130
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9584ff562bfa27d0800000000000000
+      internalID: -2942263264296008291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_44
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 125
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8144a3c994303f7d0800000000000000
+      internalID: -2885959321525795816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_45
+      rect:
+        serializedVersion: 2
+        x: 5831
+        y: 129
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bb4ca83319bbf00800000000000000
+      internalID: 1133659381771320166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_46
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 98
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae51557e81115e30800000000000000
+      internalID: 4490389607016390314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_47
+      rect:
+        serializedVersion: 2
+        x: 5806
+        y: 97
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975b2895de9c0ff00800000000000000
+      internalID: 1148639926225646969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_48
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 104
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d2ac52b03c07f0800000000000000
+      internalID: -645087104004336717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_49
+      rect:
+        serializedVersion: 2
+        x: 5173
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c1b39ff5f8e4180800000000000000
+      internalID: -9129201752267351024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_50
+      rect:
+        serializedVersion: 2
+        x: 5173
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0a29273ec64a00800000000000000
+      internalID: 740505925058170563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_51
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 80
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab7e9ec105e0ee70800000000000000
+      internalID: 9142559039486327716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_52
+      rect:
+        serializedVersion: 2
+        x: 5828
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e2aee4d42736da0800000000000000
+      internalID: -5952788606091645422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_53
+      rect:
+        serializedVersion: 2
+        x: 5570
+        y: 65
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89b6194ec73363c0800000000000000
+      internalID: -4367585854490232433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_54
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 64
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da083a89989949a0800000000000000
+      internalID: -6248295222783505710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Melee-Death_55
+      rect:
+        serializedVersion: 2
+        x: 5701
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af882ed940fc8700800000000000000
+      internalID: 544073855055466405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy-Melee-Death_0: 6718299353097967670
+      Enemy-Melee-Death_1: -6828054304390387729
+      Enemy-Melee-Death_10: 3210717221456541056
+      Enemy-Melee-Death_11: -7062973338977758854
+      Enemy-Melee-Death_12: 1590701607749938798
+      Enemy-Melee-Death_13: 9166178961605049298
+      Enemy-Melee-Death_14: 2140254655572036331
+      Enemy-Melee-Death_15: -2255727383069124265
+      Enemy-Melee-Death_16: 7919783781170997004
+      Enemy-Melee-Death_17: 4678358763543937603
+      Enemy-Melee-Death_18: -7916013912730436701
+      Enemy-Melee-Death_19: 383904204035201354
+      Enemy-Melee-Death_2: -5329505324452849733
+      Enemy-Melee-Death_20: 5259519924244526628
+      Enemy-Melee-Death_21: 9071902807129187145
+      Enemy-Melee-Death_22: -8778611653985690249
+      Enemy-Melee-Death_23: 594173432077603194
+      Enemy-Melee-Death_24: 2008010045436876001
+      Enemy-Melee-Death_25: 2816516706009001475
+      Enemy-Melee-Death_26: -5194452234307909138
+      Enemy-Melee-Death_27: 4627112388406841002
+      Enemy-Melee-Death_28: -5370075626307152688
+      Enemy-Melee-Death_29: 7419248351367501399
+      Enemy-Melee-Death_3: 5722473829376951877
+      Enemy-Melee-Death_30: 4093109190333947523
+      Enemy-Melee-Death_31: -1637898798071755878
+      Enemy-Melee-Death_32: -197396565110994003
+      Enemy-Melee-Death_33: 7355600289677295223
+      Enemy-Melee-Death_34: 1996394406594945824
+      Enemy-Melee-Death_35: -4670429161314881956
+      Enemy-Melee-Death_36: 1081921105231546697
+      Enemy-Melee-Death_37: 714070787367083084
+      Enemy-Melee-Death_38: 5615305976786299889
+      Enemy-Melee-Death_39: -7849354134262983933
+      Enemy-Melee-Death_4: -201101444763475295
+      Enemy-Melee-Death_40: 8230667935479722737
+      Enemy-Melee-Death_41: 8448602965716736769
+      Enemy-Melee-Death_42: 7142181087609096774
+      Enemy-Melee-Death_43: -2942263264296008291
+      Enemy-Melee-Death_44: -2885959321525795816
+      Enemy-Melee-Death_45: 1133659381771320166
+      Enemy-Melee-Death_46: 4490389607016390314
+      Enemy-Melee-Death_47: 1148639926225646969
+      Enemy-Melee-Death_48: -645087104004336717
+      Enemy-Melee-Death_49: -9129201752267351024
+      Enemy-Melee-Death_5: -6812283007049988880
+      Enemy-Melee-Death_50: 740505925058170563
+      Enemy-Melee-Death_51: 9142559039486327716
+      Enemy-Melee-Death_52: -5952788606091645422
+      Enemy-Melee-Death_53: -4367585854490232433
+      Enemy-Melee-Death_54: -6248295222783505710
+      Enemy-Melee-Death_55: 544073855055466405
+      Enemy-Melee-Death_6: 7820481463151730453
+      Enemy-Melee-Death_7: 4936167342987299411
+      Enemy-Melee-Death_8: 5797096692236595549
+      Enemy-Melee-Death_9: 443483040107801126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

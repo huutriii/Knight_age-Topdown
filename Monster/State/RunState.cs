@@ -2,33 +2,15 @@
 
 public class RunState : MonsterStateBase, IMonsterState
 {
-    public RunState(MonsterController monster, Animator animator) : base(monster, animator) { }
+    public RunState(Animator animator) : base(animator) { }
 
-    public void Enter()
+    public override void Enter()
     {
-        ResetAllAnimations();
         animator.SetBool(STATE.run, true);
     }
 
-    public void Exit()
+    public override void Exit()
     {
         animator.SetBool(STATE.run, false);
-    }
-
-    public IMonsterState HandleTransition()
-    {
-        if (monster.IsDead)
-            return new DiedState(monster, animator);
-
-        if (monster.IsHurt)
-            return new HurtState(monster, animator);
-
-        if (monster.IsAttacking)
-            return new AttackState(monster, animator);
-
-        if (!monster.ShouldRun)
-            return new IdleState(monster, animator);
-
-        return null;
     }
 }

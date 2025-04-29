@@ -8,6 +8,7 @@ public class BossHurtState : BossBaseState
 
     public override void Enter()
     {
+        Debug.Log("hurt !");
         this.animator.SetBool(STATE.hurt, true);
     }
 

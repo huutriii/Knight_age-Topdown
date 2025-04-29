@@ -22,17 +22,17 @@ public class MonsterAnimator : MonoBehaviour
             return;
         }
 
-        TransitionToState(new IdleState(monsterController, animator));
+        TransitionToState(new IdleState(animator));
     }
     public void UpdateState()
     {
         if (currentState == null) return;
 
-        var newState = currentState.HandleTransition();
-        if (newState != null && newState.GetType() != currentState.GetType())
-        {
-            TransitionToState(newState);
-        }
+        //var newState = currentState.HandleTransition();
+        //if (newState != null && newState.GetType() != currentState.GetType())
+        //{
+        //    TransitionToState(newState);
+        //}
     }
     protected virtual void TransitionToState(IMonsterState newState)
     {

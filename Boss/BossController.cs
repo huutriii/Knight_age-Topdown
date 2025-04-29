@@ -44,24 +44,38 @@ public class BossController : MonoBehaviour
     BossBaseState hurt;
     BossBaseState attack;
     BossBaseState death;
-    [SerializeField] string current;
-    [SerializeField] string previous;
-    [SerializeField] float x = 0, y = 0;
+
+    [SerializeField]
+    string current;
+
+    [SerializeField]
+    string previous;
+
+    [SerializeField]
+    float x = 0,
+        y = 0;
 
     private bool isDying = false;
 
-    [SerializeField] AreaSO area;
+    [SerializeField]
+    AreaSO area;
     public Vector2 pivot;
     public float radius;
 
-    [SerializeField] float speedArround;
-    [SerializeField] float detectRange;
+    [SerializeField]
+    float speedArround;
+
+    [SerializeField]
+    float detectRange;
     public bool canTransition = true;
     public bool isIdle;
-    public bool isAttack, canAttack;
+    public bool isAttack,
+        canAttack;
     public bool isDeath = false;
     public bool isPatrolling;
-    [SerializeField] float timeDuration = 8f;
+
+    [SerializeField]
+    float timeDuration = 8f;
 
     public bool isRun;
     public Vector2 currentPositionTarget;
@@ -83,7 +97,6 @@ public class BossController : MonoBehaviour
             }
         }
     }
-
 
     private void Start()
     {
@@ -128,8 +141,6 @@ public class BossController : MonoBehaviour
         }
     }
 
-
-
     #region Movement
     private void UpdateBossMovement()
     {
@@ -138,7 +149,10 @@ public class BossController : MonoBehaviour
 
         if (currentPlayerTarget != null)
         {
-            float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+            float distanceToPlayer = Vector2.Distance(
+                transform.position,
+                currentPlayerTarget.transform.position
+            );
 
             if (distanceToPlayer > 2f)
             {
@@ -173,7 +187,11 @@ public class BossController : MonoBehaviour
 
     private void MoveToTarget(Vector2 target)
     {
-        transform.position = Vector2.MoveTowards(transform.position, target, speedArround * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            target,
+            speedArround * Time.deltaTime
+        );
         CalculateDirection(target);
         SetDirectionState(x, y);
     }
@@ -190,7 +208,6 @@ public class BossController : MonoBehaviour
             x = 0;
             y = transform.position.y > target.y ? -1 : 1;
         }
-
     }
 
     #endregion
@@ -218,7 +235,10 @@ public class BossController : MonoBehaviour
         if (currentPlayerTarget == null || !currentPlayerTarget.gameObject.activeSelf)
             return;
 
-        float distance = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+        float distance = Vector2.Distance(
+            transform.position,
+            currentPlayerTarget.transform.position
+        );
 
         if (distance > detectRange)
         {
@@ -240,7 +260,10 @@ public class BossController : MonoBehaviour
 
         if (currentPlayerTarget != null)
         {
-            float distanceToPlayer = Vector2.Distance(transform.position, currentPlayerTarget.transform.position);
+            float distanceToPlayer = Vector2.Distance(
+                transform.position,
+                currentPlayerTarget.transform.position
+            );
 
             if (distanceToPlayer > 2f)
             {
@@ -276,8 +299,10 @@ public class BossController : MonoBehaviour
 
         while (infor.normalizedTime < 1)
         {
-            if (currentPlayerTarget != null &&
-                Vector2.Distance(transform.position, currentPlayerTarget.transform.position) > 2f)
+            if (
+                currentPlayerTarget != null
+                && Vector2.Distance(transform.position, currentPlayerTarget.transform.position) > 2f
+            )
             {
                 yield return null;
                 infor = animator.GetCurrentAnimatorStateInfo(0);
@@ -300,7 +325,6 @@ public class BossController : MonoBehaviour
         }
     }
 
-
     IEnumerator WaitBeforeDied()
     {
         Transition(death);
@@ -313,7 +337,6 @@ public class BossController : MonoBehaviour
             yield return null;
             infor = animator.GetCurrentAnimatorStateInfo(0);
         }
-        //yield return new WaitForSeconds(3);
         gameObject.SetActive(false);
     }
 
@@ -322,9 +345,30 @@ public class BossController : MonoBehaviour
         animator.SetFloat(GAME.x, x);
         animator.SetFloat(GAME.y, y);
     }
+
+    IEnumerator WaitHurt()
+    {
+        isHurt = true;
+        Transition(hurt);
+        yield return null;
+        AnimatorStateInfo infor = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (infor.normalizedTime < 1)
+        {
+            yield return null;
+            infor = animator.GetCurrentAnimatorStateInfo(0);
+        }
+
+        isHurt = false;
+        if (currentState == hurt)
+        {
+            Transition(previousState);
+        }
+    }
+
     private void Transition(BossBaseState newState)
     {
-        if ((isAttack || isDeath) && !(newState == death || (isAttack && newState == attack)))
+        if ((isDeath || isAttack) && !(newState == death || newState == hurt || (isAttack && newState == attack)))
             return;
 
         previousState = currentState;
@@ -340,8 +384,12 @@ public class BossController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("hit !");
-        TakeDamage(30);
+        if (collision.gameObject.CompareTag(GAME.Skill))
+        {
+            Debug.Log("hit !");
+            TakeDamage(30);
+            StartCoroutine(WaitHurt());
+        }
     }
 
     #endregion
